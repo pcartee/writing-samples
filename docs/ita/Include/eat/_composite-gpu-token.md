@@ -1,0 +1,113 @@
+Some claim values are truncated for readability, indicated with ellipsis (...).
+
+```json
+{
+  "intel_tee": {
+    "tdx_tee_tcb_svn": "04000600000...",
+    "tdx_mrseam": "48fa69949...",
+    "tdx_mrsignerseam": "0000000000...",
+    "tdx_seam_attributes": "0000000000000000",
+    "tdx_td_attributes": "0000001000000000",
+    "tdx_xfam": "e71a060000000000",
+    "tdx_mrtd": "1a854a48383...",
+    "tdx_mrconfigid": "0000000000...0",
+    "tdx_mrowner": "000000000...",
+    "tdx_mrownerconfig": "0000000000...",
+    "tdx_rtmr0": "6db3a66fb5...",
+    "tdx_rtmr1": "bbd072222a...",
+    "tdx_rtmr2": "9bfb831933...",
+    "tdx_rtmr3": "b2cdfa15c3...",
+    "tdx_report_data": "36f805ecab...",
+    "tdx_seamsvn": 4,
+    "tdx_td_attributes_debug": false,
+    "tdx_td_attributes_septve_disable": true,
+    "tdx_td_attributes_protection_keys": false,
+    "tdx_td_attributes_key_locker": false,
+    "tdx_td_attributes_perfmon": false,
+    "tdx_is_debuggable": false,
+    "tdx_collateral": {
+      "qeidcerthash": "b2ca71b8e8...",
+      "qeidcrlhash": "f454dc1b9bd...",
+      "qeidhash": "c5ab0b88ffc...",
+      "quotehash": "aaac234b0af...",
+      "tcbinfocerthash": "b2ca71b8e84...",
+      "tcbinfocrlhash": "f454dc1b9b...",
+      "tcbinfohash": "fe40b4614..."
+    },
+    "claims": null,
+    "attester_held_data": "ZGF0YSBnZ...",
+    "verifier_nonce": {
+      "val": "bmJweFVZaj...",
+      "iat": "MjAyNC0wMy...",
+      "signature": "NJjHzAqyC6r..."
+    },
+    "attester_tcb_status": "UpToDate",
+    "attester_tcb_date": "2023-08-09T00:00:00Z",
+    "attester_type": "TDX",
+    "verifier_instance_ids": [
+      "1b03f268-7cf8-4841-aa8b-cc3a0a4665de",
+      "59d8312b-caf8-438e-9bd6-e2c6d5300435",
+      "7642da43-cfba-4730-be83-12b0557b7be7"
+    ],
+    "dbgstat": "disabled",
+    "eat_profile": https://.../Eat_profile.html,
+    "intuse": "generic",
+    "ver": "1.0.0"
+  },
+  "nvidia_gpu": {
+    "sub": "NVIDIA-GPU-ATTESTATION",
+    "secboot": true,
+    "x-nvidia-gpu-manufacturer": "NVIDIA Corporation",
+    "x-nvidia-attestation-type": "GPU",
+    "iss": https://nras.attestation.nvidia.com,
+    "eat_nonce": "46AB011965...",
+    "x-nvidia-attestation-detailed-result": {
+      "x-nvidia-gpu-driver-rim-schema-validated": true,
+      "x-nvidia-gpu-vbios-rim-cert-validated": true,
+      "x-nvidia-mismatch-measurement-records": null,
+      "x-nvidia-gpu-attestation-report-cert-chain-validated": true,
+      "x-nvidia-gpu-driver-rim-schema-fetched": true,
+      "x-nvidia-gpu-attestation-report-parsed": true,
+      "x-nvidia-gpu-nonce-match": true,
+      "x-nvidia-gpu-vbios-rim-signature-verified": true,
+      "x-nvidia-gpu-driver-rim-signature-verified": true,
+      "x-nvidia-gpu-arch-check": true,
+      "x-nvidia-attestation-warning": null,
+      "x-nvidia-gpu-measurements-match": true,
+      "x-nvidia-mismatch-indexes": null,
+      "x-nvidia-gpu-attestation-report-signature-verified": true,
+      "x-nvidia-gpu-vbios-rim-schema-validated": true,
+      "x-nvidia-gpu-driver-rim-cert-validated": true,
+      "x-nvidia-gpu-vbios-rim-schema-fetched": true,
+      "x-nvidia-gpu-vbios-rim-measurements-available": true,
+      "x-nvidia-gpu-driver-rim-driver-measurements-available": true
+    },
+    "x-nvidia-ver": "1.0",
+    "nbf": 1709618779,
+    "x-nvidia-gpu-driver-version": "535.104.05",
+    "hwmodel": "GH100 A01 GSP BROM",
+    "oemid": "...",
+    "measres": "comparison-successful",
+    "exp": 1709622379,
+    "iat": 1709618779,
+    "x-nvidia-eat-ver": "EAT-21",
+    "ueid": "3728752...",
+    "x-nvidia-gpu-vbios-version": "96.00.5E.00.01",
+    "jti": "868f03ff...",
+    "attester_tcb_status": "comparison-successful",
+    "attester_type": "GPU",
+    "verifier_instance_ids": [
+      "23b5402f-5f8e-4a55-a4af-2886bd93a0f1",
+      "84e8b803-560c-4865-a468-f3be30a49b7a"
+    ],
+    "eat_profile": https://.../Eat_profile.html,
+    "intuse": "generic",
+    "ver": "1.0.0"
+  },
+  "exp": 1709619056,
+  "jti": "3aceb998...",
+  "iat": 1709618756,
+  "iss": "Intel Trust Authority",
+  "nbf": 1709618756
+}
+```

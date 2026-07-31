@@ -1,0 +1,84 @@
+---
+title: Overview
+description: Discover Trust Authority, the independent attestation service for securing your confidential computing workloads.
+author: various
+date: 05/01/2025
+id: introduction
+sidebar_position: 1
+slug: /
+---
+
+## What is Trust Authority?
+
+Trust Authority is an independent, cloud-agnostic attestation service designed to enhance trust in confidential computing environments. By providing cryptographic evidence of the integrity and authenticity of your workloads, Intel Trust Authority ensures that sensitive data and applications are protected from unauthorized access or tampering.
+
+Whether you're running workloads in the cloud, on-premises, or in hybrid environments, Trust Authority acts as a neutral third-party verifier, enabling you to establish trust in your infrastructure and applications.
+
+## Why Choose Trust Authority?
+
+### Trust Through Independence
+Trust Authority operates independently of cloud service providers (CSPs). This separation of attestation from the platform provider strengthens your security posture and provides greater transparency.
+
+### Cloud-Agnostic
+Trust Authority supports multiple computing platforms, including on-premises hardware and Cloud Service Providers (CSPs) like Microsoft Azure\* and Google Cloud Platform\*.  Each platform supports TEEs composed of one or more attesters, such as CVMs, GPU, and physical or virtual TPM.
+ 
+Trust Authority solves the problem of managing separate attestation policies and code for every supported platform. It provides a platform-agnostic attestation service, allowing you to enforce a uniform trust policy across multiple compute providers without reconciling disparate attestation results.
+
+Key Benefits:
+
+-   **Decoupled Attestation**: Your workload is independent of platform-specific attestation details.
+-   **Seamless Migration**: Freely migrate workloads from on-premises to cross-cloud deployments with minimal changes to attestation logic or appraisal policy.
+-   **Consistent Verification**: Trust Authority can establish TD integrity and apply appraisal policies to verify the CVM TCB and help to validate the chain of trust, regardless of where your CVM runs.
+
+### Broad Compatibility with Leading Security Technologies
+Trust Authority supports a wide range of remotely attestable security technologies, including:
+- **Software Guard Extensions (Intel® SGX)**: Attest the integrity of application enclaves with hardware-level isolation.
+- **Trust Domain Extensions (Intel® TDX)**: Secure entire virtual machines within hardware-isolated Trust Domains (TDs).
+- **TPM and vTPM**: Attest physical and virtual Trusted Platform Modules, including Integrity Measurement Architecture (IMA) event logs for runtime integrity.
+- **NVIDIA\* GPUs**: Perform attestation of GPU-accelerated workloads.
+- **AMD\* SEV-SNP**(Preview only) : Attest AMD Secure Encrypted Virtualization workloads.
+
+Trust Authority provides a central, unified remote attestation authority for all of these technologies, eliminating the complexity of separate solutions for each. Composite evidence from multiple security technologies can be attested by Intel Trust Authority in a single request, providing a single comprehensive attestation of the security posture of your workload.
+
+## How It Works
+
+Trust Authority leverages Trusted Execution Environments (TEEs) to process attestation requests with heightened security. When a workload or platform requests attestation, Intel Trust Authority:
+1. Collects evidence from the TEE or other attestable technology in the form of a quote.
+1. Verifies the cryptographic signatures from the quote.
+1. Evaluates the evidence against optional, user-defined policies to verify integrity and authenticity.
+1. Issues an attestation token (JWT) containing claims about the workload's trustworthiness.
+
+The attestation token can be used by relying parties, such as key management systems or security platforms, to make informed decisions about granting access or releasing sensitive data.
+
+## Who Benefits from Tiber™ Trust Authority?
+
+- **Enterprises**: Protect sensitive workloads in hybrid and multi-cloud environments.
+- **Cloud Service Providers**: Offer enhanced security assurances to customers.
+- **Managed Service Providers (MSPs)**: Resell and manage Trust Authority subscriptions for clients.
+- **Developers**: Build secure applications with confidence using Trust Authority's REST APIs and client libraries.
+
+## Why Trust Trust Authority?
+
+### Faithful Verification for Complete Transparency
+
+Trust Authority goes beyond traditional attestation by offering **Faithful Verification**, a feature designed to provide customers with unmatched transparency and confidence in the attestation process. With Faithful Verification, you can audit any attestation token issued by Intel Trust Authority to ensure it meets the highest standards of integrity and security.
+
+When you use Faithful Verification, you receive an audit report containing independently verifiable cryptographic evidence that:
+
+- The microservices responsible for generating the attestation token were protected within **Intel® SGX enclaves**, providing hardware-level isolation and security.
+- The integrity measurement and signature of each enclave matched Intel's expected policy at the exact time the token was generated, verifying the code integrity of each service used to generate the token.
+
+Faithful Verification provides a level of transparency that ensures that every attestation token you receive is backed by verifiable evidence of its authenticity and integrity. Faithful Verification empowers you to trust Intel Trust Authority as a neutral, independent verifier, giving you confidence that your workloads are protected against unauthorized access or tampering.
+
+By choosing Trust Authority, you gain not only a robust attestation service but also the tools to independently verify its trustworthiness—setting a new standard for transparency in confidential computing.
+
+## Get Started Today
+
+Trust Authority is your partner in building a secure, trusted computing environment. Whether you're securing AI models, confidential VMs, or sensitive workloads, Intel Trust Authority provides the tools and assurance you need.
+
+[Subscribe to Trust Authority](xref:manage.subscriptions)  
+[Learn How to Get Started](xref:api.key)
+
+---
+
+**\*** Other names and brands may be claimed as the property of others.
