@@ -139,4 +139,16 @@ const config = {
     }),
 };
 
+// Compute the base URL dynamically based on environment
+const previewBaseUrl = process.env.PR_NUMBER 
+  ? `/pr-preview/pr-${process.env.PR_NUMBER}/` 
+  : '/';
+
+const config = {
+  title: 'My Docs Site',
+  url: 'https://<your-username>.github.io',
+  baseUrl: previewBaseUrl, // Use the variable here
+  // ... rest of settings
+};
+
 export default config;
