@@ -28,8 +28,42 @@ jobs:
         run: npm run build
 
       - name: Deploy PR Preview
+        if: github.event.action != 'closed'
         uses: rossjrw/pr-preview-action@v1
         with:
           source-dir: ./build
           preview-branch: gh-pages
           umbrella-dir: pr-preview
+
+  cleanup-preview:
+    if: github.event.action == 'closed'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Remove PR preview from gh-pages
+        run: |
+          set -e
+          PR_DIR="pr-preview/${{ github.event.number }}"
+          git fetch origin gh-pages || true
+          if git ls-remote --heads origin gh-pages | grep -q gh-pages; then
+            git checkout gh-pages
+            if [ -d "$PR_DIR" ]; then
+              rm -rf "$PR_DIR"
+              git add -A
+              git commit -m "Remove preview for PR #${{ github.event.number }}" || echo "No changes to commit"
+              git push origin gh-pages
+            else
+              echo "No preview dir $PR_DIR found"
+            fi
+          else
+            echo "gh-pages branch does not exist; nothing to remove"
+          fi
