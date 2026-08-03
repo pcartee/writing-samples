@@ -27,7 +27,7 @@ In summary, Intel TDX TD Integrity establishes a chain of trust that ensures the
 
 The diagram below summarizes the various components and artifacts needed to establish TD integrity for a cloud-based workload.
 
-![Cloud-based Intel TDX CVM attestation diagram](../../../Static/img/concept-td-integrity/cloud-tdx-cvm-attestation.png)
+![Cloud-based Intel TDX CVM attestation diagram](/img/concept-td-integrity/cloud-tdx-cvm-attestation.png)
 
 The key takeaways from the above diagram are as follows:
 
@@ -45,7 +45,7 @@ The following sections describe how the chain of trust is defined for Azure and 
 
 The diagram and table below depict the TD Integrity chain of trust on Azure CVMs with Intel TDX.
 
-![Azure CVM chain of trust](../../../Static/img/concept-td-integrity/azure-cvm-tdi.png)  
+![Azure CVM chain of trust](/img/concept-td-integrity/azure-cvm-tdi.png)  
 
 |Component            |Evidence Source/Collection             |Verification                       |
 | :-------------------| :-------------------------------------| :---------------------------------|
@@ -57,7 +57,7 @@ The diagram and table below depict the TD Integrity chain of trust on Azure CVMs
 ### GCP TD Integrity
 The diagram and table below depict the TD Integrity chain of trust on GCP CVMs with Intel TDX.
 
-![GCP CVM chain of trust](../../../Static/img/concept-td-integrity/gcp-cvm-tdi.png)  
+![GCP CVM chain of trust](/img/concept-td-integrity/gcp-cvm-tdi.png)  
 
 |Component            |Evidence Source/Collection             |Verification                       |
 | :-------------------| :-------------------------------------| :---------------------------------|
@@ -77,7 +77,7 @@ The following sections describe how to use Intel Trust Authority to verify the T
 1. Create a new policy by uploading **td-integrity.txt** to the portal. For detailed instructions, see [Create a policy](../How-to%20workflows/howto-manage-attestation-policies.md#create-a-policy).
 1. Create a new Attestation API Key, or edit an existing API key. This key is referred to as `api-key` in the following instructions.
    1. Under **Assigned policies (Optional)**, select your TD Integrity policy. Choose **Save & Continue**. Your screen should look something like this:
-      ![Confirm API key details](../../../Static/img/concept-td-integrity/api-key-details.png)
+      ![Confirm API key details](/img/concept-td-integrity/api-key-details.png)
    1. Ensure that your TD Integrity policy appears in the list of assigned policies. Tags are optional. Choose **Submit**.
 
 This concludes the Intel Trust Authority portion of TD Integrity setup.

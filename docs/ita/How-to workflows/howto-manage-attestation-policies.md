@@ -36,7 +36,7 @@ You can view the list of policies using one of the following methods.
 
 1. Select **Manage policies**. A list of attestation policies displays in the Policy Library pane.
 
-    ![View Policies](../../../Static/img//howto-manage-attestation-policies/policy-detail.png)
+    ![View Policies](/img/howto-manage-attestation-policies/policy-detail.png)
 
 ## Search by policy name
 
@@ -73,7 +73,7 @@ For more information on creating a policy see the [Author a custom policy](howto
 
 1. Enter a **Policy name**.
 
-    ![View Policies](../../../Static/img//howto-manage-attestation-policies/add-policy.png)
+    ![View Policies](/img/howto-manage-attestation-policies/add-policy.png)
 
 1. Select the attestation type you want from the **Choose an attestation type** dropdown list.
 
@@ -81,7 +81,7 @@ For more information on creating a policy see the [Author a custom policy](howto
 
 1. Select **BROWSE**.
 
-    ![Upload the policy](../../../Static/img//howto-manage-attestation-policies/upload-policy.png)
+    ![Upload the policy](/img/howto-manage-attestation-policies/upload-policy.png)
 
 1. Go to the policy.
 
@@ -97,11 +97,11 @@ For more information on creating a policy see the [Author a custom policy](howto
 
 1. Select **Manage policies**.
 
-1. Select the ![edit ](../../../Static/img//common-graphics/edit-icon.png) icon for the policy you want to edit.
+1. Select the ![edit ](/img/common-graphics/edit-icon.png) icon for the policy you want to edit.
 
 1. Select **EDIT POLICY**.
 
-    ![Edit Policy](../../../Static/img//howto-manage-attestation-policies/edit-policy.png)
+    ![Edit Policy](/img/howto-manage-attestation-policies/edit-policy.png)
 
 1. You can edit the following:
 
@@ -123,7 +123,7 @@ For more information on creating a policy see the [Author a custom policy](howto
 
 1. Select **Manage policies**.
 
-1. Select the ![delete](../../../Static/img//common-graphics/delete-icon.png) icon for the policy to be deleted.
+1. Select the ![delete](/img/common-graphics/delete-icon.png) icon for the policy to be deleted.
 
 1. Select **DELETE POLICY**.
 

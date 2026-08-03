@@ -37,7 +37,7 @@ An admin API key is the only authorization required to execute nearly all REST A
 
 1. View the API keys in the table.
 
-    ![Admin API keys](../../../Static/img//howto-manage-admin-api-keys/admin-api-keys.png)
+    ![Admin API keys](/img/howto-manage-admin-api-keys/admin-api-keys.png)
 
 ### Copy Admin API keys {/* #admin-keys */}
 
@@ -47,11 +47,11 @@ An admin API key is the only authorization required to execute nearly all REST A
 
 1. Go to the API key to be copied.
 
-1. Select the view ![View  icon](../../../Static/img//common-graphics/view-icon.png) icon for the API key you want to copy.
+1. Select the view ![View  icon](/img/common-graphics/view-icon.png) icon for the API key you want to copy.
 
     The API key is displayed.
 
-1. Select the copy ![Copy icon](../../../Static/img//common-graphics/copy-icon.png) icon.
+1. Select the copy ![Copy icon](/img/common-graphics/copy-icon.png) icon.
 
     The API key is copied to your system memory.
 
@@ -78,13 +78,13 @@ Any user can create attestation API keys available for all users within the tena
 
 2. Select **Manage services**.
 
-    ![Manage Services](../../../Static/img//cli/manage-services-page.png)
+    ![Manage Services](/img/cli/manage-services-page.png)
 
 3. Select **ADD API KEY**.
 
      The **Add API key** page displays.
 
-     ![Add API key](../../../Static/img//howto-manage-api-keys/add-api-key.png)
+     ![Add API key](/img/howto-manage-api-keys/add-api-key.png)
 
 4. Provide a name for the API key. Names can be any string of up to 64 alphanumeric characters. Spaces and special characters other than "_" or "-" are not supported.
 

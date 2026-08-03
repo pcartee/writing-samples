@@ -44,7 +44,7 @@ These instructions assume that your API key has already been created. If you nee
 
 1. Go to the Manage services page.
 
-    ![Manage services page](../../../Static/img/cli/manage-services-page.png)
+    ![Manage services page](/img/cli/manage-services-page.png)
 
 1. Scroll down to the Attestation API Keys section.
 
@@ -54,9 +54,9 @@ These instructions assume that your API key has already been created. If you nee
 You can have more than one API key associated with your account. Be sure to select the appropriate API key for the CLI request you are attempting.
 :::
 
-1. Select the View ![reveal API icon](../../../Static/img/cli/api-reveal.png) icon.
+1. Select the View ![reveal API icon](/img/cli/api-reveal.png) icon.
 
-2. Select the Copy ![Copy API key icon](../../../Static/img/cli/copy-api-key.png) icon.
+2. Select the Copy ![Copy API key icon](/img/cli/copy-api-key.png) icon.
 
 ## Retrieve Admin API keys
 
@@ -66,13 +66,13 @@ All the tenant management-related APIs, CLI commands, and client library methods
 
 1. Select **Admin API keys**.
 
-    ![Alt text](../../../Static/img/howto-manage-admin-api-keys/admin-api-keys.png)
+    ![Alt text](/img/howto-manage-admin-api-keys/admin-api-keys.png)
 
-1. Select the View ![View  icon](../../../Static/img/common-graphics/view-icon.png) icon for API key you want to copy.
+1. Select the View ![View  icon](/img/common-graphics/view-icon.png) icon for API key you want to copy.
 
     The API key is displayed.
 
-1. Select the copy ![Copy icon](../../../Static/img/common-graphics/copy-icon.png) icon.
+1. Select the copy ![Copy icon](/img/common-graphics/copy-icon.png) icon.
 
     The API key is copied to your system memory.
 

@@ -19,7 +19,7 @@ In this sample, the secure key release workflow operates in passport attestation
 
 This sample shows how to implement two important use cases: secure key release with passport attestation, and how to exchange a public key (or any binary or JSON data up to 1Mib) between the relying party and the attester. The sample workload is a machine learning (ML) model that is distributed as an encrypted blob. A key is needed to decrypt the blob and enable execution of the model. 
 
-!["A diagram of the key release pattern as implemented by the TDX sample workload."](../../../Static/img//tutorial-tdx-workload/TDXML-key-release.png)
+!["A diagram of the key release pattern as implemented by the TDX sample workload."](/img/tutorial-tdx-workload/TDXML-key-release.png)
 
 1. The attesting workload obtains a quote from the TDX TD by using the [Trust Authority CLI for TDX](../Integration/integrate-go-tdx-cli.md) ("TDX CLI"), which is also used to request an attestation [token](../Integration/integrate-go-tdx-cli.md#token) from Trust Authority. 
     1. The workload service creates an RSA key pair. The private key is retained by the service, and the public key is base64-encoded and then copied to the `--user-data` parameter in the `token` command. The user data is output in the **attester_held_data** claim in the attestation token. The public key is used by the KBS to encrypt (encapsulate) the key request response body.   

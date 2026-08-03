@@ -29,7 +29,7 @@ The following are steps to create an Azure VM with these attributes.
 
 1. Select **virtual machine**.
 
-    ![Enter instance details for the virtual machine](../../../../Static/img/tutorial-sgx-azure/sgx-tutorial-vm-creation.png)
+    ![Enter instance details for the virtual machine](/img/tutorial-sgx-azure/sgx-tutorial-vm-creation.png)
 
 1. Complete the following fields:
 
@@ -47,7 +47,7 @@ The following are steps to create an Azure VM with these attributes.
     - Size - Select **DC1s_v3** (If not immediately listed, you may need to select **see all sizes**" to select **DC1s_v3** from the full list.)
     - Public inbound - **None**
 
-    ![Enter the administrative account security details for the virtual machine.](../../../../Static/img/tutorial-sgx-azure/sgx-tutorial-vm-creation-2.png)
+    ![Enter the administrative account security details for the virtual machine.](/img/tutorial-sgx-azure/sgx-tutorial-vm-creation-2.png)
 
     - On the Networking page: Fore Public IP - Select **None**.
 
@@ -61,7 +61,7 @@ The following are steps to create an Azure VM with these attributes.
 
 1. Select **Deploy Bastion**.
 
-    ![Settings used to deploy bastion.](../../../../Static/img/tutorial-sgx-azure/sgx-tutorial-deploy-bastion.png)
+    ![Settings used to deploy bastion.](/img/tutorial-sgx-azure/sgx-tutorial-deploy-bastion.png)
 
     Bastion deployment takes a few minutes.
 
@@ -136,7 +136,7 @@ The following are steps to create an Azure VM with these attributes.
 
 The Intel SGX example uses the Intel Trust Authority client for C and the Intel SGX adapter to collect evidence from the enclave. The evidence is sent to Intel Trust Authority for attestation. If attestation is successful, an attestation token (JWT) is returned. An example attestation token for Intel SGX is shown in the following listing.
 
-![SGX Application Stack](../../../../Static/img/tutorial-sgx-azure/sgx-application-stack.png)
+![SGX Application Stack](/img/tutorial-sgx-azure/sgx-application-stack.png)
 
 This demonstrates the attester and verifier portions of the [passport attestation model.](../../Concepts/concept-patterns.md#workflows)
 

@@ -32,7 +32,7 @@ The Intel Trust Authority Python Client, CLI for Intel TDX and NVIDIA GPU, and I
 
 The following diagram is a high-level view of the GPU attestation architecture. The focus is on the relationship among the major components and actors (attester, verifier, & relying party).
 
-![Intel TDX and NVIDIA GPU attestation architecture diagram](../../../../Static/img/gpu-attestation/gpu_attestation_arch.png)
+![Intel TDX and NVIDIA GPU attestation architecture diagram](/img/gpu-attestation/gpu_attestation_arch.png)
 
 The attester comprises the confidential computing (CC) app and related software running in the TD, the Intel TDX-enabled host server, and an NVIDIA GPU (local or remote).
 

@@ -80,7 +80,7 @@ Follow the steps below to create an Azure VM with these attributes.
 
     The Network Interface page displays.
 
-   ![Enter network details for the virtual machine](../../../../Static/img/tutorial-amd-azure/create-vm-networking-amd.png)
+   ![Enter network details for the virtual machine](/img/tutorial-amd-azure/create-vm-networking-amd.png)
 
 1. Complete the following Network interface fields:
 
@@ -97,7 +97,7 @@ Follow the steps below to create an Azure VM with these attributes.
 
     The Validation passed page displays.
 
-![This page contains information about the virtual machine to be reviewed.](../../../../Static/img/tutorial-amd-azure/validation-passed-amd.png)
+![This page contains information about the virtual machine to be reviewed.](/img/tutorial-amd-azure/validation-passed-amd.png)
 
 1. To create the VM, select **Create**.
 
@@ -111,18 +111,18 @@ Follow the steps below to create an Azure VM with these attributes.
 
 When deployment is complete, the following page displays.
 
-![[Depoloyment complete page.](../../../../Static/img/tutorial-amd-azure/deployment-complete-amd.png)
+![[Depoloyment complete page.](/img/tutorial-amd-azure/deployment-complete-amd.png)
 
 1. Select **Go to resource**.
 
     The Virtual machine page displays.
 
-![A page used to connect to the virtual machine.](../../../../Static/img/tutorial-amd-azure/resource-page-amd.png)
+![A page used to connect to the virtual machine.](/img/tutorial-amd-azure/resource-page-amd.png)
 
 
 1. Select **Connect** and then choose **Bastion**.
 
-![Resource page displaying Bastion connection fields.](../../../../Static/img/tutorial-amd-azure/resource-page-bastion-amd.png)
+![Resource page displaying Bastion connection fields.](/img/tutorial-amd-azure/resource-page-bastion-amd.png)
 
 
 1. Complete the following fields:

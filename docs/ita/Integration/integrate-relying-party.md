@@ -105,7 +105,7 @@ Intel Trust Authority allows you to customize token claim names to suit the requ
 
 The following diagram depicts the high-level RP workflow for the background-check [attestation pattern](../Concepts/concept-patterns.md). The RP has much more work to do in background check mode than it does in passport mode. In the simplest passport case, the relying party doesn't need to make any direct connection to Intel Trust Authority or rely on the REST API. In all cases, the RP is responsible for performing at least the minimum [attestation token verification](#attestation-token-verification). 
 
-![Relying party background check pseudo-UML diagram](../../../Static/img//integrations/replying-party-background.png)
+![Relying party background check pseudo-UML diagram](/img/integrations/replying-party-background.png)
 
 1. Get a nonce. This step is optional but it's recommended to prevent replay attacks. It also limits the attestation process to no more than 120 seconds, which is the valid lifespan of a nonce. The nonce is passed to the attester, which will include it in the TEE quote.
 1. The relying party challenges the attester, passing a nonce with the challenge and requesting a TEE quote in return.The attester replies with a quote, including the nonce with the evidence. An attester can add custom user data to the **user_data** field in the evidence type.

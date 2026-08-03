@@ -31,7 +31,7 @@ The following are steps to create an Azure VM with these attributes.
 
 1. Select **virtual machine**.
 
-    ![Enter instance details for the virtual machine.](../../../../Static/img/tutorial-sgx-azure/tdx-tutorial-vm-creation.png)
+    ![Enter instance details for the virtual machine.](/img/tutorial-sgx-azure/tdx-tutorial-vm-creation.png)
 
 1. Complete the following fields:
 
@@ -49,7 +49,7 @@ The following are steps to create an Azure VM with these attributes.
     - Size - Select **DC2esv5** (If not immediately listed, you may need to select **see all sizes**" to select **DC1s_v3** from the full list.)
     - Public inbound - **None**
 
-    ![Enter the administrative account security details for the virtual machine.](../../../../Static/img/tutorial-sgx-azure/tdx-tutorial-vm-creation-2.png)
+    ![Enter the administrative account security details for the virtual machine.](/img/tutorial-sgx-azure/tdx-tutorial-vm-creation-2.png)
 
     - On the Networking page: Fore Public IP - Select **None**.
 
@@ -63,7 +63,7 @@ The following are steps to create an Azure VM with these attributes.
 
 1. Select **Deploy Bastion**.
 
-   ![Settings used to deploy bastion.](../../../../Static/img/tutorial-sgx-azure/sgx-tutorial-deploy-bastion.png) 
+![Settings used to deploy bastion.](/img/tutorial-sgx-azure/sgx-tutorial-deploy-bastion.png)
 
     Bastion deployment takes a few minutes.
 
@@ -109,7 +109,7 @@ The following are steps to create an Azure VM with these attributes.
 
 The Intel Trust Authority client is a C program that runs inside a Intel Trust Domain (TD). The client go-tdx adaptor collects a quote from the Intel® Trust Domain and sends it to Intel Trust Authority to retrieve a token.
 
-![ntel TDX application Stack](../../../../Static/img/tutorial-sgx-azure/tdx-application-stack.png)
+![ntel TDX application Stack](/img/tutorial-sgx-azure/tdx-application-stack.png)
 
 1. Build the sample application.
 
