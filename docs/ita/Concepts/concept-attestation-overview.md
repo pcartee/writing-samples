@@ -7,6 +7,8 @@ date: 09/01/2023
 uid: attestation.overview
 ---
 
+*· 06/21/2024 ·*
+
 ## Attestation overview
 
 This article is a brief, high-level overview of how attestation works with Intel® Trust Authority. Intel Trust Authority is a _verifier_ in a remote attestation application architecture. To understand what a verifier is and how best to use Intel Trust Authority attestation, it's helpful to have a basic understanding of the Remote Attestation Procedures Architecture, as defined in [IETF RFC9334](https://datatracker.ietf.org/doc/rfc9334/). The terminology in this article is based on RFC9334.
