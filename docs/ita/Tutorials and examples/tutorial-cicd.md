@@ -7,6 +7,9 @@ date: 08/1/2023
 uid: tutorial.update.policies
 ---
 
+*· 08/01/2023 ·*
+
+
 ## Update policies with GitHub actions
 
 When a TEE-protected application is part of a continuous delivery (CD) workflow, the policies used to attest to the application's security often must also be a part of the CD workflow. Some of the application's attributes (for example, the `mrenclave` measurement) change every time an application is built. If updating the policy is not part of the CD workflow, the policy uses the attributes of the previous version to attest to the application's security. Appraisals of the unmodified policy will not match the new evidence. These instructions describe a sample GitHub Actions workflow that will automate the policy-updating process. This can be included in your CD workflow to keep your attestation policies up-to-date.
