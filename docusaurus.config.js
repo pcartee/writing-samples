@@ -8,6 +8,10 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
+const previewBaseUrl = process.env.PR_NUMBER
+  ? `/pr-preview/pr-${process.env.PR_NUMBER}/`
+  : '/';
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'My Site',
@@ -24,7 +28,7 @@ const config = {
   url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: previewBaseUrl,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -137,18 +141,6 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
-};
-
-// Compute the base URL dynamically based on environment
-const previewBaseUrl = process.env.PR_NUMBER 
-  ? `/pr-preview/pr-${process.env.PR_NUMBER}/` 
-  : '/';
-
-const config = {
-  title: 'My Docs Site',
-  url: 'https://<your-username>.github.io',
-  baseUrl: previewBaseUrl, // Use the variable here
-  // ... rest of settings
 };
 
 export default config;
