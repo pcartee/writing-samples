@@ -33,7 +33,7 @@ The following workflows are applicable to Intel SGX enclaves, Intel TDX Trust Do
 
 The _Passport_ pattern is when the attester works with the verifier (Intel Trust Authority) to get an attestation token that is provided to a relying party. The attester initiates the attestation process and the attester works with the verifier to get an attestation token. The relying party plays no role in obtaining an attestation token, however, the relying party is responsible for verifying the attestation token and then deciding if it should trust the attester.
 
-![Passport attestation model](../../../Static/img/concept-usecases-overview/passport-attestation.png)
+![Passport attestation model](/img/concept-usecases-overview/passport-attestation.png)
 
 ### Passport workflow
 
@@ -58,7 +58,7 @@ In the passport model, the attester is responsible for initiating the process of
 
 The _Background Check_ pattern is when the attester provides a quote to a relying party that uses the quote to obtain an attestation token from the verifier (Intel Trust Authority). The relying party works with Intel Trust Authority to get an attestation token. In response to a challenge or in a request body, the attester must provide a quote and optionally, a nonce. The relying party is responsible for getting an attestation token from Intel Trust Authority and for verifying the token.
 
-![Background Check attestation model](../../../Static/img//concept-usecases-overview//background-attestation.png)
+![Background Check attestation model](/img/concept-usecases-overview//background-attestation.png)
 
 ### Background check workflow
 

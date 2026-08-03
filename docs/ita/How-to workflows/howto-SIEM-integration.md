@@ -29,7 +29,7 @@ By default, Trust Authority always provides an attestation token regardless of p
 ## Trust Authority Configurations and SIEM integration
 Only a tenant admin is authorized to manage, add, update and delete the system details of SIEM services.
 
-![SIEM service](../../../Static/img/howto-SIEM-integration/siem-config.png)
+![SIEM service](/img/howto-SIEM-integration/siem-config.png)
 
 1. The tenant admin logs into the Trust Authority.
 2. Go to **Configurations**.
@@ -54,7 +54,7 @@ In **SIEM service (required)**, select one service from the list.
 
 Select option(s) for the security event type for real-time notification of critical events.
 
-![Security event](../../../Static/img//howto-SIEM-integration/siem-event.png)
+![Security event](/img/howto-SIEM-integration/siem-event.png)
 
 1. Go to **Security event type (required)**.
 1. Select from the checkbox options.
@@ -67,7 +67,7 @@ Select the authentication type.
 1. Go to **Authentication Type**.
 1. Select **Auth key (default)**.
 
-![Configuration Data](../../../Static/img//howto-SIEM-integration/siem-data.png)
+![Configuration Data](/img/howto-SIEM-integration/siem-data.png)
 
 #### Configuration data
 

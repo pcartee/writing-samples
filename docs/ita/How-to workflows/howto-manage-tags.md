@@ -31,7 +31,7 @@ This option enables you to add a tag to an existing API key.
 
 1. Select **Manage Services**.
 
-1. Select the **Edit** ![Edit icon](../../../Static/img//common-graphics/edit-icon.png) icon for the API key to which you are adding a tag.
+1. Select the **Edit** ![Edit icon](/img/common-graphics/edit-icon.png) icon for the API key to which you are adding a tag.
 
 1. To confirm your intent to add a tag, select **YES, EDIT** on the pop-up.
 
@@ -39,7 +39,7 @@ This option enables you to add a tag to an existing API key.
 
 1. Select the down arrow in the **Enter a name** box.
 
-    ![Add Tag](../../../Static/img//howto-manage-tags/add-tag-rows.png)
+    ![Add Tag](/img/howto-manage-tags/add-tag-rows.png)
 
 1. Select **Create a new tag name**.
 
@@ -61,7 +61,7 @@ This option enables you to add a tag to an existing API key.
 
 1. Select the dropdown arrow of an API key to view the tags associated with it.
 
-    ![View Tags](../../../Static/img//howto-manage-tags/view-tag.png)
+    ![View Tags](/img/howto-manage-tags/view-tag.png)
 
 ### Edit existing tags
 
@@ -71,19 +71,19 @@ You can add, edit, or delete the values of an existing tag. You can disassociate
 
 1. Select **Manage services**.
 
-1. Select the edit icon ![Edit icon](../../../Static/img//common-graphics/edit-icon.png) next to the API key associated with the tag to be edited.
+1. Select the edit icon ![Edit icon](/img/common-graphics/edit-icon.png) next to the API key associated with the tag to be edited.
 
 1. Select **YES, EDIT** on the popup.
 
     The **Edit API key** page displays.
 
-    ![Edit Service](../../../Static/img//howto-manage-tags/edit-services.png)
+    ![Edit Service](/img/howto-manage-tags/edit-services.png)
 
 1. To display the existing tags, select the **Assigned tags (optional)** arrow.
 
 1. Select the dropdown arrow in the **Enter a name** box.
 
-    ![Add Tag](../../../Static/img//howto-manage-tags/add-tag-rows.png)
+    ![Add Tag](/img/howto-manage-tags/add-tag-rows.png)
 
 1. Choose from the following:
 

@@ -20,7 +20,7 @@ To facilitate attestation from Intel Trust Authority using Gramine, a fork of th
 
 The Intel Trust Authority client is integrated as part of a forked Gramine project's library OS. Figure 1 illustrates the architecture and how the user application interacts with it in a [passport attestation model](../Concepts/concept-patterns.md#workflows).  
 
-![Intel Trust Authority Gramine client architecture](../../../Static/img/integrations/gramine-integration.png)
+![Intel Trust Authority Gramine client architecture](/img/integrations/gramine-integration.png)
 
 ### Gramine Intel Trust Authority client architecture
 

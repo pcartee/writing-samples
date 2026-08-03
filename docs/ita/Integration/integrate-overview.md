@@ -49,7 +49,7 @@ Each TEE has unique requirements for the host platform. To learn more about thes
 
 The following diagram is a high-level view of the integration architecture provided by Intel Trust Authority. This simplified view shows the primary functions performed by each of the entities in a passport attestation model.
 
-![Intel Trust Authority integration architecture](../../../Static/img/integrations/integration-arch.png)
+![Intel Trust Authority integration architecture](/img/integrations/integration-arch.png)
 
 
 This diagram illustrates a passport attestation pattern. It simplifies the representation of all major components required for integrating remote attestation into a confidential process. Additionally, the diagram provides a simplified view of the Intel Trust Authority client stack for the Go connector.  

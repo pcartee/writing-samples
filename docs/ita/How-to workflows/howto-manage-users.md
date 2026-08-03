@@ -35,7 +35,7 @@ You can view the list of users using one of the following methods.
 
 1. Select **Manage users**.
 
-     ![View Policies](../../../Static/img//howto-manage-users/view-users.png)
+     ![View Policies](/img/howto-manage-users/view-users.png)
 
      The user, their roles, and their status are listed in the table.
 
@@ -49,7 +49,7 @@ You can create a new user by one of the following methods.
 
 1. Select **INVITE A USER**.
 
-    ![View Policies](../../../Static/img//howto-manage-users/invite-user.png)
+    ![View Policies](/img/howto-manage-users/invite-user.png)
 
 1. Enter the user's email.
 
@@ -82,7 +82,7 @@ You can search for Trust Authority users within your tenant by filtering users b
 
 1. Identify the user to update.
 
-1. Select the **Edit** ![Edit icon](../../../Static/img//common-graphics/edit-icon.png) icon.
+1. Select the **Edit** ![Edit icon](/img/common-graphics/edit-icon.png) icon.
 
 1. Select **YES, EDIT**on the pop-up.
 
@@ -100,7 +100,7 @@ You can search for Trust Authority users within your tenant by filtering users b
 
 1. Identify the user to delete.
 
-1. Select the **Delete** ![Delete](../../../Static/img//common-graphics/delete-icon.png) icon.
+1. Select the **Delete** ![Delete](/img/common-graphics/delete-icon.png) icon.
 
 1. Select **YES, DELETE USER** on the pop-up.
 
