@@ -9,10 +9,10 @@ uid: siem-integration  # Do not change uid!
 
 ## Security Information and Event Management (SIEM) integration
 
-This article shows how to integrate Intel® Trust Authority with 3rd party Security Information and Event Management (SIEM) services such as Splunk* or Datadog* to provide real-time notification of critical events such as attestation success or failure directly from your preferred reporting solution.
+This article shows how to integrate Trust Authority with 3rd party Security Information and Event Management (SIEM) services such as Splunk* or Datadog* to provide real-time notification of critical events such as attestation success or failure directly from your preferred reporting solution.
 
 :::note
-Intel® Trust Authority SIEM events are approximately 12kb in size. Default Splunk* event sizes are limited to 10KB. Event messages larger than 10kb are truncated. Splunk* administrators can increase the Splunk* character limit to above 10,000 to prevent messages from being truncated.
+Trust Authority SIEM events are approximately 12kb in size. Default Splunk* event sizes are limited to 10KB. Event messages larger than 10kb are truncated. Splunk* administrators can increase the Splunk* character limit to above 10,000 to prevent messages from being truncated.
 :::
 
 - Successful attestation

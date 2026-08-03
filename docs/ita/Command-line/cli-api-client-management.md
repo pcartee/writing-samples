@@ -1,6 +1,6 @@
 ---
 title: API Client management
-description: Intel Trust Authority CLI API client management commands.
+description: Trust Authority CLI API client management commands.
 author: various
 topic-type: Reference
 date: 01/03/2024
@@ -123,7 +123,7 @@ ApiClient:
 
 ## Get apiClient by id
 
-This command lists a specific Intel® Trust Authority apiClient.
+This command lists a specific Trust Authority apiClient.
 
 `trustauthorityctl list apiClient -r < service id > -c < api Client id >`
 
@@ -160,7 +160,7 @@ ApiClients:
 
 ## Delete apiClient
 
-This command deletes a Intel Trust Authority apiClient.
+This command deletes a Trust Authority apiClient.
 
 `trustauthorityctl delete apiClient -r < service id > -c < api client id >`
 
@@ -203,7 +203,7 @@ Policy IDs:
 
 ## Create tag
 
-This command creates a tag for Intel Trust Authority.
+This command creates a tag for Trust Authority.
 
 `trustauthorityctl create tag -n < tag name >`
 
@@ -226,7 +226,7 @@ trace-id:  LOnIBH5yIAMEJ5Q=
 
 ## List tags
 
-This command list the tags associated to your Intel Trust Authority system.
+This command list the tags associated to your Trust Authority system.
 
 `trustauthorityctl list tag`
 
@@ -290,7 +290,7 @@ trustauthorityctl delete tag -t 47yukjsv-29op-38sq-v3g8-xcqd456hju7i
 
 ## List apiClient tags
 
-This command lists all your Intel Trust Authority tags.
+This command lists all your Trust Authority tags.
 
 `trustauthorityctl list apiClient tag -r < service id > -c <  api client id >`
 

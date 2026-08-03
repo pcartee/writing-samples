@@ -1,6 +1,6 @@
 ---
-title: Intel Trust Authority Client Tutorial for Azure with Intel TDX 
-description: Step-by-step tutorial to stand up an Azure VM with Intel TDX  
+title: Trust Authority Client Tutorial for Azure with TDX 
+description: Step-by-step tutorial to stand up an Azure VM with TDX  
 author: teknoll
 topic: tutorial
 date: 06/07/2024
@@ -9,15 +9,15 @@ uid: tutorial.tdx
 
 *· 12/19/2024 ·*
 
-## Intel Trust Authority Client Tutorial - Intel TDX Attestation on Microsoft Azure
+## Trust Authority Client Tutorial - TDX Attestation on Microsoft Azure
 
-This tutorial provides steps to deploy a demo app that uses the Intel® Trust Authority client when securing an application using Intel® Trust Domain Extensions (Intel® TDX) on the Microsoft Azure Cloud platform.
+This tutorial provides steps to deploy a demo app that uses the Trust Authority client when securing an application using Trust Domain Extensions (TDX) on the Microsoft Azure Cloud platform.
 
-The demo application, built for Intel TDX, uses the Intel Trust Authority client to retrieve evidence from the platform and request an attestation from Intel Trust Authority. This demonstrates a simple passport attestation model (stopping before involving a relying party). The application's output is the resulting attestation token. The demo application can be used as a workflow reference for your applications.
+The demo application, built for TDX, uses the Trust Authority client to retrieve evidence from the platform and request an attestation from Trust Authority. This demonstrates a simple passport attestation model (stopping before involving a relying party). The application's output is the resulting attestation token. The demo application can be used as a workflow reference for your applications.
 
-## Creating a VM with Intel TDX on Microsoft Azure
+## Creating a VM with TDX on Microsoft Azure
 
-To create an Azure confidential VM with Intel TDX, create a VM with the following attributes:
+To create an Azure confidential VM with TDX, create a VM with the following attributes:
 
 - Security type: **Trusted launch virtual machine**
 - Image: **Ubuntu Server 22.04 LTS**
@@ -79,15 +79,15 @@ The following are steps to create an Azure VM with these attributes.
 
 1. Verify TDX is enabled.
 
-    This verifies that the VM is Intel SGX-enabled.
+    This verifies that the VM is SGX-enabled.
 
     ```bash
     ll /dev/tpmrm0
     ```
 
-### Install Intel TDX Sample Application using Trust Authority Client for C on Microsoft Azure
+### Install TDX Sample Application using Trust Authority Client for C on Microsoft Azure
 
-1. Install Intel TDX and build prerequisites.
+1. Install TDX and build prerequisites.
 
     ```bash
     sudo apt install -y build-essential libssl-dev
@@ -105,16 +105,16 @@ The following are steps to create an Azure VM with these attributes.
 
 1. Exit and then log back in via bastion using the SSH key.
 
-## Install the Intel Trust Authority Client for C
+## Install the Trust Authority Client for C
 
-The Intel Trust Authority client is a C program that runs inside a Intel Trust Domain (TD). The client go-tdx adaptor collects a quote from the Intel® Trust Domain and sends it to Intel Trust Authority to retrieve a token.
+The Trust Authority client is a C program that runs inside a Trust Domain (TD). The client go-tdx adaptor collects a quote from the Trust Domain and sends it to Trust Authority to retrieve a token.
 
 ![ntel TDX application Stack](/img/tutorial-sgx-azure/tdx-application-stack.png)
 
 1. Build the sample application.
 
     ```bash
-    git clone https://github.com/intel/trustauthority-client-for-c.git
+    git clone https://github.com/trustauthority-client-for-c.git
     cd trustauthority-client-for-c/
     make azure_tdx_token_docker
     ```
@@ -125,21 +125,21 @@ The Intel Trust Authority client is a C program that runs inside a Intel Trust D
     cat <<EOF | tee tdx_token.env
     TRUSTAUTHORITY_API_KEY=<trustauthority-api-key>
     TRUSTAUTHORITY_POLICY_ID=<trustauthority-policy-id - optional>
-    TRUSTAUTHORITY_API_URL=https://api.trustauthority.intel.com
-    TRUSTAUTHORITY_BASE_URL=https://portal.trustauthority.intel.com
+    TRUSTAUTHORITY_API_URL=https://api.trustauthority.company.com
+    TRUSTAUTHORITY_BASE_URL=https://portal.trustauthority.company.com
     EOF
     ```
 
 :::note
-If you are in the European Union (EU) region, use the following Intel Trust Authority URLs:
+If you are in the European Union (EU) region, use the following Trust Authority URLs:
 
-`TRUSTAUTHORITY_API_URL=https://api.eu.trustauthority.intel.com`
-`TRUSTAUTHORITY_BASE_URL=https://portal.eu.trustauthority.intel.com `
+`TRUSTAUTHORITY_API_URL=https://api.eu.trustauthority.company.com`
+`TRUSTAUTHORITY_BASE_URL=https://portal.eu.trustauthority.company.com `
 :::
 
 1. Run the sample application.
 
-    The sample Intel TDX client application executes the attester and verifier portions of the passport attestation mode. The container uses the Intel Trust Authority client to retrieve evidence from the platform. The Intel Trust Authority client sends that evidence as a quote in an attestation request to Intel Trust Authority. The application outputs the resulting attestation token, demonstrating a successful attestation.
+    The sample TDX client application executes the attester and verifier portions of the passport attestation mode. The container uses the Trust Authority client to retrieve evidence from the platform. The Trust Authority client sends that evidence as a quote in an attestation request to Trust Authority. The application outputs the resulting attestation token, demonstrating a successful attestation.
 
     ```bash
     sudo docker run -it --rm --device=/dev/tpm0 --device=/dev/tpmrm0 --env-file tdx_token.env --group-add $(getent group tss | cut -d: -f3) taas/azure_tdx_token:v1.0.0
@@ -155,7 +155,7 @@ If you are in the European Union (EU) region, use the following Intel Trust Auth
 
 {
     "alg": "PS384",
-    "jku": "https://portal.trustauthority.intel.com/certs",
+    "jku": "https://portal.trustauthority.company.com/certs",
     "kid": "79d80711b754cceb307d4278dc59957f27eb55a8e33d3b824967975843dcbf21df924eebaf93fce186fd291d36817785",
     "typ": "JWT"
 }
@@ -199,11 +199,11 @@ B1udzYi4gyI3DO8c8pwsHfzya7MNlo0lZEyvB1C558cskMjbAezysylFVuzI7NTbCs6v4dmVbpxXUlXm
     "attester_tcb_status": "UpToDate",
     "attester_type": "TDX",
     "dbgstat": "disabled",
-    "eat_profile": "https://portal.trustauthority.intel.com/eat_profile.html",
+    "eat_profile": "https://portal.trustauthority.company.com/eat_profile.html",
     "exp": 1714673027,
     "iat": 1714671227,
     "intuse": "generic",
-    "iss": "Intel Trust Authority",
+    "iss": "Trust Authority",
     "jti": "32428945-766f-4e9b-8640-d6aec2819beb",
     "nbf": 1714671227,
     "policy_ids_unmatched": [
@@ -263,16 +263,16 @@ rxgjEpWGsCOWuu7eqXyKHDBwzsKuoSojHWIU8xnQwuvWl/keX1wS/vv517tu4zHbWwQ79GjI7aECVBZ/
 }
 ```
 
-## Install the Intel trustauthority-cli Utility
+## Install the trustauthority-cli Utility
 
-This section describes an alternative to the containerized sample applications. Rather than using the client bindings directly in a sample application, the Intel TDX CLI client provides a command-line wrapper for the Golang client libraries.
+This section describes an alternative to the containerized sample applications. Rather than using the client bindings directly in a sample application, the TDX CLI client provides a command-line wrapper for the Golang client libraries.
 
-[Intel trustauthority-cli for Azure](../../Integration/integrate-go-tdx-cli.md#using-the-intel-trust-authority-tdx-cli)
+[trustauthority-cli for Azure](../../Integration/integrate-go-tdx-cli.md#using-the-trust-authority-tdx-cli)
 
 1. Download and run the Azure installer variant.
 
     ```bash
-    curl -sL https://raw.githubusercontent.com/intel/trustauthority-client-for-go/main/release/install-tdx-cli-azure.sh | sudo bash -
+    curl -sL https://raw.githubusercontent.com/trustauthority-client-for-go/main/release/install-tdx-cli-azure.sh | sudo bash -
     ```
 
 2. Configure the URL and API key:
@@ -280,19 +280,19 @@ This section describes an alternative to the containerized sample applications. 
     ```bash
     cat <<EOF | tee config.json
     {
-        "trustauthority_api_url": "https://api.trustauthority.intel.com",
+        "trustauthority_api_url": "https://api.trustauthority.company.com",
         "trustauthority_api_key": "<attestation api key>"
     }
     EOF
     ```
 
 :::note
-If you are in the European Union (EU) region, use the following Intel Trust Authority URL:
+If you are in the European Union (EU) region, use the following Trust Authority URL:
 
-`"trustauthority_api_url": "https://api.eu.trustauthority.intel.com"`
+`"trustauthority_api_url": "https://api.eu.trustauthority.com"`
 :::
 
-1. Use the `trustauthority-cli` utility to request an attestation.  The _token_ command automatically collects evidence from TDX and requests an attestation token from Intel Trust Authority. Full usage details for the `trustauthority-cli` utility can be found [here.](../../Integration/integrate-go-tdx-cli.md)
+1. Use the `trustauthority-cli` utility to request an attestation.  The _token_ command automatically collects evidence from TDX and requests an attestation token from Trust Authority. Full usage details for the `trustauthority-cli` utility can be found [here.](../../Integration/integrate-go-tdx-cli.md)
 
     ```bash
     trustauthority-cli token --config config.json

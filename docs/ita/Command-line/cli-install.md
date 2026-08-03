@@ -1,6 +1,6 @@
 ---
-title: Intel Trust Authority CLI Installation
-description: Intel Trust Authority CLI prerequisites and installation guide.
+title: Trust Authority CLI Installation
+description: Trust Authority CLI prerequisites and installation guide.
 author: various
 topic-type: Reference
 date: 06/12/2024
@@ -8,21 +8,21 @@ uid: cli-install
 ---
 *· 06/12/2024 ·*
 
-## Intel® Trust Authority CLI installation guide
+## Trust Authority CLI installation guide
 
-These instructions describe how to build and install the Intel Trust Authority CLI. The Intel Trust Authority CLI is an open-source tool tenants use to make API calls to their instance of Intel Trust Authority. The source code for the Intel Trust Authority CLI is available on [GitHub](https://github.com/intel/trustauthority-cli).
+These instructions describe how to build and install the Trust Authority CLI. The Trust Authority CLI is an open-source tool tenants use to make API calls to their instance of Trust Authority. The source code for the Trust Authority CLI is available on [GitHub](https://github.com/company/trustauthority-cli).
 
 :::note
 Valid characters include: numbers 0 through 9, upper and lowercase English characters, underscore (_), colon (;), period (.), slash  (/), dash (-), and a space ( ).
 :::
 
-## Build the Intel Trust Authority CLI
+## Build the Trust Authority CLI
 
-Follow these instructions to build the Intel Trust Authority CLI.
+Follow these instructions to build the Trust Authority CLI.
 
 ### Prerequisite packages
 
-Install the following prerequisite packages before installing the Intel Trust Authority CLI:
+Install the following prerequisite packages before installing the Trust Authority CLI:
 
 **Make and Makeself**
 
@@ -58,9 +58,9 @@ You must be a Tenant Admin to install the CLI, however, both the admin and users
 
     `cd cli`
 
-1. To clone the Intel Trust Authority CLI code to the newly created CLI directory, run the following command.
+1. To clone the Trust Authority CLI code to the newly created CLI directory, run the following command.
 
-    `git clone https://github.com/intel/trustauthority-cli`
+    `git clone https://github.com/company/trustauthority-cli`
 
 1. Create the CLI installer in the newly created CLI directory.
 

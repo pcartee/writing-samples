@@ -12,7 +12,7 @@ uid: tee.sev.snp
 ## AMD* Secure Encrypted Virtualization — Secure Nested Paging (AMD* SEV-SNP)
 
 :::note
-This feature is in pre-release status. For preview access, please contact your Intel sales representative. Details of implementation and usage may change before general availability.
+This feature is in pre-release status. For preview access, please contact your sales representative. Details of implementation and usage may change before general availability.
 :::
 
 AMD* Secure Encrypted Virtualization — Secure Nested Paging (AMD* SEV-SNP) provides a secure computing environment for virtual machines by isolating them from the hypervisor and other VMs on the host system. This allows for the creation of hardware-isolated virtual machines.
@@ -32,12 +32,12 @@ See [AMDSEV](https://github.com/AMDESE/AMDSEV/blob/snp-latest/stable-commits) fo
 ---
 ## Next steps
 
-Intel SGX primary resources:
+SGX primary resources:
 
-- [Intel Trust Authority Client Tutorial for Azure with vTPM and Intel TDX](../../Tutorials%20and%20examples/Intel%20Trust%20Authority%20Client%20examples/tutorial-azure-vtpm.md)
-- [Intel Trust Authority Client Tutorial - Intel SGX Attestation on Microsoft Azure](../../Tutorials%20and%20examples/Intel%20Trust%20Authority%20Client%20examples/tutorial-sgx.md)
+- [Trust Authority Client Tutorial for Azure with vTPM and TDX](../../Tutorials%20and%20examples/Trust%20Authority%20Client%20examples/tutorial-azure-vtpm.md)
+- [Trust Authority Client Tutorial - SGX Attestation on Microsoft Azure](../../Tutorials%20and%20examples/Trust%20Authority%20Client%20examples/tutorial-sgx.md)
 
 **\*** Other names and brands may be claimed as the property of others.
 
 
-[text](<../../Tutorials and examples/Intel Trust Authority Client examples/tutorial-amd-azure-vm.md>)
+[text](<../../Tutorials and examples/Trust Authority Client examples/tutorial-amd-azure-vm.md>)

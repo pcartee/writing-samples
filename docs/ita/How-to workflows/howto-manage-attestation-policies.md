@@ -15,7 +15,7 @@ This article contains sample workflows for managing attestation policies. See th
 
 ## Policy Types
 
-There are two types of policies, Appraisal and Token customization. Appraisal policies evaluate the evidence provided and determine whether Intel® Trust Authority issues an attestation token. A Token customization policy allows customized claims that are part of the attestation token.
+There are two types of policies, Appraisal and Token customization. Appraisal policies evaluate the evidence provided and determine whether Trust Authority issues an attestation token. A Token customization policy allows customized claims that are part of the attestation token.
 
 Each policy type can be signed or unsigned. A signed policy assures the relying party that the signed policy is unchanged. Policies can be managed using the following:
 
@@ -23,7 +23,7 @@ Each policy type can be signed or unsigned. A signed policy assures the relying 
 - [TrustAuthority CLI](../Command-line/cli-policy-commands.md)
 - [REST API](../Restapi/restapi-policy-management.md)
 
-Policies can be managed using the Intel® Trust Authority portal, with the [client CLI](../Command-line/cli-policy-commands.md), or by [REST API](../Restapi/restapi-policy-management.md).
+Policies can be managed using the Trust Authority portal, with the [client CLI](../Command-line/cli-policy-commands.md), or by [REST API](../Restapi/restapi-policy-management.md).
 
 <Tabs>
 <TabItem value="manage-policies-ui" label="Trust Authority Portal">

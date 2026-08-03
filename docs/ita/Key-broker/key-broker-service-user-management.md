@@ -1,5 +1,5 @@
 ---
-title: Intel® Key Broker Service user management
+title: Key Broker Service user management
 description: Key Broker Service user management
 author: carteepaul
 topic: KBS
