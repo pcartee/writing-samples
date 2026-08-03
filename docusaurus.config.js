@@ -8,9 +8,12 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
+const repository = process.env.GITHUB_REPOSITORY || '';
+const [owner, repoName] = repository.split('/');
+const repoBasePath = repoName ? `/${repoName}` : '';
 const previewBaseUrl = process.env.PR_NUMBER
-  ? `/pr-preview/pr-${process.env.PR_NUMBER}/`
-  : '/';
+  ? `${repoBasePath}/pr-preview/pr-${process.env.PR_NUMBER}/`
+  : `${repoBasePath}/`;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -25,15 +28,15 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: owner ? `https://${owner}.github.io` : 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: previewBaseUrl,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: owner || 'pcartee', // Usually your GitHub org/user name.
+  projectName: repoName || 'writing-samples', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 

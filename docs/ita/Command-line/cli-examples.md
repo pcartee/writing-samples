@@ -60,7 +60,7 @@ You can have more than one API key associated with your account. Be sure to sele
 
 ## Retrieve Admin API keys
 
-All the tenant management-related APIs, CLI commands, and client library methods require an Admin API key for authorization. Admin API keys can only be retrieved through the Intel Trust Authority web portal. For more information, see [Tenant admin API keys](../Concepts/concept-user-roles-anuser-roles-and-api-keys#tenant-admin-api-keys).
+All the tenant management-related APIs, CLI commands, and client library methods require an Admin API key for authorization. Admin API keys can only be retrieved through the Intel Trust Authority web portal. For more information, see [Tenant admin API keys](../Concepts/concept-user-roles-and-api-keys#tenant-admin-api-keys).
 
 1. Sign in to the Intel Trust Authority portal.
 
