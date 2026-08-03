@@ -71,7 +71,7 @@ Because Gramine encapsulates the entire application within an SGX enclave, more 
 
 SGX primary resources:
 
-[SGX Attestation on Microsoft Azure](../../Tutorials%20and%20examples/Trust%20Authority%20Client%20examples/tutorial-sgx.md)
+[SGX Attestation on Microsoft Azure](../../Tutorials%20and%20examples/Intel%20Trust%20Authority%20Client%20examples/tutorial-sgx.md)
 
 
 **\*** Other names and brands may be claimed as the property of others.

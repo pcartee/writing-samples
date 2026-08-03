@@ -139,7 +139,7 @@ V2 Policies introduce new policy options including "composite" policies that can
 
 ### New Client Tutorials
 
-Added new tutorials demonstrating an attestation workflow using Microsoft Azure with the Intel Trust Authority client libraries. These tutorials are now available for both [Intel SGX](../Tutorials and examples/Intel Trust Authority Client examples/tutorial-sgx.md) and [Intel TDX](../Tutorials%20and%20examples/Intel%20Trust%20Authority%20Client%20examples/tutorial-tdx.md). 
+Added new tutorials demonstrating an attestation workflow using Microsoft Azure with the Intel Trust Authority client libraries. These tutorials are now available for both [Intel SGX](../Tutorials%20and%20examples/Intel%20Trust%20Authority%20Client%20examples/tutorial-sgx.md) and [Intel TDX](../Tutorials%20and%20examples/Intel%20Trust%20Authority%20Client%20examples/tutorial-tdx.md).
 
 ### SIEM Integration Now Available
 

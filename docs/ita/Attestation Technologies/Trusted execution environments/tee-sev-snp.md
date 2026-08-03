@@ -34,10 +34,10 @@ See [AMDSEV](https://github.com/AMDESE/AMDSEV/blob/snp-latest/stable-commits) fo
 
 SGX primary resources:
 
-- [Trust Authority Client Tutorial for Azure with vTPM and TDX](../../Tutorials%20and%20examples/Trust%20Authority%20Client%20examples/tutorial-azure-vtpm.md)
-- [Trust Authority Client Tutorial - SGX Attestation on Microsoft Azure](../../Tutorials%20and%20examples/Trust%20Authority%20Client%20examples/tutorial-sgx.md)
+- [Trust Authority Client Tutorial for Azure with vTPM and TDX](../../Tutorials%20and%20examples/Intel%20Trust%20Authority%20Client%20examples/tutorial-azure-vtpm.md)
+- [Trust Authority Client Tutorial - SGX Attestation on Microsoft Azure](../../Tutorials%20and%20examples/Intel%20Trust%20Authority%20Client%20examples/tutorial-sgx.md)
 
 **\*** Other names and brands may be claimed as the property of others.
 
 
-[text](<../../Tutorials and examples/Trust Authority Client examples/tutorial-amd-azure-vm.md>)
+[AMD Azure VM tutorial](../../Tutorials%20and%20examples/Intel%20Trust%20Authority%20Client%20examples/tutorial-amd-azure-vm.md)
