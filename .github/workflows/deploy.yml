@@ -4,7 +4,8 @@ on:
   push:
     branches:
       - main
-      - samples-writing
+      - master
+      - develop
   workflow_dispatch:
 
 permissions:
