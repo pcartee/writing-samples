@@ -1,5 +1,5 @@
 ---
-title: Intel® Key Broker Service Installation
+title: Key Broker Service Installation
 description: Key Broker Service Installation
 author: carteepaul, mkwilbux
 topic: KBS
@@ -14,7 +14,7 @@ import TabItem from '@theme/TabItem';
 
 ## Key Broker Service installation and configuration
 
-Installing and configuring the Intel® Key Broker System (Intel KBS) requires you to follow these steps:
+Installing and configuring the Key Broker System (KBS) requires you to follow these steps:
 
 1. [Install and configure the Key Management System (KMS)](key-broker-service-kms-install.md)
 1. [Install and configure the KBS](key-broker-service-install.md)
@@ -23,13 +23,13 @@ Installing and configuring the Intel® Key Broker System (Intel KBS) requires yo
 
 ## Prerequisites
 
-- You must have an Intel Trust Authority account set up with access to the Trust Authority Download center
+- You must have an Trust Authority account set up with access to the Trust Authority Download center
 - Hashicorp Vault (Community Edition) or PyKMIP must be installed and running
 - Docker Engine installed
 
 ## Install the Key Management System (KMS)
 
-Intel KBS works with two KMSs, [Hashicorp Vault](key-broker-service-kms-install.md) and [PyKMIP](key-broker-service-kms-install.md). Follow the installation instructions for the KMS appropriate for your environment:
+KBS works with two KMSs, [Hashicorp Vault](key-broker-service-kms-install.md) and [PyKMIP](key-broker-service-kms-install.md). Follow the installation instructions for the KMS appropriate for your environment:
 
 ### Build the KBS
 
@@ -68,9 +68,9 @@ On Linux, follow the steps below to install the KBS:
    ADMIN_PASSWORD=<kbs admin password>
    HTTP_READ_HEADER_TIMEOUT=<kbs server read header timeout, default 10sec>
    BEARER_TOKEN_VALIDITY_IN_MINUTES=<kbs auth token validity, default 5 min>
-   TRUSTAUTHORITY_API_URL="api.trustauthority.intel.com"
-   TRUSTAUTHORITY_API_KEY=<Intel Trust Authority API key>
-   TRUSTAUTHORITY_BASE_URL="portal.trustauthority.intel.com"
+   TRUSTAUTHORITY_API_URL="api.trustauthority.company.com"
+   TRUSTAUTHORITY_API_KEY=<Trust Authority API key>
+   TRUSTAUTHORITY_BASE_URL="portal.trustauthority.company.com"
    AUTHENTICATION_DEFEND_MAX_ATTEMPTS=<max number of invalid login attempts;default 5 attempts>
    AUTHENTICATION_DEFEND_INTERVAL_MINUTES=<time interval of number of invalid token fetch attempts made;default 1 min>
    AUTHENTICATION_DEFEND_LOCKOUT_MINUTES=<number of minutes the user is blocked from getting a token in case of exceeds the number of attempts;default 1 min>
@@ -78,9 +78,9 @@ On Linux, follow the steps below to install the KBS:
    ```
 
 :::note
-If you are in the European Union (EU) region, use the following Intel Trust Authority URLs:
-<br />`TRUSTAUTHORITY_API_URL=" https://api.eu.trustauthority.intel.com"`
-<br />`TRUSTAUTHORITY_BASE_URL=" portal.eu.trustauthority.intel.com"`
+If you are in the European Union (EU) region, use the following Trust Authority URLs:
+<br />`TRUSTAUTHORITY_API_URL=" https://api.eu.trustauthority.company.com"`
+<br />`TRUSTAUTHORITY_BASE_URL=" portal.eu.trustauthority.company.com"`
 :::
 
 <Tabs>

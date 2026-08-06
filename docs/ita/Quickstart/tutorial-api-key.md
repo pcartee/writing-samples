@@ -123,27 +123,27 @@ There might be a delay of up to two minutes before a new Attestation API key bec
 
 ## Requesting an Attestation
 
-For this example we will attest an Intel SGX enclave. Examples are provided using the REST API and the Golang client libraries.
+For this example we will attest an SGX enclave. Examples are provided using the REST API and the Golang client libraries.
 
 <Tabs>
     <TabItem value="restapi" label="REST API">
 
 ### REST API
 
-This option uses the Intel Trust Authority  REST API directly to request an attestation, but assumes you have an existing SGX application with an ability to retrieve an SGX quote.
+This option uses the Trust Authority  REST API directly to request an attestation, but assumes you have an existing SGX application with an ability to retrieve an SGX quote.
 
 1. Request a nonce
 
    ```bash
-   curl --location 'https://api.trustauthority.intel.com/appraisal/v1/nonce' \
+   curl --location 'https://api.trustauthority.company.com/appraisal/v1/nonce' \
      --header 'Accept: application/json' \
      --header 'x-api-key: <attestation API key>'
    ```
 
 :::note
-If you are in the European Union (EU) region, use the following Intel Trust Authority URL
+If you are in the European Union (EU) region, use the following Trust Authority URL
 
-`curl--location 'https://api.eu.trustauthority.intel.com/appraisal/v1/nonce`
+`curl--location 'https://api.eu.trustauthority.company.com/appraisal/v1/nonce`
 :::
   
    Sample response:
@@ -164,7 +164,7 @@ If you are in the European Union (EU) region, use the following Intel Trust Auth
 /* TODO update this to show the  policy must match option */
 
    ```bash
-   curl --location 'https://api.trustauthority.intel.com/appraisal/v1/attest' \
+   curl --location 'https://api.trustauthority.company.com/appraisal/v1/attest' \
     --header 'Accept: application/json' \
     --header 'x-api-key: <attestation API key>' \
     --header 'Content-Type: application/json' \
@@ -186,18 +186,18 @@ If you are in the European Union (EU) region, use the following Intel Trust Auth
 
 ### Go client
 
-This option uses the Intel Trust Authority Golang client libraries to request a new attestation token. This example assumes you have integrated the Go client (including the `go-sgx` module) with an existing SGX-enabled application.
+This option uses the Trust Authority Golang client libraries to request a new attestation token. This example assumes you have integrated the Go client (including the `go-sgx` module) with an existing SGX-enabled application.
 
-See the [Intel Trust Authority  client repo](https://github.com/intel/trustauthority-client-for-go/tree/main) for more code samples.
+See the [Trust Authority  client repo](https://github.com/trustauthority-client-for-go/tree/main) for more code samples.
 
 1. Instantiate the client.
 
    ```go
 
     cfg := connector.Config{
-            // Replace TRUSTAUTHORITY_URL with real Intel Trust Authority URL
+            // Replace TRUSTAUTHORITY_URL with real Trust Authority URL
             BaseUrl: "TRUSTAUTHORITY_URL",
-            // Replace TRUSTAUTHORITY_API_URL with real Intel Trust Authority API URL
+            // Replace TRUSTAUTHORITY_API_URL with real Trust Authority API URL
             ApiUrl: "TRUSTAUTHORITY_API_URL",
             // Provide TLS config
             TlsCfg: &tls.Config{},

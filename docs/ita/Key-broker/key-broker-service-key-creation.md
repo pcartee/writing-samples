@@ -12,7 +12,7 @@ import TabItem from '@theme/TabItem';
 Once the KBS service is installed and running successfully, follow the steps below to create keys and retrieve them.
 
 :::note
-The SGX attestation type is shown only as an example. Other attestation types, such as TDX, exist, and others are being developed. The term "attributes" is another way to describe claims. Attributes correspond to claims in the [attestation token](../Concepts/concept-attestation-tokens.md) issued by Intel Trust Authority. "policy_ids" in the KBS policy is the same as "matched_policy_ids" in the attestationp token.
+The SGX attestation type is shown only as an example. Other attestation types, such as TDX, exist, and others are being developed. The term "attributes" is another way to describe claims. Attributes correspond to claims in the [attestation token](../Concepts/concept-attestation-tokens.md) issued by Trust Authority. "policy_ids" in the KBS policy is the same as "matched_policy_ids" in the attestationp token.
 :::
 
 ## SGX supported attributes
@@ -23,7 +23,7 @@ The SGX attestation type is shown only as an example. Other attestation types, s
 |isvsvn     |The Security Version Number of the Enclave                   |
 |mrenclave  |Hash of the Contents of the SGX Enclave                      |
 |mrsigner   |Hash of the key used to sign the SGX Enclave                 |
-|policy_ids |List of policy IDs which are matched in Intel Trust Authority|
+|policy_ids |List of policy IDs which are matched in Trust Authority|
 
 ## TDX supported attributes
 
@@ -37,13 +37,13 @@ The SGX attestation type is shown only as an example. Other attestation types, s
 |rtmr2          |A SHA-384 measurement register that can be updated during TD run-time|
 |rtmr3          |A SHA-384 measurement register that can be updated during TD run-time|
 |seamsvn        |The Security Version Number of the TDX SEAM Module                   |
-|policy_ids     |List of policy IDs which are matched in Intel Trust Authority        |
+|policy_ids     |List of policy IDs which are matched in Trust Authority        |
 
 ## enforce_upto_date directive
 
 The **enforce_tcb_upto_date** directive is a Boolean flag to check if the TCB status is up-to-date or not. If it is set to **true**, the KBS policy expects the **tcb_status** claim in the token to be up-to-date else the KBS policy verification fails, thus denying the key release. If it is set to **false**, any TCB status value will work for key release, and the KBS won’t check for up-to-date TCB status.
 
-If you are using the [platform TCB policy](../Concepts/concept-platform-tcb.md) features, you should set **enforce_tcb_upto_date** to **false** and include the appraisal policy ID for your platform TCB policy in the list of **matched_ids** in your KBS policy. Doing this ensures that the Intel Trust Authority appraisal policy controls TCB behavior instead of the KBS key release policy.
+If you are using the [platform TCB policy](../Concepts/concept-platform-tcb.md) features, you should set **enforce_tcb_upto_date** to **false** and include the appraisal policy ID for your platform TCB policy in the list of **matched_ids** in your KBS policy. Doing this ensures that the Trust Authority appraisal policy controls TCB behavior instead of the KBS key release policy.
 
 ## Fetch the bearer token
 
@@ -206,7 +206,7 @@ Refer to [Passport verification mode](../Key-broker/key-broker-service.md#intel-
 
 ### Retrieve the key without TEE attestation
 
-Keys can be retrieved from the KBS without requiring TEE attestation and TEE evidence verification. The keys released from the KBS are always wrapped. Providing only a public key (must be an RSA key size of at least 2048 bits) to wrap the secret is one way to retrieve the key from the KBS. Refer to the following API to retrieve the key without Intel Trust Authority.
+Keys can be retrieved from the KBS without requiring TEE attestation and TEE evidence verification. The keys released from the KBS are always wrapped. Providing only a public key (must be an RSA key size of at least 2048 bits) to wrap the secret is one way to retrieve the key from the KBS. Refer to the following API to retrieve the key without Trust Authority.
 
 URL: `POST /kbs/v1/keys/\{id\}`
 

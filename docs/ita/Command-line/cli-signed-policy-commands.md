@@ -9,7 +9,7 @@ uid: cli-signed-policy-commands
 
 ## Signed policy management
 
-This section provides commands to create signed attestation policies for Intel® Trust Authority with or without using a key, certificate, and encryption algorithm.
+This section provides commands to create signed attestation policies for Trust Authority with or without using a key, certificate, and encryption algorithm.
 
 ## Create signed JWT attestation policies
 
