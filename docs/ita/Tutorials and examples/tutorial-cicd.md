@@ -1,5 +1,5 @@
 ---
-title: Ci/CD Integration
+title: CI/CD Integration
 description: Automatically updating policies with GitHub Actions.
 author: Various
 topic: tutorial
