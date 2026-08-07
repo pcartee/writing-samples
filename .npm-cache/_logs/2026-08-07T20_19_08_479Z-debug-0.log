@@ -10,3 +10,9 @@
 9 verbose logfile logs-max:10 dir:/Users/pcartee/github/writing-samples/writing-samples/.npm-cache/_logs/2026-08-07T20_19_08_479Z-
 10 verbose logfile /Users/pcartee/github/writing-samples/writing-samples/.npm-cache/_logs/2026-08-07T20_19_08_479Z-debug-0.log
 11 silly logfile done cleaning log files
+12 verbose cwd /Users/pcartee/github/writing-samples/writing-samples
+13 verbose os Darwin 25.5.0
+14 verbose node v24.19.0
+15 verbose npm  v11.17.0
+16 verbose exit 0
+17 info ok
