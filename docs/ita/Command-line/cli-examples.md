@@ -34,7 +34,7 @@ If you're using a network proxy service, you must add the Intel Trust Authority 
 
 ## Retrieve an attestation API key
 
-All the attestation-related APIs, CLI commands, and client libraries require an attestation API key for authorization. For more information, see [Attestation API keys](../Concepts/concept-user-roles-and-api-keys#attest-api-keys). These instructions explain how to retrieve an attestation API key.
+All the attestation-related APIs, CLI commands, and client libraries require an attestation API key for authorization. For more information, see [Attestation API keys](../Concepts/concept-user-roles-and-api-keys.md#attest-api-keys). These instructions explain how to retrieve an attestation API key.
 
 :::note
 These instructions assume that your API key has already been created. If you need to create an API Key, follow the [Creating API keys](../Quickstart/tutorial-api-key.md) steps.
@@ -60,7 +60,7 @@ You can have more than one API key associated with your account. Be sure to sele
 
 ## Retrieve Admin API keys
 
-All the tenant management-related APIs, CLI commands, and client library methods require an Admin API key for authorization. Admin API keys can only be retrieved through the Intel Trust Authority web portal. For more information, see [Tenant admin API keys](../Concepts/concept-user-roles-and-api-keys#tenant-admin-api-keys).
+All the tenant management-related APIs, CLI commands, and client library methods require an Admin API key for authorization. Admin API keys can only be retrieved through the Intel Trust Authority web portal. For more information, see [Tenant admin API keys](../Concepts/concept-user-roles-and-api-keys.md#tenant-admin-api-keys).
 
 1. Sign in to the Intel Trust Authority portal.
 
