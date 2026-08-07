@@ -94,7 +94,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Trust Authority',
+        title: '',
         logo: {
           alt: 'Trust Authority',
           src: 'img/trust.png',
