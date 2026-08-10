@@ -84,13 +84,13 @@ Other TEEs have different default policies. In general, TEE default policies onl
 
 ## Composite attestation
 
-_Composite attestation_ refers to attesting more than one TEE for a given attester. Composite attestation is useful when an attester uses a combination of TEEs to perform a single task. For example, an attester might use an TDX trust domain (TD) to perform secure computations and one or more NVIDIA\* GPUs to perform parallel processing. In this case, the attester would need to provide evidence from both the TD and the NVIDIA GPU(s) to prove that the attester is trustworthy.
+_Composite attestation_ refers to attesting more than one TEE for a given attester. Composite attestation is useful when an attester uses a combination of TEEs to perform a single task. For example, an attester might use a TDX trust domain (TD) to perform secure computations and one or more NVIDIA\* GPUs to perform parallel processing. In this case, the attester would need to provide evidence from both the TD and the NVIDIA GPU(s) to prove that the attester is trustworthy.
 
 Trust Authority policy V2 is not bound to a single attestation type; it supports composite attestation of any valid combination of TEEs. Composite attestation allows you to define a policy that evaluates the claims made by multiple TEEs in a single attestation token. The policy can include rules that apply to all TEEs, rules that apply to specific TEEs, and rules that apply to combinations of TEEs. Composite attestation allows you to create more complex attestation policies that take into account the interactions between different TEEs.
 
 Composite attestation doesn't support more than one TEE from the following set of mutually-exclusive TEEs: TDX, SGX, or AMD SEV-SNP. For the time being, only one GPU can be attested in a composite attestation token.
 
-The following composite attestation token shows an example of a token that includes claims from multiple TEEs. This token includes claims from an TDX trust domain and a NVIDIA H100 GPU. We'll use this as an example throughout the article to illustrate the concepts of composite attestation policy.
+The following composite attestation token shows an example of a token that includes claims from multiple TEEs. This token includes claims from a TDX trust domain and an NVIDIA H100 GPU. We'll use this as an example throughout the article to illustrate the concepts of composite attestation policy.
 
 <TokenExample />
 
@@ -104,17 +104,16 @@ To use Rego [future keywords][rego_future_keywords] and most policy language fea
 
 ### Term definitions
 
-In the context of attestation, a _claim_ is a statement n attester about its own state. For example, an attester might claim that it is running in debug mode, or that it is using a specific version of a software component. Claims are the basic building blocks of attestation policy. The policy author writes rules that evaluate the claims made by the attester to determine whether the attester is trustworthy.
+In the context of attestation, a _claim_ is a statement made by an attester about its own state. For example, an attester might claim that it is running in debug mode, or that it is using a specific version of a software component. Claims are the basic building blocks of attestation policy. The policy author writes rules that evaluate the claims made by the attester to determine whether the attester is trustworthy.
 
-Attester claims aren't the only claims in a JSON Web Token. Some claims aren't collected as part of the evidence collection process, but are included in the token because they contain useful information about the token itself and the verifier (Trust Authority service). Verifier claims include information about certificates, verifier microservice instance IDs [traceable back to the microservice attestation],z and other metadata that is useful for verifying the token. A full list of all the claims in an attestation token can be found in the [Attestation token](../Concepts/concept-attestation-tokens.md) article.
-made by a
+Attester claims aren't the only claims in a JSON Web Token. Some claims aren't collected as part of the evidence collection process, but are included in the token because they contain useful information about the token itself and the verifier (Trust Authority service). Verifier claims include information about certificates, verifier microservice instance IDs (traceable back to microservice attestation), and other metadata that is useful for verifying the token. A full list of all the claims in an attestation token can be found in the [Attestation token](../Concepts/concept-attestation-tokens.md) article.
 Insofar as Rego and OPA are concerned, a claim is nothing more than a key-value pair in a JSON document. Whenever you see "claim" in this article, think "property" or "object" in JSON, and vice-versa. Technically, a JSON document doesn't contain objects; it contains objects represented and stored as a string called an _object literal_. For simplicity, we'll refer to these as objects.
 
 A [_rule_][rego_rules] contains one or more conditions that must be true for the rule to be satisfied. If the condition is true, the rule is considered _matched_. If the condition is false, the rule is considered _unmatched_. Every attestation policy must have at least one rule.  
 
-_Nested claims_ is a domain-specific term for what is commonly known as nested objects and arrays in JSON. Nested claims allow a structured approach to attestation claims, with claims grouped by attestation type. An Trust Authority attestation token is a JSON Web Token (JWT) that contains claims about the attestation evidence, represented as objects and properties in a JSON document. The claims are organized into a hierarchy of attestation types, with each attestation type containing its own set of claims. Many claims are simple data types such as **bool**, **string**, and **int**, but others contain nested objects with their own properties.
+_Nested claims_ is a domain-specific term for what is commonly known as nested objects and arrays in JSON. Nested claims allow a structured approach to attestation claims, with claims grouped by attestation type. A Trust Authority attestation token is a JSON Web Token (JWT) that contains claims about the attestation evidence, represented as objects and properties in a JSON document. The claims are organized into a hierarchy of attestation types, with each attestation type containing its own set of claims. Many claims are simple data types such as **bool**, **string**, and **int**, but others contain nested objects with their own properties.
 
-Some claims have a particular format or structure that is important for policy evaluation. For example, string comparisons are case sensitive, and reference values much exactly match the claim value. 
+Some claims have a particular format or structure that is important for policy evaluation. For example, string comparisons are case sensitive, and reference values must exactly match the claim value. 
 
 To access nested properties (claims), objects, and values, you'll usually use [dot-access syntax](#dot-access-syntax). However, you can (and in some instances, _must_) also use [bracket notation](#bracket-notation) to access nested claims. The examples below show how to access nested claims using both dot and bracket syntax.
 
@@ -344,7 +343,7 @@ verified_rim if  {
 }
 ```
 
-The following example is a policy for an TDX trust domain. This policy includes an `ExportOnMatch` block that exports a new claim to the attestation token only if the policy is matched. 
+The following example is a policy for a TDX trust domain. This policy includes an `ExportOnMatch` block that exports a new claim to the attestation token only if the policy is matched. 
 
 ```rego
     import rego.v1

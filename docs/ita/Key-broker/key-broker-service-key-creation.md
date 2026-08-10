@@ -180,7 +180,7 @@ Creates or Registers a key.
 
 ### POST /keys/\{id\}/transfer
 
-Refer to [Passport verification mode](../Key-broker/key-broker-service.md#intel-kbs-use-cases) and [Background verification mode](../Key-broker/key-broker-service.md#intel-kbs-use-cases) documentation on how the key is released.
+Refer to [Passport verification mode](../Key-broker/key-broker-service.md#kbs-use-cases) and [Background verification mode](../Key-broker/key-broker-service.md#kbs-use-cases) documentation on how the key is released.
 
 ***Sample request for passport mode***
 

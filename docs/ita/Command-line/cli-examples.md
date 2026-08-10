@@ -34,7 +34,7 @@ If you're using a network proxy service, you must add the Intel Trust Authority 
 
 ## Retrieve an attestation API key
 
-All the attestation-related APIs, CLI commands, and client libraries require an attestation API key for authorization. For more information, see [Attestation API keys](../Concepts/concept-user-roles-and-api-keys.md#attest-api-keys). These instructions explain how to retrieve an attestation API key.
+All the attestation-related APIs, CLI commands, and client libraries require an attestation API key for authorization. For more information, see [Attestation API keys](../Concepts/concept-user-roles-and-api-keys.md#attestation-api-keys). These instructions explain how to retrieve an attestation API key.
 
 :::note
 These instructions assume that your API key has already been created. If you need to create an API Key, follow the [Creating API keys](../Quickstart/tutorial-api-key.md) steps.

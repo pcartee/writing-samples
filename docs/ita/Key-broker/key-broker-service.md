@@ -32,7 +32,7 @@ KBS is a relying party in a remote attestation. It provides the following functi
 <Tabs>
 <TabItem value="passport-verification-mode" label="Passport verification mode" default>
 
-In Passport Verification mode, a relying party (a TEE agent or an KBS client) makes an attestation request directly to the verifier (Trust Authority Attestation Service) and gets an attestation token. The attestera calls the KBS key transfer API to request a key.
+In Passport Verification mode, a relying party (a TEE agent or a KBS client) makes an attestation request directly to the verifier (Trust Authority Attestation Service) and gets an attestation token. The attester calls the KBS key transfer API to request a key.
 
 KBS verifies the legitimacy of the attestation token and determines whether it complies with the key policy associated with the key ID. If it does, the requested key is issued.
 
@@ -45,14 +45,14 @@ The workload (key requester) "requests to KBS" to retrieve a particular key. KBS
 
 - KBS checks the corresponding key policy to see what type of attestation is required.
 - If the attestation type and attestation token are not provided as a part of the key transfer API request, KBS requests a nonce from Trust Authority.
-- Trust Authority responds with a nonce. KBS responds to the key requestor with the same nonce and attestation type present in the key policy.
-- (For native hardware only) The key requestor retrieves the quote from the attester. It sends a request to KBS, this time with a quote, runtime-data (public-key generated inside TEE) in the request body, along with a verifier-nonce.
+- Trust Authority responds with a nonce. KBS responds to the key requester with the same nonce and attestation type present in the key policy.
+- (For native hardware only) The key requester retrieves the quote from the attester. It sends a request to KBS, this time with a quote, runtime-data (public-key generated inside TEE) in the request body, along with a verifier-nonce.
 - KBS checks if the attestation type in the request is the same as the attestation type in the key policy.
 - If the attestation type matches with the key policy, KBS forwards the request to Trust Authority with the quote, runtime-data, and a verifier-nonce; it also optionally sends a list of policy IDs to be matched by Trust Authority in the request body.
 - Trust Authority verifies the nonce and quote and then issues the attestation token to KBS on successful verification.
 - KBS then parses the attestation token to get all the claims and matches the token claims with the policy associated with the key to be retrieved.
-- If all the token claims match against the policy, KBS creates an symmetrical key and wraps the secret/key with the symmetrical key, and the symmetrical key is wrapped with a public key received in the request (runtime-data).
-- KBS responds with a encpulated requested key and a wrapped symmetrical key to the key requestor.
+- If all the token claims match against the policy, KBS creates a symmetric key and wraps the secret/key with the symmetric key, and the symmetric key is wrapped with a public key received in the request (runtime-data).
+- KBS responds with an encapsulated requested key and a wrapped symmetric key to the key requester.
 
 </TabItem>
 </Tabs>
@@ -61,7 +61,7 @@ The workload (key requester) "requests to KBS" to retrieve a particular key. KBS
 
 After evaluating the key release policy and determining that the key can be released, KBS wraps the key in a client-owned public key. A simple workflow sample for a KBS implementation is as follows:
 
-- KBS accespts a quote and a public key from the client.
+- KBS accepts a quote and a public key from the client.
 - KBS retrieves the key from the KMS and wraps it using the AES-GCMN wrapping algorithm creating a symmetric key. This is used to encrypt the user key (wrapped key).
 - The symmetric key is wrapped using the RSA-OAEP algorithm using the public key provided in the Trust Authority attestation token from the **attester_held_data** claim. The asymmetric key pair is usually created by the workload and sent to Trust Authority along with the quote when the attestation token is retrieved.
 

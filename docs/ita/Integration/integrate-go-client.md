@@ -81,7 +81,7 @@ Gets the evidence identifier, currently set to "nvgpu".
 [**GPUAttester**](#gpuattester)
 Gets evidence from a remote GPU attester.
 
-[**GPUEvidence**](#gpu)
+[**GPUEvidence**](#gpuevidence)
 Returns the GPU evidence collected from the attester.
 
 ### go-AMD APIs
@@ -101,10 +101,10 @@ is used to retrieve the SEV-SNP report.
 
 **go-tdx** is required to collect evidence from an Intel® TDX trust domain. There are currently two variants of **go-tdx**, with more in development:
 
-- Intel TDX platform adapter — For on-premise and cloud platforms using the Intel TDX stack and PSW. This version of go-tdx is in the **main** branch of the client repo.
+- Intel TDX platform adapter — For on-premises and cloud platforms using the Intel TDX stack and PSW. This version of go-tdx is in the **main** branch of the client repo.
 - Azure confidential VMs for Intel TDX adapter — For TDs running on Azure confidential VMs with Intel TDX platform only. This is a fork of the Intel TDX adapter customized to work with Azure's implementation of Intel. This adapter requires the TPM2 TSS library, but does not require Intel SGX DCAP. This version of go-tdx is in the **azure-tdx-preview** branch of the client repo. 
 
-**go-amd** is required to collect the required measurement data from AMD SEV-SNP hardware platforms for and during the remote attestation process and ensure integration into the existing attestation workflow.
+**go-amd** is required to collect the required measurement data from AMD SEV-SNP hardware platforms during the remote attestation process and ensure integration into the existing attestation workflow.
 
 ### Basic attestation API workflow
 

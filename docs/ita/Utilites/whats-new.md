@@ -143,7 +143,7 @@ Added new tutorials demonstrating an attestation workflow using Microsoft Azure 
 
 ### SIEM Integration Now Available
 
-You can now [integrate Intel Trust Authority with SIEM platforms](../How-to%20workflows/howto-SIEM-integration.md) (Splunk or Datadog) to push consolidate attestation results as security events.
+You can now [integrate Intel Trust Authority with SIEM platforms](../How-to%20workflows/howto-SIEM-integration.md) (Splunk or Datadog) to push consolidated attestation results as security events.
 
 ### Python Client Libraries
 
@@ -157,7 +157,7 @@ The Intel Trust Authority portal now supports identity providers other than Inte
  
 ### Intel TDX Artificial Intelligence Model Key Release Demo
  
-Added a new [tutorial demo](../Tutorials%20and%20examples/tutorial-tdx-workload.md) using Intel Trust Authority and Intel TDX with an encrypted AI model to demonstrate a sample workflow. This tutorial includes pre-configured containers for an attester (the AI workload) and relying party (the Intel Key Broker Service) and a demo script that shows each step of a [key release](../Concepts/concept-patterns.md#key.release) attestation pattern. The decryption key to unseal the AI model is only released when the workload is successfully attested by Intel Trust Authority.
+Added a new [tutorial demo](../Tutorials%20and%20examples/tutorial-tdx-workload.md) using Intel Trust Authority and Intel TDX with an encrypted AI model to demonstrate a sample workflow. This tutorial includes pre-configured containers for an attester (the AI workload) and relying party (the Intel Key Broker Service) and a demo script that shows each step of a [key release](../Concepts/concept-patterns.md#key-release) attestation pattern. The decryption key to unseal the AI model is only released when the workload is successfully attested by Intel Trust Authority.
 
 ### Attestation Policy Enforcement Option
 

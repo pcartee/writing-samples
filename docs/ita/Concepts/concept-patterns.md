@@ -78,7 +78,7 @@ The _Background Check_ pattern is when the attester provides a quote to a relyin
     1. Extract and verify other claims data as necessary.
 
 
-# [Key Release](#key,release)
+## Key Release
 
 Key release is common use case that relies on a key management system (KMS) that protects secret data, such as cryptographic keys, in an online vault. A user of the KMS trusts the vault to protect the user's keys when not in use and to make them available to the user when needed. The user may have multiple devices or cloud-hosted workload environments that need key provisioning. The KMS authenticates the user before provisioning keys to ensure the keys are not inadvertently provisioned to the wrong user.
 

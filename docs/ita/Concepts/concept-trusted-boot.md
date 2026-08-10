@@ -33,7 +33,7 @@ Microsoft Azure* implements Intel TDX and vTPM together, using an Intel TDX Trus
 
 For example, PCR values from the vTPM can be used to ensure the integrity of the TD's UEFI BIOS, boot loader and kernel image.
 
-Intel Trust Authority can be used as a Certificate Authority to issue [TPM Attestation Keys and Certificates (AK and AK certs)](../Integration/integrate-go-tdx-cli.md#tpm-attestation-keys-and-certificates-ak-and-ak-certs)
+Intel Trust Authority can be used as a Certificate Authority to issue [TPM Attestation Keys and Certificates (AK and AK certs)](../Attestation%20Technologies/Trusted%20Platform%20Module/tpm-ak-provision.md#physical-tpm-attestation-keys-and-certificates)
 
 [Client TPM API Reference](../Integration/integrate-go-tpm.md)
 
