@@ -43,7 +43,7 @@ The following table lists the resources for each user role.
 
 ## API keys
 
-Two types of API keys are provided to clients to manage resources: Attestation API keys and Admin API keys. User roles determine which API keys can be accessed through the portal. Users can only access attestation API keys, while tenant admins can access both attestation and admin API keys. API keys have a tenant-wide scope. Attestation APK keys and report data are visible to all users.
+Two types of API keys are provided to clients to manage resources: Attestation API keys and Admin API keys. User roles determine which API keys can be accessed through the portal. Users can only access attestation API keys, while tenant admins can access both attestation and admin API keys. API keys have a tenant-wide scope. Attestation API keys and report data are visible to all users.
 
 ### Tenant Admin API keys
 
@@ -53,7 +53,9 @@ Each tenant is issued two Admin API keys accessible through the UI. Admin API ke
 Intel recommends rotating the Admin API keys whenever a Tenant Admin user is removed, or "downgraded" to User. The Admin API keys previously accessible to the former Tenant Admin remain active and usable unless rotated.
 :::
 
-### Attestation API keys {/* attest-api-keys */}
+<a id="attest-api-keys"></a>
+
+### Attestation API keys
 
 Both tenant admins and users have access to attestation API keys through the portal. The number of attestation API keys for an instance of Intel Trust Authority is determined by the subscription type. A Starter subscription is given one API key, while an Enterprise subscription is given multiple API keys. Attestation API keys are used for all attestation-related functions such as, the Microsoft Azure Attestation adaptor and Faithful Verification. This key cannot be used for other tasks, such as managing policies, tags, or other users.
 

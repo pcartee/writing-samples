@@ -15,7 +15,7 @@ A trusted execution environment (TEE) helps to protect user-executed code and da
 
 Trust Authority currently supports Software Guard Extensions (SGX) and Trust Domain Extension (TDX) TEEs. Support for more TEEs is planned for future releases of Trust Authority. To understand how to use Trust Authority services, you need a working knowledge of the underlying TEE technology. To learn more about SGX and TDX, see [Next Steps](#next-steps) below.
 
-A TEE running directly on an SGX-enabled platform is called an _enclave_. An TDX virtual machine (VM) TEE running on an SGX-enabled platform is called a _trust domain_.
+A TEE running directly on an SGX-enabled platform is called an _enclave_. A TDX virtual machine (VM) TEE running on an SGX-enabled platform is called a _trust domain_.
 
 Every TEE has a trusted computing base (TCB) that includes all the software, firmware, and hardware resources within the boundaries of the TEE. When a new enclave or trust domain is instantiated, the TEE's TCB must be verified (_attested_) before it can be trusted with sensitive workloads and data. For more information, see [Trust Authority Attestation](../Concepts/concept-attestation-overview.md).
 

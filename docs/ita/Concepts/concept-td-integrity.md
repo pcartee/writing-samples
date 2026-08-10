@@ -88,7 +88,7 @@ It's a good practice for the relying party to check that all required appraisal 
 
 ### TD Integrity for Azure CVMs with Intel TDX
 
-1. Create an Azure CVM with Intel TDX. For more information, see [Creating a VM with Intel TDX on Microsoft Azure](../Tutorials%20and%20examples/Intel%20Trust%20Authority%20Client%20examples/tutorial-tdx.md#creating-a-vm-with-intel-tdx-on-microsoft-azure)
+1. Create an Azure CVM with Intel TDX. For more information, see [Creating a VM with TDX on Microsoft Azure](../Tutorials%20and%20examples/Intel%20Trust%20Authority%20Client%20examples/tutorial-tdx.md#creating-a-vm-with-tdx-on-microsoft-azure)
 1. Install trustauthority-cli (v1.9+):  
    ```bash
    curl https://raw.githubusercontent.com/intel/trustauthority-client-for-go/main/release/install-tdx-cli.sh | sudo bash -
@@ -154,7 +154,7 @@ It's a good practice for the relying party to check that all required appraisal 
 
 ### TD Integrity for GCP CVMs with Intel TDX
 
-1. Create a GCP CVM with Intel TDX. For more information, see [Creating a CVM with Intel TDX on GCP](../Tutorials%20and%20examples/Intel%20Trust%20Authority%20Client%20examples/tutorial-tdx.md#creating-a-cvm-with-intel-tdx-on-gcp).
+1. Create a GCP CVM with Intel TDX. For more information, see [Creating a CVM with TDX on GCP](../Tutorials%20and%20examples/Intel%20Trust%20Authority%20Client%20examples/tutorial-tdx-gcp.md#creating-a-cvm-with-tdx-on-gcp).
 1. Install trustauthority-cli (v1.9+), run the following command:
    ```bash
    curl https://raw.githubusercontent.com/intel/trustauthority-client-for-go/main/release/install-tdx-cli.sh | sudo bash -

@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-description: General quick  start of the end-to-to-end management flow leading to a first attestation.
+description: General quick start of the end-to-end management flow leading to a first attestation.
 author: various
 topic: tutorial
 date: 06/07/2024
@@ -41,7 +41,7 @@ An admin API key is the only authorization required to execute nearly all REST A
 
 ### Copy Admin API keys {/* #admin-keys */}
 
-1. Sign in to the Trust Authority  portal.
+1. Sign in to the Trust Authority portal.
 
 1. Select **Admin API keys**.
 
@@ -57,7 +57,9 @@ An admin API key is the only authorization required to execute nearly all REST A
 
 1. The API key can be used with the **trustauthorityctl** CLI utility to manage admins and users.
 
-## Attestation API Keys {/* attest-api-keys */}
+<a id="attest-api-keys"></a>
+
+## Attestation API Keys
 
 Attestation API keys are used to authenticate attestation-related functions. Attestation functions include generating a new attestation token, creating a signed nonce, and requesting a Faithful Verification token audit report. An Attestation API key is required to accompany all attestation-related requests. An Attestation API key lets you attest any supported TEE.
 
@@ -130,7 +132,7 @@ For this example we will attest an SGX enclave. Examples are provided using the 
 
 ### REST API
 
-This option uses the Trust Authority  REST API directly to request an attestation, but assumes you have an existing SGX application with an ability to retrieve an SGX quote.
+This option uses the Trust Authority REST API directly to request an attestation, but assumes you have an existing SGX application with an ability to retrieve an SGX quote.
 
 1. Request a nonce
 
@@ -188,7 +190,7 @@ If you are in the European Union (EU) region, use the following Trust Authority 
 
 This option uses the Trust Authority Golang client libraries to request a new attestation token. This example assumes you have integrated the Go client (including the `go-sgx` module) with an existing SGX-enabled application.
 
-See the [Trust Authority  client repo](https://github.com/trustauthority-client-for-go/tree/main) for more code samples.
+See the [Trust Authority client repo](https://github.com/trustauthority-client-for-go/tree/main) for more code samples.
 
 1. Instantiate the client.
 

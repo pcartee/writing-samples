@@ -267,7 +267,7 @@ rxgjEpWGsCOWuu7eqXyKHDBwzsKuoSojHWIU8xnQwuvWl/keX1wS/vv517tu4zHbWwQ79GjI7aECVBZ/
 
 This section describes an alternative to the containerized sample applications. Rather than using the client bindings directly in a sample application, the TDX CLI client provides a command-line wrapper for the Golang client libraries.
 
-[trustauthority-cli for Azure](../../Integration/integrate-go-tdx-cli.md#using-the-trust-authority-tdx-cli)
+[trustauthority-cli for Azure](../../Integration/integrate-go-tdx-cli.md#using-the-intel-trust-authority-attestation-client-cli)
 
 1. Download and run the Azure installer variant.
 

@@ -8,12 +8,18 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
-const repository = process.env.GITHUB_REPOSITORY || '';
+const DEFAULT_OWNER = 'pcartee';
+const DEFAULT_REPO = 'writing-samples';
+
+const repository = process.env.GITHUB_REPOSITORY || `${DEFAULT_OWNER}/${DEFAULT_REPO}`;
 const [owner, repoName] = repository.split('/');
-const repoBasePath = repoName ? `/${repoName}` : '';
+const effectiveOwner = owner || DEFAULT_OWNER;
+const effectiveRepo = repoName || DEFAULT_REPO;
+const isUserSiteRepo = effectiveRepo === `${effectiveOwner}.github.io`;
+const repoBasePath = isUserSiteRepo ? '/' : `/${effectiveRepo}/`;
 const previewBaseUrl = process.env.PR_NUMBER
-  ? `${repoBasePath}/pr-preview/pr-${process.env.PR_NUMBER}/`
-  : `${repoBasePath}/`;
+  ? `${repoBasePath}pr-preview/pr-${process.env.PR_NUMBER}/`
+  : repoBasePath;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -28,7 +34,7 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: owner ? `https://${owner}.github.io` : 'https://your-docusaurus-site.example.com',
+  url: `https://${effectiveOwner}.github.io`,
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: previewBaseUrl,
@@ -36,8 +42,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: owner || 'pcartee', // Usually your GitHub org/user name.
-  projectName: repoName || 'writing-samples', // Usually your repo name.
+  organizationName: effectiveOwner, // Usually your GitHub org/user name.
+  projectName: effectiveRepo, // Usually your repo name.
 
   onBrokenLinks: 'throw',
 

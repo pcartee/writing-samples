@@ -1,5 +1,5 @@
 ---
-title:  Trust Authority Client Tutorial for Google Cloud Platform with TDX
+title: Intel Trust Authority Client Tutorial for Google Cloud Platform with TDX
 description: Step-by-step tutorial to stand up a GCP VM with TDX 
 author: mkwilbux
 topic-type: tutorial
@@ -9,11 +9,11 @@ uid: tdx.gcp
 
 *· 12/19/2024 ·*
 
-## Trust Authority Client Tutorial - TDX Attestation on GCP
+## Intel Trust Authority Client Tutorial - TDX Attestation on GCP
 
-This tutorial provides steps to deploy a demo app that uses the Trust Authority client when securing an application using Trust Domain Extensions (TDX) on on Google Cloud Platform**\*** (GCP).
+This tutorial provides steps to deploy a demo app that uses the Intel Trust Authority client when securing an application using Trust Domain Extensions (TDX) on Google Cloud Platform**\*** (GCP).
 
-The demo application, built for TDX, uses the Trust Authority client to retrieve evidence from the platform and request an attestation Authority. This demonstrates a simple passport attestation model (stopping before involving a relying party). The application's output is the resulting attestation token. The demo application can be used as a workflow reference for your applications.
+The demo application, built for TDX, uses the Intel Trust Authority client to retrieve evidence from the platform and request attestation from Intel Trust Authority. This demonstrates a simple passport attestation model (stopping before involving a relying party). The application's output is the resulting attestation token. The demo application can be used as a workflow reference for your applications.
 
 ## Creating a CVM with TDX on GCP
 Create a Confidential VM (CVM) that supports TDX on GCP, with the following attributes:
@@ -27,7 +27,7 @@ Create a Confidential VM (CVM) that supports TDX on GCP, with the following attr
 - Image project: **ubuntu-os-cloud**
 
     :::note
-    The availability of confidential VMs with TDX images and sizes in specific regions and availability zones is dynamic and may change. This tutorial uses US Cental a as an example. If you're outside North America, you may need to select a different region and availability zone. Check the Google [Products by Region](https://cloud.google.com/compute/docs/regions-zones) page to find the regions and availability zones with available Confidential VM with TDX support.
+   The availability of confidential VMs with TDX images and sizes in specific regions and availability zones is dynamic and may change. This tutorial uses us-central1-a as an example. If you're outside North America, you may need to select a different region and availability zone. Check the Google [Products by Region](https://cloud.google.com/compute/docs/regions-zones) page to find the regions and availability zones with available Confidential VM with TDX support.
     :::
 
 To get a list of compute images for TDX, use the following command in Cloud Shell.
@@ -56,7 +56,7 @@ To create a GCP CVM with TDX, perform the following steps.
          --image-project=ubuntu-os-cloud
    ```
 
-Once the CVM is created, you should have information display details in the Cloud Shell such as name, zone, machine type, IP addresses, and status. Refresh the browser to view the CVM in the **VM Instances** list.
+Once the CVM is created, you should see details in the Cloud Shell such as name, zone, machine type, IP addresses, and status. Refresh the browser to view the CVM in the **VM Instances** list.
 
 ## Connect to the CVM via SSH 
 After the CVM is created, exit the Cloud Shell terminal and connect to the CVM via SSH. You can connect in the browser with the following steps. 
@@ -71,7 +71,7 @@ After the CVM is created, exit the Cloud Shell terminal and connect to the CVM v
 After authorization you will have a terminal display, in the browser, connected via SSH to your CVM.
 
 ## GCP CVM TDX prerequisites
-In this section, you will verify tdx is active, install required packages, and login to github. 
+In this section, you will verify TDX is active, install required packages, and log in to GitHub. 
 
 1. To verify that the CVM is TDX enabled, use the following command. This should print `Memory Encryption Features active: TDX`. If this is missing, TDX is not enabled. In that case, check to see that the parameters are correct.
 
@@ -151,7 +151,7 @@ This section takes you through the steps to attest your confidential virtual mac
         }
    }
    ```
-1. Generate an TDX attestation token. The _token_ command automatically collects evidence from TDX, and sends it to Trust Authority for attestation. The output will be an attestation token containing the claims for TDX.
+1. Generate a TDX attestation token. The _token_ command automatically collects evidence from TDX, and sends it to Trust Authority for attestation. The output will be an attestation token containing the claims for TDX.
 
    ```bash
    sudo trustauthority-cli token -c config.json
