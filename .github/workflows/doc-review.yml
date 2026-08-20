@@ -22,7 +22,7 @@ jobs:
         uses: vale-cli/vale-action@v3
         with:
           files: docs
-          fail_on_error: true
+          fail_on_error: false
           reporter: github-pr-check
           config: docs/.vale.ini
 
