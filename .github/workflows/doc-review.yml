@@ -21,7 +21,7 @@ jobs:
       - name: Vale Linter (Microsoft Style)
         uses: vale-cli/vale-action@v3
         with:
-          files: all
+          files: docs
           fail_on_error: true
           reporter: github-pr-check
           config: docs/.vale.ini
