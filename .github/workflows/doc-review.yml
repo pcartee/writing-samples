@@ -24,18 +24,3 @@ jobs:
           files: all
           fail_on_error: true
           reporter: github-pr-check
-
-      - name: AI PR Review (Local DeepSeek)
-        uses: coderabbitai/ai-pr-reviewer@latest
-        if: success() || failure() 
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          OPENAI_API_KEY: "ollama"
-        with:
-          debug: false
-          review_simple_changes: false
-          openai_base_url: "http://127.0.0.1:11434/v1"
-          openai_light_model: "deepseek-coder:latest"
-          openai_heavy_model: "deepseek-coder:latest"
-          system_message: |
-            You are an expert technical writer. Review the provided Markdown documentation updates against the Microsoft Manual of Style. Focus on clarity, objectivity, and concise phrasing. Do not alter code blocks, MDX components, or directory structures.
