@@ -7,7 +7,7 @@ date: 02/07/2025
 uid: tees.overview
 ---
 
-*· 02/07/2025 ·*
+*· February/07/2025 ·*
 
 ## Trusted Execution Environments (TEE)
 

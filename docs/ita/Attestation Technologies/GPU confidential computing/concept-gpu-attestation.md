@@ -9,7 +9,7 @@ uid: gpu.attestation
 import BasicToken from '../../Include/eat/_nv-basic-token.md';
 import NVIDIA from '../../Include/eat/_nvidia-policy-claims.md';
 
-*· 09/17/2025 ·*
+*· September/17/2025 ·*
 
 ## GPU remote attestation with Intel® Trust Authority
 
