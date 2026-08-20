@@ -24,6 +24,7 @@ jobs:
           files: all
           fail_on_error: true
           reporter: github-pr-check
+          workdir: docs
 
       - name: Get changed doc content
         id: diff
