@@ -1,0 +1,8 @@
+{
+  "config": {
+    "extends": "./.markdownlint.yaml"
+  },
+  "outputFormatters": [
+    ["markdownlint-cli2-formatter-json", { "name": "markdownlint-results.json" }]
+  ]
+}

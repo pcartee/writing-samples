@@ -1,0 +1,993 @@
+{
+    "issues": [
+        {
+            "text": "pcartee",
+            "offset": 236,
+            "line": {
+                "text": "author: pcartee\n",
+                "offset": 228
+            },
+            "length": 7,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 4,
+            "col": 9,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Attestation%20Technologies/GPU%20confidential%20computing/concept-gpu-attestation.md",
+            "context": {
+                "text": "author: pcartee\n",
+                "offset": 228
+            }
+        },
+        {
+            "text": "pcartee",
+            "offset": 90,
+            "line": {
+                "text": "author: pcartee\n",
+                "offset": 82
+            },
+            "length": 7,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 4,
+            "col": 9,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Attestation%20Technologies/Trusted%20execution%20environments/integrate-tdx-adapter-api.md",
+            "context": {
+                "text": "author: pcartee\n",
+                "offset": 82
+            }
+        },
+        {
+            "text": "pcartee",
+            "offset": 77,
+            "line": {
+                "text": "author: pcartee\n",
+                "offset": 69
+            },
+            "length": 7,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 4,
+            "col": 9,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Attestation%20Technologies/Trusted%20execution%20environments/tee-sev-snp.md",
+            "context": {
+                "text": "author: pcartee\n",
+                "offset": 69
+            }
+        },
+        {
+            "text": "pcartee",
+            "offset": 71,
+            "line": {
+                "text": "author: pcartee\n",
+                "offset": 63
+            },
+            "length": 7,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 4,
+            "col": 9,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Attestation%20Technologies/Trusted%20execution%20environments/tee-sgx.md",
+            "context": {
+                "text": "author: pcartee\n",
+                "offset": 63
+            }
+        },
+        {
+            "text": "ECSDA",
+            "offset": 2945,
+            "line": {
+                "text": "For more information, see the [Provisioning Certification Service for ECSDA Attestation](https://www.company.com/content/www/us/en/developer/articles/technical/quote-verification-attestation-with-sgx-dcap.html).\n",
+                "offset": 2875
+            },
+            "length": 5,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 46,
+            "col": 71,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Attestation%20Technologies/Trusted%20execution%20environments/tee-sgx.md",
+            "context": {
+                "text": "For more information, see the [Provisioning Certification Service for ECSDA Attestation](https://www.company.com/content/www/us/en/developer/articles/technical/quote-verification-attestation-with-sgx-dcap.html).\n",
+                "offset": 2875
+            }
+        },
+        {
+            "text": "graminized",
+            "offset": 5094,
+            "line": {
+                "text": "Because Gramine encapsulates the entire application within an SGX enclave, more EPC memory is required than utilizing enclaves only for specific application libraries. Be sure that enough EPC memory is available to run the entire \"graminized\" application.\n",
+                "offset": 4863
+            },
+            "length": 10,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 66,
+            "col": 232,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Attestation%20Technologies/Trusted%20execution%20environments/tee-sgx.md",
+            "context": {
+                "text": "Because Gramine encapsulates the entire application within an SGX enclave, more EPC memory is required than utilizing enclaves only for specific application libraries. Be sure that enough EPC memory is available to run the entire \"graminized\" application.\n",
+                "offset": 4863
+            }
+        },
+        {
+            "text": "pcartee",
+            "offset": 69,
+            "line": {
+                "text": "author: pcartee\n",
+                "offset": 61
+            },
+            "length": 7,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 4,
+            "col": 9,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Attestation%20Technologies/Trusted%20execution%20environments/tee-tdx.md",
+            "context": {
+                "text": "author: pcartee\n",
+                "offset": 61
+            }
+        },
+        {
+            "text": "pcartee",
+            "offset": 219,
+            "line": {
+                "text": "author: pcartee\n",
+                "offset": 211
+            },
+            "length": 7,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 4,
+            "col": 9,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Attestation%20Technologies/Trusted%20Platform%20Module/tpm-ak-provision.md",
+            "context": {
+                "text": "author: pcartee\n",
+                "offset": 211
+            }
+        },
+        {
+            "text": "pcartee",
+            "offset": 228,
+            "line": {
+                "text": "author: pcartee\n",
+                "offset": 220
+            },
+            "length": 7,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 4,
+            "col": 9,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Attestation%20Technologies/Trusted%20Platform%20Module/tpm-ima-logs.md",
+            "context": {
+                "text": "author: pcartee\n",
+                "offset": 220
+            }
+        },
+        {
+            "text": "slections",
+            "offset": 1802,
+            "line": {
+                "text": "Also note that the `pcr_slections` setting in the `config.json` configuration file defines the PCR bank that the attestation client CLI will use. This must match the algorith used for any event logs, so that the attestation client CLI picks the correct PCR bank for use in the event log replay.\n",
+                "offset": 1778
+            },
+            "length": 9,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 28,
+            "col": 25,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Attestation%20Technologies/Trusted%20Platform%20Module/tpm-ima-logs.md",
+            "context": {
+                "text": "Also note that the `pcr_slections` setting in the `config.json` configuration file defines the PCR bank that the attestation client CLI will use. This must match the algorith used for any event logs, so that the attestation client CLI picks the correct PCR bank for use in the event log replay.\n",
+                "offset": 1778
+            }
+        },
+        {
+            "text": "pcartee",
+            "offset": 62,
+            "line": {
+                "text": "author: mkwilbux, pcartee, teknoll\n",
+                "offset": 44
+            },
+            "length": 7,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 4,
+            "col": 19,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Attestation%20Technologies/Trusted%20Platform%20Module/tpm-log.md",
+            "context": {
+                "text": "author: mkwilbux, pcartee, teknoll\n",
+                "offset": 44
+            }
+        },
+        {
+            "text": "algorith",
+            "offset": 1627,
+            "line": {
+                "text": "Also note that the `pcr_slections` setting in the `config.json` configuration file defines the PCR bank that the attestation client CLI will use. This must match the algorith used for any event logs, so that the attestation client CLI picks the correct PCR bank for use in the event log replay.\n",
+                "offset": 1461
+            },
+            "length": 8,
+            "isFlagged": false,
+            "isFound": false,
+            "suggestions": [
+                "algorithm"
+            ],
+            "suggestionsEx": [
+                {
+                    "word": "algorithm",
+                    "isPreferred": true
+                }
+            ],
+            "row": 19,
+            "col": 167,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Attestation%20Technologies/Trusted%20Platform%20Module/tpm-uefi-log.md",
+            "hasPreferredSuggestions": true,
+            "hasSimpleSuggestions": true,
+            "context": {
+                "text": "Also note that the `pcr_slections` setting in the `config.json` configuration file defines the PCR bank that the attestation client CLI will use. This must match the algorith used for any event logs, so that the attestation client CLI picks the correct PCR bank for use in the event log replay.\n",
+                "offset": 1461
+            }
+        },
+        {
+            "text": "septve",
+            "offset": 20615,
+            "line": {
+                "text": "| **tdx_td_attributes_septve_disable** | Incoming | The TD is allowed to use Supervisor Protection Keys.\n",
+                "offset": 20593
+            },
+            "length": 6,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 233,
+            "col": 23,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Concepts/concept-attestation-tokens.md",
+            "context": {
+                "text": "| **tdx_td_attributes_septve_disable** | Incoming | The TD is allowed to use Supervisor Protection Keys.\n",
+                "offset": 20593
+            }
+        },
+        {
+            "text": "sgxcomp",
+            "offset": 21861,
+            "line": {
+                "text": "| **tdx_tcb_comp_svn** | Incoming | The Intel TDX PCE is implemented as an Intel SGX enclave. **tdx_tcb_comp_svn** contains an array of tcb sgxcomp(onent) SVNs encoded in JSON. The list comes from the Provisioning Certification Key (PCK) certificate (PckCerts) \"tcb\" object, which is referenced during remote attestation of the PCE. The list of component SVNs can be useful for troubleshooting unexpected **attester_tcb_status** status values. For more information, see [Get SGX TCB Info V4](https://api.portal.trustedservices.intel.com/content/documentation.html#pcs-tcb-info-v4) in the Intel API Documentation.|\n",
+                "offset": 21721
+            },
+            "length": 7,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 239,
+            "col": 141,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Concepts/concept-attestation-tokens.md",
+            "context": {
+                "text": "| **tdx_tcb_comp_svn** | Incoming | The Intel TDX PCE is implemented as an Intel SGX enclave. **tdx_tcb_comp_svn** contains an array of tcb sgxcomp(onent) SVNs encoded in JSON. The list comes from the Provisioning Certification Key (PCK) certificate (PckCerts) \"tcb\" object, which is referenced during remote attestation of the PCE. The list of component SVNs can be useful for troubleshooting unexpected **attester_tcb_status** status values. For more information, see [Get SGX TCB Info V4](https://api.portal.trustedservices.intel.com/content/documentation.html#pcs-tcb-info-v4) in the Intel API Documentation.|\n",
+                "offset": 21721
+            }
+        },
+        {
+            "text": "onent",
+            "offset": 21869,
+            "line": {
+                "text": "| **tdx_tcb_comp_svn** | Incoming | The Intel TDX PCE is implemented as an Intel SGX enclave. **tdx_tcb_comp_svn** contains an array of tcb sgxcomp(onent) SVNs encoded in JSON. The list comes from the Provisioning Certification Key (PCK) certificate (PckCerts) \"tcb\" object, which is referenced during remote attestation of the PCE. The list of component SVNs can be useful for troubleshooting unexpected **attester_tcb_status** status values. For more information, see [Get SGX TCB Info V4](https://api.portal.trustedservices.intel.com/content/documentation.html#pcs-tcb-info-v4) in the Intel API Documentation.|\n",
+                "offset": 21721
+            },
+            "length": 5,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 239,
+            "col": 149,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Concepts/concept-attestation-tokens.md",
+            "context": {
+                "text": "| **tdx_tcb_comp_svn** | Incoming | The Intel TDX PCE is implemented as an Intel SGX enclave. **tdx_tcb_comp_svn** contains an array of tcb sgxcomp(onent) SVNs encoded in JSON. The list comes from the Provisioning Certification Key (PCK) certificate (PckCerts) \"tcb\" object, which is referenced during remote attestation of the PCE. The list of component SVNs can be useful for troubleshooting unexpected **attester_tcb_status** status values. For more information, see [Get SGX TCB Info V4](https://api.portal.trustedservices.intel.com/content/documentation.html#pcs-tcb-info-v4) in the Intel API Documentation.|\n",
+                "offset": 21721
+            }
+        },
+        {
+            "text": "authorizationrules",
+            "offset": 4074,
+            "line": {
+                "text": "| authorizationrules | Appraisal policy |\n",
+                "offset": 4072
+            },
+            "length": 18,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 68,
+            "col": 3,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Concepts/concept-maa-adapter.md",
+            "context": {
+                "text": "| authorizationrules | Appraisal policy |\n",
+                "offset": 4072
+            }
+        },
+        {
+            "text": "issuancerules",
+            "offset": 4116,
+            "line": {
+                "text": "| issuancerules | Token customization policy |\n",
+                "offset": 4114
+            },
+            "length": 13,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 69,
+            "col": 3,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Concepts/concept-maa-adapter.md",
+            "context": {
+                "text": "| issuancerules | Token customization policy |\n",
+                "offset": 4114
+            }
+        },
+        {
+            "text": "FMSPC",
+            "offset": 1218,
+            "line": {
+                "text": "Intel publishes TCB updates twice a year, in February and August to align with the Intel Platform Update cycles. The current TCB level for any given FMSPC (Family, Model, Stepping, Platform Type, and Customized SKU) is available from Intel® SGX Provisioning Certification Service or Intel® TDX Provisioning Certification Service.\n",
+                "offset": 1069
+            },
+            "length": 5,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 16,
+            "col": 150,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Concepts/concept-platform-tcb.md",
+            "context": {
+                "text": "Intel publishes TCB updates twice a year, in February and August to align with the Intel Platform Update cycles. The current TCB level for any given FMSPC (Family, Model, Stepping, Platform Type, and Customized SKU) is available from Intel® SGX Provisioning Certification Service or Intel® TDX Provisioning Certification Service.\n",
+                "offset": 1069
+            }
+        },
+        {
+            "text": "gminch",
+            "offset": 116,
+            "line": {
+                "text": "author: gminch, mkwilbux\n",
+                "offset": 108
+            },
+            "length": 6,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 4,
+            "col": 9,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Concepts/concept-policies.md",
+            "context": {
+                "text": "author: gminch, mkwilbux\n",
+                "offset": 108
+            }
+        },
+        {
+            "text": "kwtj",
+            "offset": 91,
+            "line": {
+                "text": "author: kwtj43, grminch\n",
+                "offset": 83
+            },
+            "length": 4,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 4,
+            "col": 9,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Concepts/concept-td-integrity.md",
+            "context": {
+                "text": "author: kwtj43, grminch\n",
+                "offset": 83
+            }
+        },
+        {
+            "text": "cryptoprocessor",
+            "offset": 13023,
+            "line": {
+                "text": "A _Trusted Platform Module (TPM)_ is a secure cryptoprocessor that provides cryptographic generation and storage functions. A TPM is often a separate chip, but it can be integrated as an independent device in a processor or a virtual hardware emulator (vTPM).  For more information, see the [TPM Library Specification](https://trustedcomputinggroup.org/resource/tpm-library-specification/).\n",
+                "offset": 12977
+            },
+            "length": 15,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 157,
+            "col": 47,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/glossary.md",
+            "context": {
+                "text": "A _Trusted Platform Module (TPM)_ is a secure cryptoprocessor that provides cryptographic generation and storage functions. A TPM is often a separate chip, but it can be integrated as an independent device in a processor or a virtual hardware emulator (vTPM).  For more information, see the [TPM Library Specification](https://trustedcomputinggroup.org/resource/tpm-library-specification/).\n",
+                "offset": 12977
+            }
+        },
+        {
+            "text": "Auctorem",
+            "offset": 98,
+            "line": {
+                "text": "author: Auctorem Incogitatus, mkwilbux\n",
+                "offset": 90
+            },
+            "length": 8,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 4,
+            "col": 9,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/How-to%20workflows/howto-author-custom-policy.md",
+            "context": {
+                "text": "author: Auctorem Incogitatus, mkwilbux\n",
+                "offset": 90
+            }
+        },
+        {
+            "text": "Incogitatus",
+            "offset": 107,
+            "line": {
+                "text": "author: Auctorem Incogitatus, mkwilbux\n",
+                "offset": 90
+            },
+            "length": 11,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 4,
+            "col": 18,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/How-to%20workflows/howto-author-custom-policy.md",
+            "context": {
+                "text": "author: Auctorem Incogitatus, mkwilbux\n",
+                "offset": 90
+            }
+        },
+        {
+            "text": "apiclient",
+            "offset": 5513,
+            "line": {
+                "text": "`trustauthorityctl list apiClient tag -r < serviceId > -c < apiclientId >`\n",
+                "offset": 5453
+            },
+            "length": 9,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 238,
+            "col": 61,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/How-to%20workflows/howto-manage-tags.md",
+            "context": {
+                "text": "`trustauthorityctl list apiClient tag -r < serviceId > -c < apiclientId >`\n",
+                "offset": 5453
+            }
+        },
+        {
+            "text": "diplay",
+            "offset": 2697,
+            "line": {
+                "text": "Results diplay with the following fields:\n",
+                "offset": 2689
+            },
+            "length": 6,
+            "isFlagged": false,
+            "isFound": false,
+            "suggestions": [
+                "display"
+            ],
+            "suggestionsEx": [
+                {
+                    "word": "display",
+                    "isPreferred": true
+                }
+            ],
+            "row": 55,
+            "col": 9,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/How-to%20workflows/howto-reports-metrics.md",
+            "hasPreferredSuggestions": true,
+            "hasSimpleSuggestions": true,
+            "context": {
+                "text": "Results diplay with the following fields:\n",
+                "offset": 2689
+            }
+        },
+        {
+            "text": "vgpu",
+            "offset": 21504,
+            "line": {
+                "text": "### `vgpu_adapter_free()`\n",
+                "offset": 21499
+            },
+            "length": 4,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 657,
+            "col": 6,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Integration/integrate-c-client.md",
+            "context": {
+                "text": "### `vgpu_adapter_free()`\n",
+                "offset": 21499
+            }
+        },
+        {
+            "text": "pcartee",
+            "offset": 141,
+            "line": {
+                "text": "author: grminch, pcartee\n",
+                "offset": 124
+            },
+            "length": 7,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 4,
+            "col": 18,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Integration/integrate-go-client.md",
+            "context": {
+                "text": "author: grminch, pcartee\n",
+                "offset": 124
+            }
+        },
+        {
+            "text": "trusthauthority",
+            "offset": 21328,
+            "line": {
+                "text": "- A new API endpoint is available to support Azure TDX attestation: `api.trusthauthority.com/appraisal/v1/attest/tdxvm` This API accepts a user_data parameter in the request: \n",
+                "offset": 21255
+            },
+            "length": 15,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 450,
+            "col": 74,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Integration/integrate-go-client.md",
+            "context": {
+                "text": "- A new API endpoint is available to support Azure TDX attestation: `api.trusthauthority.com/appraisal/v1/attest/tdxvm` This API accepts a user_data parameter in the request: \n",
+                "offset": 21255
+            }
+        },
+        {
+            "text": "omitempty",
+            "offset": 28804,
+            "line": {
+                "text": "    VerifierNonce *connector.VerifierNonce `json:\"verifier_nonce, omitempty\"`\n",
+                "offset": 28738
+            },
+            "length": 9,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 697,
+            "col": 67,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Integration/integrate-go-client.md",
+            "context": {
+                "text": "    VerifierNonce *connector.VerifierNonce `json:\"verifier_nonce, omitempty\"`\n",
+                "offset": 28738
+            }
+        },
+        {
+            "text": "aztdx",
+            "offset": 1786,
+            "line": {
+                "text": "* Azure confidential VMs with Intel TDX (go-aztdx). Azure CVM vTPM (go-tpm) is supported for composite attestation. \n",
+                "offset": 1742
+            },
+            "length": 5,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 23,
+            "col": 45,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Integration/integrate-go-tdx-cli.md",
+            "context": {
+                "text": "* Azure confidential VMs with Intel TDX (go-aztdx). Azure CVM vTPM (go-tpm) is supported for composite attestation. \n",
+                "offset": 1742
+            }
+        },
+        {
+            "text": "inteltrustauthorityclient",
+            "offset": 3254,
+            "line": {
+                "text": "**RetryConfig** is optional. If you don't set RetryConfig, the default values defined in `inteltrustauthorityclient/resources/constants.py` are used. \n",
+                "offset": 3164
+            },
+            "length": 25,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 63,
+            "col": 91,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Integration/integrate-python-client.md",
+            "context": {
+                "text": "**RetryConfig** is optional. If you don't set RetryConfig, the default values defined in `inteltrustauthorityclient/resources/constants.py` are used. \n",
+                "offset": 3164
+            }
+        },
+        {
+            "text": "attestationp",
+            "offset": 768,
+            "line": {
+                "text": "The SGX attestation type is shown only as an example. Other attestation types, such as TDX, exist, and others are being developed. The term \"attributes\" is another way to describe claims. Attributes correspond to claims in the [attestation token](../Concepts/concept-attestation-tokens.md) issued by Trust Authority. \"policy_ids\" in the KBS policy is the same as \"matched_policy_ids\" in the attestationp token.\n",
+                "offset": 377
+            },
+            "length": 12,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 15,
+            "col": 392,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Key-broker/key-broker-service-key-creation.md",
+            "context": {
+                "text": "The SGX attestation type is shown only as an example. Other attestation types, such as TDX, exist, and others are being developed. The term \"attributes\" is another way to describe claims. Attributes correspond to claims in the [attestation token](../Concepts/concept-attestation-tokens.md) issued by Trust Authority. \"policy_ids\" in the KBS policy is the same as \"matched_policy_ids\" in the attestationp token.\n",
+                "offset": 377
+            }
+        },
+        {
+            "text": "mrsignerseam",
+            "offset": 1643,
+            "line": {
+                "text": "|mrsignerseam   |Hash of the key used to sign the TDX SEAM Module                     |\n",
+                "offset": 1642
+            },
+            "length": 12,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 33,
+            "col": 2,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Key-broker/key-broker-service-key-creation.md",
+            "context": {
+                "text": "|mrsignerseam   |Hash of the key used to sign the TDX SEAM Module                     |\n",
+                "offset": 1642
+            }
+        },
+        {
+            "text": "seamsvn",
+            "offset": 2171,
+            "line": {
+                "text": "|seamsvn        |The Security Version Number of the TDX SEAM Module                   |\n",
+                "offset": 2170
+            },
+            "length": 7,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 39,
+            "col": 2,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Key-broker/key-broker-service-key-creation.md",
+            "context": {
+                "text": "|seamsvn        |The Security Version Number of the TDX SEAM Module                   |\n",
+                "offset": 2170
+            }
+        },
+        {
+            "text": "upto",
+            "offset": 2352,
+            "line": {
+                "text": "## enforce_upto_date directive\n",
+                "offset": 2341
+            },
+            "length": 4,
+            "isFlagged": false,
+            "isFound": false,
+            "suggestions": [
+                "up to"
+            ],
+            "suggestionsEx": [
+                {
+                    "word": "up to",
+                    "isPreferred": true
+                }
+            ],
+            "row": 42,
+            "col": 12,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Key-broker/key-broker-service-key-creation.md",
+            "hasPreferredSuggestions": true,
+            "hasSimpleSuggestions": true,
+            "context": {
+                "text": "## enforce_upto_date directive\n",
+                "offset": 2341
+            }
+        },
+        {
+            "text": "upto",
+            "offset": 2391,
+            "line": {
+                "text": "The **enforce_tcb_upto_date** directive is a Boolean flag to check if the TCB status is up-to-date or not. If it is set to **true**, the KBS policy expects the **tcb_status** claim in the token to be up-to-date else the KBS policy verification fails, thus denying the key release. If it is set to **false**, any TCB status value will work for key release, and the KBS won’t check for up-to-date TCB status.\n",
+                "offset": 2373
+            },
+            "length": 4,
+            "isFlagged": false,
+            "isFound": false,
+            "suggestions": [
+                "up to"
+            ],
+            "suggestionsEx": [
+                {
+                    "word": "up to",
+                    "isPreferred": true
+                }
+            ],
+            "row": 44,
+            "col": 19,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Key-broker/key-broker-service-key-creation.md",
+            "hasPreferredSuggestions": true,
+            "hasSimpleSuggestions": true,
+            "context": {
+                "text": "The **enforce_tcb_upto_date** directive is a Boolean flag to check if the TCB status is up-to-date or not. If it is set to **true**, the KBS policy expects the **tcb_status** claim in the token to be up-to-date else the KBS policy verification fails, thus denying the key release. If it is set to **false**, any TCB status value will work for key release, and the KBS won’t check for up-to-date TCB status.\n",
+                "offset": 2373
+            }
+        },
+        {
+            "text": "upto",
+            "offset": 2900,
+            "line": {
+                "text": "If you are using the [platform TCB policy](../Concepts/concept-platform-tcb.md) features, you should set **enforce_tcb_upto_date** to **false** and include the appraisal policy ID for your platform TCB policy in the list of **matched_ids** in your KBS policy. Doing this ensures that the Trust Authority appraisal policy controls TCB behavior instead of the KBS key release policy.\n",
+                "offset": 2781
+            },
+            "length": 4,
+            "isFlagged": false,
+            "isFound": false,
+            "suggestions": [
+                "up to"
+            ],
+            "suggestionsEx": [
+                {
+                    "word": "up to",
+                    "isPreferred": true
+                }
+            ],
+            "row": 46,
+            "col": 120,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Key-broker/key-broker-service-key-creation.md",
+            "hasPreferredSuggestions": true,
+            "hasSimpleSuggestions": true,
+            "context": {
+                "text": "If you are using the [platform TCB policy](../Concepts/concept-platform-tcb.md) features, you should set **enforce_tcb_upto_date** to **false** and include the appraisal policy ID for your platform TCB policy in the list of **matched_ids** in your KBS policy. Doing this ensures that the Trust Authority appraisal policy controls TCB behavior instead of the KBS key release policy.\n",
+                "offset": 2781
+            }
+        },
+        {
+            "text": "backgroung",
+            "offset": 2837,
+            "line": {
+                "text": "<TabItem value=\"backgroung-verification-mode\" label=\"Background verification mode\">\n",
+                "offset": 2821
+            },
+            "length": 10,
+            "isFlagged": false,
+            "isFound": false,
+            "suggestions": [
+                "background"
+            ],
+            "suggestionsEx": [
+                {
+                    "word": "background",
+                    "isPreferred": true
+                }
+            ],
+            "row": 40,
+            "col": 17,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Key-broker/key-broker-service.md",
+            "hasPreferredSuggestions": true,
+            "hasSimpleSuggestions": true,
+            "context": {
+                "text": "<TabItem value=\"backgroung-verification-mode\" label=\"Background verification mode\">\n",
+                "offset": 2821
+            }
+        },
+        {
+            "text": "GCMN",
+            "offset": 5149,
+            "line": {
+                "text": "- KBS retrieves the key from the KMS and wraps it using the AES-GCMN wrapping algorithm creating a symmetric key. This is used to encrypt the user key (wrapped key).\n",
+                "offset": 5085
+            },
+            "length": 4,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 65,
+            "col": 65,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Key-broker/key-broker-service.md",
+            "context": {
+                "text": "- KBS retrieves the key from the KMS and wraps it using the AES-GCMN wrapping algorithm creating a symmetric key. This is used to encrypt the user key (wrapped key).\n",
+                "offset": 5085
+            }
+        },
+        {
+            "text": "OAEP",
+            "offset": 5296,
+            "line": {
+                "text": "- The symmetric key is wrapped using the RSA-OAEP algorithm using the public key provided in the Trust Authority attestation token from the **attester_held_data** claim. The asymmetric key pair is usually created by the workload and sent to Trust Authority along with the quote when the attestation token is retrieved.\n",
+                "offset": 5251
+            },
+            "length": 4,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 66,
+            "col": 46,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Key-broker/key-broker-service.md",
+            "context": {
+                "text": "- The symmetric key is wrapped using the RSA-OAEP algorithm using the public key provided in the Trust Authority attestation token from the **attester_held_data** claim. The asymmetric key pair is usually created by the workload and sent to Trust Authority along with the quote when the attestation token is retrieved.\n",
+                "offset": 5251
+            }
+        },
+        {
+            "text": "Servcie",
+            "offset": 84,
+            "line": {
+                "text": "description: Servcie Management external API definition\n",
+                "offset": 71
+            },
+            "length": 7,
+            "isFlagged": false,
+            "isFound": false,
+            "suggestions": [
+                "service"
+            ],
+            "suggestionsEx": [
+                {
+                    "word": "service",
+                    "wordAdjustedToMatchCase": "Service",
+                    "isPreferred": true
+                }
+            ],
+            "row": 3,
+            "col": 14,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Restapi/restapi-service-management.md",
+            "hasPreferredSuggestions": true,
+            "hasSimpleSuggestions": true,
+            "context": {
+                "text": "description: Servcie Management external API definition\n",
+                "offset": 71
+            }
+        },
+        {
+            "text": "pcartee",
+            "offset": 163,
+            "line": {
+                "text": "author: pcartee\n",
+                "offset": 155
+            },
+            "length": 7,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 4,
+            "col": 9,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Tutorials%20and%20examples/Intel%20Trust%20Authority%20Client%20examples/tutorial-amd-azure-vm.md",
+            "context": {
+                "text": "author: pcartee\n",
+                "offset": 155
+            }
+        },
+        {
+            "text": "approriate",
+            "offset": 3845,
+            "line": {
+                "text": "        <br />b. Enter an approriate size for your image in the search field at the top of the page and press **Enter**. \n",
+                "offset": 3819
+            },
+            "length": 10,
+            "isFlagged": false,
+            "isFound": false,
+            "suggestions": [
+                "appropriate"
+            ],
+            "suggestionsEx": [
+                {
+                    "word": "appropriate",
+                    "isPreferred": true
+                }
+            ],
+            "row": 65,
+            "col": 27,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Tutorials%20and%20examples/Intel%20Trust%20Authority%20Client%20examples/tutorial-amd-azure-vm.md",
+            "hasPreferredSuggestions": true,
+            "hasSimpleSuggestions": true,
+            "context": {
+                "text": "        <br />b. Enter an approriate size for your image in the search field at the top of the page and press **Enter**. \n",
+                "offset": 3819
+            }
+        },
+        {
+            "text": "Depoloyment",
+            "offset": 5917,
+            "line": {
+                "text": "![[Depoloyment complete page.](/img/tutorial-amd-azure/deployment-complete-amd.png)\n",
+                "offset": 5914
+            },
+            "length": 11,
+            "isFlagged": false,
+            "isFound": false,
+            "suggestions": [
+                "deployment"
+            ],
+            "suggestionsEx": [
+                {
+                    "word": "deployment",
+                    "wordAdjustedToMatchCase": "Deployment",
+                    "isPreferred": true
+                }
+            ],
+            "row": 114,
+            "col": 4,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Tutorials%20and%20examples/Intel%20Trust%20Authority%20Client%20examples/tutorial-amd-azure-vm.md",
+            "hasPreferredSuggestions": true,
+            "hasSimpleSuggestions": true,
+            "context": {
+                "text": "![[Depoloyment complete page.](/img/tutorial-amd-azure/deployment-complete-amd.png)\n",
+                "offset": 5914
+            }
+        },
+        {
+            "text": "imagename",
+            "offset": 4293,
+            "line": {
+                "text": "    In the example below, the `${repo}` variable represents the path to the image, including the registry URL (for example, `container-registry-sample.com/sample-imagename`). The `${tag}` variable represents the image tag.\n",
+                "offset": 4131
+            },
+            "length": 9,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 58,
+            "col": 163,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Tutorials%20and%20examples/tutorial-cicd.md",
+            "context": {
+                "text": "    In the example below, the `${repo}` variable represents the path to the image, including the registry URL (for example, `container-registry-sample.com/sample-imagename`). The `${tag}` variable represents the image tag.\n",
+                "offset": 4131
+            }
+        },
+        {
+            "text": "qcnl",
+            "offset": 3800,
+            "line": {
+                "text": "After installation, edit `/etc/sgx_default_qcnl.conf` as follows to point Intel SGX DCAP to use PCCS at `https://api.trustedservices.intel.com/sgx/certification/v3/`.\n",
+                "offset": 3757
+            },
+            "length": 4,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 55,
+            "col": 44,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Utilites/utility-faithful-verifier.md",
+            "context": {
+                "text": "After installation, edit `/etc/sgx_default_qcnl.conf` as follows to point Intel SGX DCAP to use PCCS at `https://api.trustedservices.intel.com/sgx/certification/v3/`.\n",
+                "offset": 3757
+            }
+        },
+        {
+            "text": "jsontorego",
+            "offset": 3474,
+            "line": {
+                "text": "- `jsontorego` - jsontorego -i [input file] converts the JSON file to Rego\n",
+                "offset": 3457
+            },
+            "length": 10,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 37,
+            "col": 18,
+            "uri": "file:///Users/pcartee/github/writing-samples/docs/ita/Utilites/utility-policy-builder.md",
+            "context": {
+                "text": "- `jsontorego` - jsontorego -i [input file] converts the JSON file to Rego\n",
+                "offset": 3457
+            }
+        }
+    ],
+    "info": [],
+    "debug": [],
+    "error": [],
+    "progress": [],
+    "result": {
+        "files": 91,
+        "filesWithIssues": [
+            "docs/ita/Attestation Technologies/GPU confidential computing/concept-gpu-attestation.md",
+            "docs/ita/Attestation Technologies/Trusted execution environments/integrate-tdx-adapter-api.md",
+            "docs/ita/Attestation Technologies/Trusted execution environments/tee-sev-snp.md",
+            "docs/ita/Attestation Technologies/Trusted execution environments/tee-sgx.md",
+            "docs/ita/Attestation Technologies/Trusted execution environments/tee-tdx.md",
+            "docs/ita/Attestation Technologies/Trusted Platform Module/tpm-ak-provision.md",
+            "docs/ita/Attestation Technologies/Trusted Platform Module/tpm-ima-logs.md",
+            "docs/ita/Attestation Technologies/Trusted Platform Module/tpm-log.md",
+            "docs/ita/Attestation Technologies/Trusted Platform Module/tpm-uefi-log.md",
+            "docs/ita/Concepts/concept-attestation-tokens.md",
+            "docs/ita/Concepts/concept-maa-adapter.md",
+            "docs/ita/Concepts/concept-platform-tcb.md",
+            "docs/ita/Concepts/concept-policies.md",
+            "docs/ita/Concepts/concept-td-integrity.md",
+            "docs/ita/glossary.md",
+            "docs/ita/How-to workflows/howto-author-custom-policy.md",
+            "docs/ita/How-to workflows/howto-manage-tags.md",
+            "docs/ita/How-to workflows/howto-reports-metrics.md",
+            "docs/ita/Integration/integrate-c-client.md",
+            "docs/ita/Integration/integrate-go-client.md",
+            "docs/ita/Integration/integrate-go-tdx-cli.md",
+            "docs/ita/Integration/integrate-python-client.md",
+            "docs/ita/Key-broker/key-broker-service-key-creation.md",
+            "docs/ita/Key-broker/key-broker-service.md",
+            "docs/ita/Restapi/restapi-service-management.md",
+            "docs/ita/Tutorials and examples/Intel Trust Authority Client examples/tutorial-amd-azure-vm.md",
+            "docs/ita/Tutorials and examples/tutorial-cicd.md",
+            "docs/ita/Utilites/utility-faithful-verifier.md",
+            "docs/ita/Utilites/utility-policy-builder.md"
+        ],
+        "issues": 47,
+        "errors": 0,
+        "cachedFiles": 0,
+        "skippedFiles": 0
+    }
+}
