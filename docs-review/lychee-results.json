@@ -1,0 +1,1625 @@
+{
+  "total": 583,
+  "unique": 322,
+  "successful": 459,
+  "unknown": 0,
+  "unsupported": 7,
+  "timeouts": 1,
+  "redirects": 20,
+  "remaps": 0,
+  "excludes": 12,
+  "errors": 104,
+  "cached": 23,
+  "success_map": {},
+  "error_map": {
+    "docs/ita/Attestation Technologies/Trusted execution environments/tee-sgx.md": [
+      {
+        "url": "https://www.company..com/content/www/us/en/developer/tools/software-guard-extensions/overview.html",
+        "status": {
+          "text": "Network error: Connection failed. Check network connectivity and firewall settings (error sending request for url (https://www.company..com/content/www/us/en/developer/tools/software-guard-extensions/overview.html))",
+          "details": "Connection failed. Check network connectivity and firewall settings"
+        },
+        "span": {
+          "line": 17,
+          "column": 37
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 35291
+        }
+      },
+      {
+        "url": "https://www.company.com/content/www/us/en/developer/articles/technical/quote-verification-attestation-with-sgx-dcap.html",
+        "status": {
+          "text": "Rejected status code: 404 Not Found",
+          "code": 404
+        },
+        "span": {
+          "line": 46,
+          "column": 31
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 964655500
+        }
+      },
+      {
+        "url": "https://api.portal.trustedservices.company.com/provisioning-certification",
+        "status": {
+          "text": "Network error: Connection failed. Check network connectivity and firewall settings (error sending request for url (https://api.portal.trustedservices.company.com/provisioning-certification))",
+          "details": "Connection failed. Check network connectivity and firewall settings"
+        },
+        "span": {
+          "line": 52,
+          "column": 83
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 465321250
+        }
+      },
+      {
+        "url": "https://www.company.com/content/www/us/en/support/articles/000057420/software/company-security-products.html",
+        "status": {
+          "text": "Rejected status code: 404 Not Found",
+          "code": 404
+        },
+        "span": {
+          "line": 31,
+          "column": 554
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 969357292
+        }
+      }
+    ],
+    "docs/ita/Attestation Technologies/Trusted execution environments/tee-tdx.md": [
+      {
+        "url": "https://cc-enabling.trustedservices.company.com/company-tdx-enabling-guide/02/infrastructure_setup/",
+        "status": {
+          "text": "Network error: Connection failed. Check network connectivity and firewall settings (error sending request for url (https://cc-enabling.trustedservices.company.com/company-tdx-enabling-guide/02/infrastructure_setup/))",
+          "details": "Connection failed. Check network connectivity and firewall settings"
+        },
+        "span": {
+          "line": 36,
+          "column": 30
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 75831292
+        }
+      },
+      {
+        "url": "https://www.company.com/content/www/us/en/developer/articles/technical/company-trust-domain-extensions.html",
+        "status": {
+          "text": "Rejected status code: 404 Not Found",
+          "code": 404
+        },
+        "span": {
+          "line": 38,
+          "column": 12
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 191527292
+        }
+      },
+      {
+        "url": "https://github.com/company/trustauthority-td-integrity",
+        "status": {
+          "text": "Rejected status code: 404 Not Found",
+          "code": 404
+        },
+        "span": {
+          "line": 35,
+          "column": 13
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 181754792
+        }
+      }
+    ],
+    "docs/ita/Utilites/utility-faithful-verifier.md": [
+      {
+        "url": "https://www.intel.com/content/www/us/en/security-center/technical-details/sgx-attestation-technical-details.html",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden",
+          "code": 403
+        },
+        "span": {
+          "line": 240,
+          "column": 473
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 29449667
+        }
+      }
+    ],
+    "docs/ita/Integration/integrate-gramine.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/integrations/gramine-integration.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/integrations/gramine-integration.png'",
+          "details": "Cannot resolve root-relative link '/img/integrations/gramine-integration.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 23,
+          "column": 1
+        }
+      },
+      {
+        "url": "https://gramine.readthedocs.io/en/stable/cloud-deployment.html",
+        "status": {
+          "text": "Rejected status code: 404 Not Found",
+          "code": 404
+        },
+        "span": {
+          "line": 52,
+          "column": 177
+        },
+        "duration": {
+          "secs": 1,
+          "nanos": 25880209
+        }
+      },
+      {
+        "url": "https://projectamber.intel.com/",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden",
+          "code": 403
+        },
+        "redirects": {
+          "origin": "https://projectamber.intel.com/",
+          "redirects": [
+            {
+              "url": "https://corpredirect.intel.com/Redirector/404Redirector.aspx?404;https://projectamber.intel.com/",
+              "code": 301
+            }
+          ]
+        },
+        "span": {
+          "line": 46,
+          "column": 247
+        },
+        "duration": {
+          "secs": 1,
+          "nanos": 490949084
+        }
+      },
+      {
+        "url": "https://gramine.readthedocs.io/en/stable/container-integration.html",
+        "status": {
+          "text": "Rejected status code: 404 Not Found",
+          "code": 404
+        },
+        "span": {
+          "line": 110,
+          "column": 31
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 889217500
+        }
+      }
+    ],
+    "docs/ita/Quickstart/tutorial-api-key.md": [
+      {
+        "url": "https://github.com/trustauthority-client-for-go/tree/main",
+        "status": {
+          "text": "Rejected status code: 404 Not Found",
+          "code": 404
+        },
+        "span": {
+          "line": 193,
+          "column": 9
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 141671000
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/common-graphics/view-icon.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/common-graphics/view-icon.png'",
+          "details": "Cannot resolve root-relative link '/img/common-graphics/view-icon.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 50,
+          "column": 20
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/common-graphics/copy-icon.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/common-graphics/copy-icon.png'",
+          "details": "Cannot resolve root-relative link '/img/common-graphics/copy-icon.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 54,
+          "column": 20
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/howto-manage-api-keys/add-api-key.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/howto-manage-api-keys/add-api-key.png'",
+          "details": "Cannot resolve root-relative link '/img/howto-manage-api-keys/add-api-key.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 89,
+          "column": 6
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/howto-manage-admin-api-keys/admin-api-keys.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/howto-manage-admin-api-keys/admin-api-keys.png'",
+          "details": "Cannot resolve root-relative link '/img/howto-manage-admin-api-keys/admin-api-keys.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 40,
+          "column": 5
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/cli/manage-services-page.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/cli/manage-services-page.png'",
+          "details": "Cannot resolve root-relative link '/img/cli/manage-services-page.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 83,
+          "column": 5
+        }
+      }
+    ],
+    "docs/ita/Command-line/cli-install.md": [
+      {
+        "url": "https://github.com/company/trustauthority-cli",
+        "status": {
+          "text": "Rejected status code: 404 Not Found",
+          "code": 404
+        },
+        "span": {
+          "line": 13,
+          "column": 254
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 222601625
+        }
+      }
+    ],
+    "docs/ita/Concepts/concept-platform-tcb.md": [
+      {
+        "url": "https://www.intel.com/content/www/us/en/developer/articles/technical/software-security-guidance/resources/q1-2024-intel-tcb-recovery-guidance.html",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden",
+          "code": 403
+        },
+        "span": {
+          "line": 18,
+          "column": 232
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 104125458
+        }
+      },
+      {
+        "url": "https://www.intel.com/content/www/us/en/security-center/default.html",
+        "status": {
+          "text": "Error (cached)",
+          "code": 403
+        },
+        "span": {
+          "line": 46,
+          "column": 166
+        }
+      }
+    ],
+    "docs/intro.mdx": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/ita/Quickstart/tutorial-api-key\" (Attribute: Some(\"href\")): Cannot resolve root-relative link '/ita/Quickstart/tutorial-api-key'",
+          "details": "Cannot resolve root-relative link '/ita/Quickstart/tutorial-api-key': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 80,
+          "column": 1
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/ita/Quickstart/howto-manage-subscriptions\" (Attribute: Some(\"href\")): Cannot resolve root-relative link '/ita/Quickstart/howto-manage-subscriptions'",
+          "details": "Cannot resolve root-relative link '/ita/Quickstart/howto-manage-subscriptions': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 79,
+          "column": 1
+        }
+      }
+    ],
+    "docs/ita/Attestation Technologies/concept-tees-overview.md": [
+      {
+        "url": "https://www.company.com/content/www/us/en/developer/articles/technical/trust-domain-extensions.html",
+        "status": {
+          "text": "Rejected status code: 404 Not Found",
+          "code": 404
+        },
+        "span": {
+          "line": 37,
+          "column": 3
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 237473833
+        }
+      },
+      {
+        "url": "https://www.company.com/content/www/us/en/developer/tools/software-guard-extensions/overview.html",
+        "status": {
+          "text": "Rejected status code: 404 Not Found",
+          "code": 404
+        },
+        "span": {
+          "line": 36,
+          "column": 3
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 237832083
+        }
+      }
+    ],
+    "docs/ita/Attestation Technologies/Trusted execution environments/tee-sev-snp.md": [
+      {
+        "url": "https://github.com/AMDESE/AMDSEV/blob/snp-latest/stable-commits",
+        "status": {
+          "text": "Rejected status code: 404 Not Found",
+          "code": 404
+        },
+        "span": {
+          "line": 26,
+          "column": 5
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 592731333
+        }
+      }
+    ],
+    "docs/include-shared/analytics/_fleet-insights.md": [
+      {
+        "url": "file:///Users/pcartee/github/writing-samples/docs/include-shared/analytics/tsc-transfer-devices.md#download-device-information-files",
+        "status": {
+          "text": "File not found. Check if file exists and path is correct",
+          "details": "File not found. Check if file exists and path is correct"
+        },
+        "span": {
+          "line": 10,
+          "column": 111
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 212417
+        }
+      }
+    ],
+    "docs/ita/Tutorials and examples/Intel Trust Authority Client examples/tutorial-azure-vtpm.md": [
+      {
+        "url": "https://api.eu.pilot.trustauthority.intel.com/",
+        "status": {
+          "text": "Network error: Connection failed. Check network connectivity and firewall settings (error sending request for url (https://api.eu.pilot.trustauthority.intel.com/))",
+          "details": "Connection failed. Check network connectivity and firewall settings"
+        },
+        "span": {
+          "line": 159,
+          "column": 11
+        },
+        "duration": {
+          "secs": 1,
+          "nanos": 135621875
+        }
+      },
+      {
+        "url": "https://portal.eu.pilot.trustauthority.intel.com/",
+        "status": {
+          "text": "Network error: Connection failed. Check network connectivity and firewall settings (error sending request for url (https://portal.eu.pilot.trustauthority.intel.com/))",
+          "details": "Connection failed. Check network connectivity and firewall settings"
+        },
+        "span": {
+          "line": 158,
+          "column": 108
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 106968000
+        }
+      }
+    ],
+    "docs/ita/Tutorials and examples/Intel Trust Authority Client examples/tutorial-tdx.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/tutorial-sgx-azure/tdx-tutorial-vm-creation-2.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/tutorial-sgx-azure/tdx-tutorial-vm-creation-2.png'",
+          "details": "Cannot resolve root-relative link '/img/tutorial-sgx-azure/tdx-tutorial-vm-creation-2.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 52,
+          "column": 5
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/tutorial-sgx-azure/sgx-tutorial-deploy-bastion.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/tutorial-sgx-azure/sgx-tutorial-deploy-bastion.png'",
+          "details": "Cannot resolve root-relative link '/img/tutorial-sgx-azure/sgx-tutorial-deploy-bastion.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 66,
+          "column": 1
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/tutorial-sgx-azure/tdx-application-stack.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/tutorial-sgx-azure/tdx-application-stack.png'",
+          "details": "Cannot resolve root-relative link '/img/tutorial-sgx-azure/tdx-application-stack.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 112,
+          "column": 1
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/tutorial-sgx-azure/tdx-tutorial-vm-creation.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/tutorial-sgx-azure/tdx-tutorial-vm-creation.png'",
+          "details": "Cannot resolve root-relative link '/img/tutorial-sgx-azure/tdx-tutorial-vm-creation.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 34,
+          "column": 5
+        }
+      }
+    ],
+    "docs/ita/glossary.md": [
+      {
+        "url": "https://download.01.org/intel-sgx/dcap-1.0.1/docs/Intel_SGX_DCAP_ECDSA_Orientation.pdf",
+        "status": {
+          "text": "Rejected status code: 404 Not Found",
+          "code": 404
+        },
+        "span": {
+          "line": 68,
+          "column": 191
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 523800042
+        }
+      }
+    ],
+    "docs/ita/Attestation Technologies/GPU confidential computing/concept-gpu-attestation.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/gpu-attestation/gpu_attestation_arch.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/gpu-attestation/gpu_attestation_arch.png'",
+          "details": "Cannot resolve root-relative link '/img/gpu-attestation/gpu_attestation_arch.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 35,
+          "column": 1
+        }
+      }
+    ],
+    "docs/ita/Integration/integrate-c-client.md": [
+      {
+        "url": "https://github.com/intel/trustauthority-client-for-c/include/types.h",
+        "status": {
+          "text": "Rejected status code: 404 Not Found",
+          "code": 404
+        },
+        "span": {
+          "line": 23,
+          "column": 91
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 523289541
+        }
+      }
+    ],
+    "docs/ita/Integration/integrate-overview.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/integrations/integration-arch.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/integrations/integration-arch.png'",
+          "details": "Cannot resolve root-relative link '/img/integrations/integration-arch.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 52,
+          "column": 1
+        }
+      }
+    ],
+    "docs/ita/Include/_install-dcap.md": [
+      {
+        "url": "https://www.intel.com/content/www/us/en/developer/articles/guide/intel-software-guard-extensions-data-center-attestation-primitives-quick-install-guide.html",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden",
+          "code": 403
+        },
+        "span": {
+          "line": 5,
+          "column": 1
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 99858500
+        }
+      }
+    ],
+    "docs/ita/Integration/integrate-relying-party.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/integrations/replying-party-background.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/integrations/replying-party-background.png'",
+          "details": "Cannot resolve root-relative link '/img/integrations/replying-party-background.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 108,
+          "column": 1
+        }
+      }
+    ],
+    "docs/ita/Command-line/cli-examples.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/howto-manage-admin-api-keys/admin-api-keys.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/howto-manage-admin-api-keys/admin-api-keys.png'",
+          "details": "Cannot resolve root-relative link '/img/howto-manage-admin-api-keys/admin-api-keys.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 69,
+          "column": 5
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/common-graphics/copy-icon.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/common-graphics/copy-icon.png'",
+          "details": "Cannot resolve root-relative link '/img/common-graphics/copy-icon.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 75,
+          "column": 20
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/cli/copy-api-key.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/cli/copy-api-key.png'",
+          "details": "Cannot resolve root-relative link '/img/cli/copy-api-key.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 59,
+          "column": 20
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/cli/api-reveal.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/cli/api-reveal.png'",
+          "details": "Cannot resolve root-relative link '/img/cli/api-reveal.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 57,
+          "column": 20
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/common-graphics/view-icon.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/common-graphics/view-icon.png'",
+          "details": "Cannot resolve root-relative link '/img/common-graphics/view-icon.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 71,
+          "column": 20
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/cli/manage-services-page.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/cli/manage-services-page.png'",
+          "details": "Cannot resolve root-relative link '/img/cli/manage-services-page.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 47,
+          "column": 5
+        }
+      }
+    ],
+    "docs/ita/Concepts/concept-td-integrity.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/concept-td-integrity/gcp-cvm-tdi.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/concept-td-integrity/gcp-cvm-tdi.png'",
+          "details": "Cannot resolve root-relative link '/img/concept-td-integrity/gcp-cvm-tdi.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 60,
+          "column": 1
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/concept-td-integrity/cloud-tdx-cvm-attestation.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/concept-td-integrity/cloud-tdx-cvm-attestation.png'",
+          "details": "Cannot resolve root-relative link '/img/concept-td-integrity/cloud-tdx-cvm-attestation.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 30,
+          "column": 1
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/concept-td-integrity/api-key-details.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/concept-td-integrity/api-key-details.png'",
+          "details": "Cannot resolve root-relative link '/img/concept-td-integrity/api-key-details.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 80,
+          "column": 7
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/concept-td-integrity/azure-cvm-tdi.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/concept-td-integrity/azure-cvm-tdi.png'",
+          "details": "Cannot resolve root-relative link '/img/concept-td-integrity/azure-cvm-tdi.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 48,
+          "column": 1
+        }
+      }
+    ],
+    "docs/ita/Tutorials and examples/Intel Trust Authority Client examples/tutorial-tdx-gcp.md": [
+      {
+        "url": "https://docs.trustauthority.company.com/main/articles/integrate-go-tdx-cli.html",
+        "status": {
+          "text": "Network error: Connection failed. Check network connectivity and firewall settings (error sending request for url (https://docs.trustauthority.company.com/main/articles/integrate-go-tdx-cli.html))",
+          "details": "Connection failed. Check network connectivity and firewall settings"
+        },
+        "span": {
+          "line": 165,
+          "column": 31
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 84572708
+        }
+      },
+      {
+        "url": "https://www.company.com/content/www/us/en/developer/articles/technical/company-trust-domain-extensions.html",
+        "status": {
+          "text": "Error (cached)",
+          "code": 404
+        },
+        "span": {
+          "line": 163,
+          "column": 5
+        }
+      }
+    ],
+    "docs/ita/Tutorials and examples/tutorial-tdx-workload.md": [
+      {
+        "url": "https://github.com/company/trustauthority-samples/tree/main/tdx-ml-workload",
+        "status": {
+          "text": "Rejected status code: 404 Not Found",
+          "code": 404
+        },
+        "span": {
+          "line": 14,
+          "column": 352
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 246830791
+        }
+      },
+      {
+        "url": "https://portal.trustauthority.company.com/",
+        "status": {
+          "text": "Network error: Connection failed. Check network connectivity and firewall settings (error sending request for url (https://portal.trustauthority.company.com/))",
+          "details": "Connection failed. Check network connectivity and firewall settings"
+        },
+        "span": {
+          "line": 80,
+          "column": 281
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 174861167
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/tutorial-tdx-workload/TDXML-key-release.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/tutorial-tdx-workload/TDXML-key-release.png'",
+          "details": "Cannot resolve root-relative link '/img/tutorial-tdx-workload/TDXML-key-release.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 22,
+          "column": 1
+        }
+      },
+      {
+        "url": "https://github.com/company/trustauthority-samples/tree/main/tdx-ml-workload",
+        "status": {
+          "text": "Error (cached)",
+          "code": 404
+        },
+        "span": {
+          "line": 65,
+          "column": 33
+        }
+      },
+      {
+        "url": "https://github.com/company/trustauthority-kbs?tab=readme-ov-file#key-broker-service---company-trust-authority",
+        "status": {
+          "text": "Rejected status code: 404 Not Found",
+          "code": 404
+        },
+        "span": {
+          "line": 55,
+          "column": 17
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 194699083
+        }
+      }
+    ],
+    "docs/ita/Tutorials and examples/Intel Trust Authority Client examples/tutorial-amd-azure-vm.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/tutorial-amd-azure/resource-page-bastion-amd.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/tutorial-amd-azure/resource-page-bastion-amd.png'",
+          "details": "Cannot resolve root-relative link '/img/tutorial-amd-azure/resource-page-bastion-amd.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 125,
+          "column": 1
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/tutorial-amd-azure/create-vm-networking-amd.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/tutorial-amd-azure/create-vm-networking-amd.png'",
+          "details": "Cannot resolve root-relative link '/img/tutorial-amd-azure/create-vm-networking-amd.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 83,
+          "column": 4
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/tutorial-amd-azure/validation-passed-amd.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/tutorial-amd-azure/validation-passed-amd.png'",
+          "details": "Cannot resolve root-relative link '/img/tutorial-amd-azure/validation-passed-amd.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 100,
+          "column": 1
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/tutorial-amd-azure/deployment-complete-amd.png\" (Attribute: Some(\"href\")): Cannot resolve root-relative link '/img/tutorial-amd-azure/deployment-complete-amd.png'",
+          "details": "Cannot resolve root-relative link '/img/tutorial-amd-azure/deployment-complete-amd.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 114,
+          "column": 3
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/tutorial-amd-azure/resource-page-amd.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/tutorial-amd-azure/resource-page-amd.png'",
+          "details": "Cannot resolve root-relative link '/img/tutorial-amd-azure/resource-page-amd.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 120,
+          "column": 1
+        }
+      }
+    ],
+    "docs/ita/Concepts/concept-patterns.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/concept-usecases-overview/passport-attestation.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/concept-usecases-overview/passport-attestation.png'",
+          "details": "Cannot resolve root-relative link '/img/concept-usecases-overview/passport-attestation.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 36,
+          "column": 1
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/concept-usecases-overview//background-attestation.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/concept-usecases-overview//background-attestation.png'",
+          "details": "Cannot resolve root-relative link '/img/concept-usecases-overview//background-attestation.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 61,
+          "column": 1
+        }
+      }
+    ],
+    "docs/ita/Concepts/concept-policy-v2.md": [
+      {
+        "url": "https://www.openpolicyagent.org/docs/latest/envoy-primer/#input-document",
+        "status": {
+          "text": "Rejected status code: 404 Not Found",
+          "code": 404
+        },
+        "span": {
+          "line": 536,
+          "column": 18
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 139197250
+        }
+      }
+    ],
+    "docs/ita/How-to workflows/howto-manage-attestation-policies.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/howto-manage-attestation-policies/upload-policy.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/howto-manage-attestation-policies/upload-policy.png'",
+          "details": "Cannot resolve root-relative link '/img/howto-manage-attestation-policies/upload-policy.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 84,
+          "column": 5
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/common-graphics/delete-icon.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/common-graphics/delete-icon.png'",
+          "details": "Cannot resolve root-relative link '/img/common-graphics/delete-icon.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 126,
+          "column": 15
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/howto-manage-attestation-policies/edit-policy.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/howto-manage-attestation-policies/edit-policy.png'",
+          "details": "Cannot resolve root-relative link '/img/howto-manage-attestation-policies/edit-policy.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 104,
+          "column": 5
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/common-graphics/edit-icon.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/common-graphics/edit-icon.png'",
+          "details": "Cannot resolve root-relative link '/img/common-graphics/edit-icon.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 100,
+          "column": 15
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/howto-manage-attestation-policies/add-policy.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/howto-manage-attestation-policies/add-policy.png'",
+          "details": "Cannot resolve root-relative link '/img/howto-manage-attestation-policies/add-policy.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 76,
+          "column": 5
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/howto-manage-attestation-policies/policy-detail.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/howto-manage-attestation-policies/policy-detail.png'",
+          "details": "Cannot resolve root-relative link '/img/howto-manage-attestation-policies/policy-detail.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 39,
+          "column": 5
+        }
+      }
+    ],
+    "docs/ita/Utilites/whats-new.md": [
+      {
+        "url": "https://trustauthority.intel.com/",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden",
+          "code": 403
+        },
+        "redirects": {
+          "origin": "https://trustauthority.intel.com/",
+          "redirects": [
+            {
+              "url": "https://corpredirect.intel.com/Redirector/404Redirector.aspx?404;https://trustauthority.intel.com/",
+              "code": 301
+            }
+          ]
+        },
+        "span": {
+          "line": 232,
+          "column": 33
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 640724500
+        }
+      }
+    ],
+    "docs/ita/How-to workflows/howto-manage-users.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/common-graphics/edit-icon.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/common-graphics/edit-icon.png'",
+          "details": "Cannot resolve root-relative link '/img/common-graphics/edit-icon.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 85,
+          "column": 24
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/howto-manage-users/invite-user.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/howto-manage-users/invite-user.png'",
+          "details": "Cannot resolve root-relative link '/img/howto-manage-users/invite-user.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 52,
+          "column": 5
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/common-graphics/delete-icon.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/common-graphics/delete-icon.png'",
+          "details": "Cannot resolve root-relative link '/img/common-graphics/delete-icon.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 103,
+          "column": 26
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/howto-manage-users/view-users.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/howto-manage-users/view-users.png'",
+          "details": "Cannot resolve root-relative link '/img/howto-manage-users/view-users.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 38,
+          "column": 6
+        }
+      }
+    ],
+    "docs/ita/Integration/integrate-gcp-cs.md": [
+      {
+        "url": "http://localhost/v1/token",
+        "status": {
+          "text": "Network error: Connection refused - server may be down or port blocked (error sending request for url (http://localhost/v1/token))",
+          "details": "Connection refused - server may be down or port blocked"
+        },
+        "span": {
+          "line": 46,
+          "column": 49
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 1124292
+        }
+      },
+      {
+        "url": "http://localhost/v1/intel/token",
+        "status": {
+          "text": "Network error: Connection refused - server may be down or port blocked (error sending request for url (http://localhost/v1/intel/token))",
+          "details": "Connection refused - server may be down or port blocked"
+        },
+        "span": {
+          "line": 47,
+          "column": 46
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 55334708
+        }
+      },
+      {
+        "url": "https://github.com/JoshuaKrstic/utilities/blob/main/awsintegration/ita/main.go",
+        "status": {
+          "text": "Rejected status code: 404 Not Found",
+          "code": 404
+        },
+        "span": {
+          "line": 136,
+          "column": 21
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 499614583
+        }
+      }
+    ],
+    "docs/ita/Tutorials and examples/Intel Trust Authority Client examples/tutorial-sgx.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/tutorial-sgx-azure/sgx-tutorial-vm-creation.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/tutorial-sgx-azure/sgx-tutorial-vm-creation.png'",
+          "details": "Cannot resolve root-relative link '/img/tutorial-sgx-azure/sgx-tutorial-vm-creation.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 32,
+          "column": 5
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/tutorial-sgx-azure/sgx-application-stack.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/tutorial-sgx-azure/sgx-application-stack.png'",
+          "details": "Cannot resolve root-relative link '/img/tutorial-sgx-azure/sgx-application-stack.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 139,
+          "column": 1
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/tutorial-sgx-azure/sgx-tutorial-vm-creation-2.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/tutorial-sgx-azure/sgx-tutorial-vm-creation-2.png'",
+          "details": "Cannot resolve root-relative link '/img/tutorial-sgx-azure/sgx-tutorial-vm-creation-2.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 50,
+          "column": 5
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/tutorial-sgx-azure/sgx-tutorial-deploy-bastion.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/tutorial-sgx-azure/sgx-tutorial-deploy-bastion.png'",
+          "details": "Cannot resolve root-relative link '/img/tutorial-sgx-azure/sgx-tutorial-deploy-bastion.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 64,
+          "column": 5
+        }
+      }
+    ],
+    "docs/ita/How-to workflows/howto-SIEM-integration.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/howto-SIEM-integration/siem-event.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/howto-SIEM-integration/siem-event.png'",
+          "details": "Cannot resolve root-relative link '/img/howto-SIEM-integration/siem-event.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 57,
+          "column": 1
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/howto-SIEM-integration/siem-data.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/howto-SIEM-integration/siem-data.png'",
+          "details": "Cannot resolve root-relative link '/img/howto-SIEM-integration/siem-data.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 70,
+          "column": 1
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/howto-SIEM-integration/siem-config.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/howto-SIEM-integration/siem-config.png'",
+          "details": "Cannot resolve root-relative link '/img/howto-SIEM-integration/siem-config.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 32,
+          "column": 1
+        }
+      }
+    ],
+    "docs/ita/How-to workflows/howto-manage-tags.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/howto-manage-tags/add-tag-rows.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/howto-manage-tags/add-tag-rows.png'",
+          "details": "Cannot resolve root-relative link '/img/howto-manage-tags/add-tag-rows.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 86,
+          "column": 5
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/howto-manage-tags/edit-services.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/howto-manage-tags/edit-services.png'",
+          "details": "Cannot resolve root-relative link '/img/howto-manage-tags/edit-services.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 80,
+          "column": 5
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/howto-manage-tags/add-tag-rows.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/howto-manage-tags/add-tag-rows.png'",
+          "details": "Cannot resolve root-relative link '/img/howto-manage-tags/add-tag-rows.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 42,
+          "column": 5
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/howto-manage-tags/view-tag.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/howto-manage-tags/view-tag.png'",
+          "details": "Cannot resolve root-relative link '/img/howto-manage-tags/view-tag.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 64,
+          "column": 5
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/common-graphics/edit-icon.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/common-graphics/edit-icon.png'",
+          "details": "Cannot resolve root-relative link '/img/common-graphics/edit-icon.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 74,
+          "column": 25
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/common-graphics/edit-icon.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/common-graphics/edit-icon.png'",
+          "details": "Cannot resolve root-relative link '/img/common-graphics/edit-icon.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 34,
+          "column": 24
+        }
+      }
+    ],
+    "docs/ita/Concepts/concept-attestation-tokens.md": [
+      {
+        "url": "https://www.intel.com/content/www/us/en/security-center/default.html",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden",
+          "code": 403
+        },
+        "span": {
+          "line": 158,
+          "column": 311
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 138499208
+        }
+      },
+      {
+        "url": "https://www.intel.com/content/www/us/en/developer/tools/software-guard-extensions/overview.html",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden",
+          "code": 403
+        },
+        "span": {
+          "line": 278,
+          "column": 14
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 31873625
+        }
+      },
+      {
+        "url": "https://download.01.org/intel-sgx/dcap-1.1/linux/docs/Intel_SGX_ECDSA_QuoteGenReference_DCAP_API_Linux_1.1.pdf",
+        "status": {
+          "text": "Rejected status code: 404 Not Found",
+          "code": 404
+        },
+        "span": {
+          "line": 207,
+          "column": 93
+        },
+        "duration": {
+          "secs": 5,
+          "nanos": 78711958
+        }
+      },
+      {
+        "url": "https://www.intel.com/content/www/us/en/developer/articles/technical/intel-trust-domain-extensions.html",
+        "status": {
+          "text": "Rejected status code: 403 Forbidden",
+          "code": 403
+        },
+        "span": {
+          "line": 279,
+          "column": 14
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 77785583
+        }
+      }
+    ],
+    "docs/ita/How-to workflows/howto-reports-metrics.md": [
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/howto-reports-metrics/encodedview.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/howto-reports-metrics/encodedview.png'",
+          "details": "Cannot resolve root-relative link '/img/howto-reports-metrics/encodedview.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 51,
+          "column": 1
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/howto-reports-metrics/tabOptions.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/howto-reports-metrics/tabOptions.png'",
+          "details": "Cannot resolve root-relative link '/img/howto-reports-metrics/tabOptions.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 22,
+          "column": 1
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/howto-reports-metrics/top3usage.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/howto-reports-metrics/top3usage.png'",
+          "details": "Cannot resolve root-relative link '/img/howto-reports-metrics/top3usage.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 105,
+          "column": 1
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/howto-reports-metrics/custom-rm.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/howto-reports-metrics/custom-rm.png'",
+          "details": "Cannot resolve root-relative link '/img/howto-reports-metrics/custom-rm.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 134,
+          "column": 3
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/howto-reports-metrics/attestation-table-summary.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/howto-reports-metrics/attestation-table-summary.png'",
+          "details": "Cannot resolve root-relative link '/img/howto-reports-metrics/attestation-table-summary.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 47,
+          "column": 3
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/howto-reports-metrics/tabOptions.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/howto-reports-metrics/tabOptions.png'",
+          "details": "Cannot resolve root-relative link '/img/howto-reports-metrics/tabOptions.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 34,
+          "column": 1
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/howto-reports-metrics/all-services-attestation-mo.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/howto-reports-metrics/all-services-attestation-mo.png'",
+          "details": "Cannot resolve root-relative link '/img/howto-reports-metrics/all-services-attestation-mo.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 82,
+          "column": 1
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/howto-reports-metrics/attestation-usage-status.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/howto-reports-metrics/attestation-usage-status.png'",
+          "details": "Cannot resolve root-relative link '/img/howto-reports-metrics/attestation-usage-status.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 91,
+          "column": 1
+        }
+      },
+      {
+        "url": "error:",
+        "status": {
+          "text": "Error building URL for \"/img/howto-reports-metrics/tabs-reports-attestation.png\" (Attribute: Some(\"src\")): Cannot resolve root-relative link '/img/howto-reports-metrics/tabs-reports-attestation.png'",
+          "details": "Cannot resolve root-relative link '/img/howto-reports-metrics/tabs-reports-attestation.png': To resolve root-relative links in local files, provide a root dir"
+        },
+        "span": {
+          "line": 72,
+          "column": 1
+        }
+      }
+    ]
+  },
+  "timeout_map": {
+    "docs/ita/Integration/integrate-go-client.md": [
+      {
+        "url": "https://azure.microsoft.com/en-us/updates/confidential-vms-with-intel-tdx-dcesv5-ecesv5-public-preview/",
+        "status": {
+          "text": "Timeout",
+          "details": "Request timed out"
+        },
+        "redirects": {
+          "origin": "https://azure.microsoft.com/en-us/updates/confidential-vms-with-intel-tdx-dcesv5-ecesv5-public-preview/",
+          "redirects": [
+            {
+              "url": "https://azure.microsoft.com/en-us/updates?id=confidential-vms-with-intel-tdx-dcesv5-ecesv5-public-preview",
+              "code": 301
+            },
+            {
+              "url": "https://azure.microsoft.com/en-us/updates?id=confidential-vms-with-intel-tdx-dcesv5-ecesv5-public-preview",
+              "code": 301
+            }
+          ]
+        },
+        "span": {
+          "line": 442,
+          "column": 18
+        },
+        "duration": {
+          "secs": 22,
+          "nanos": 6548625
+        }
+      }
+    ]
+  },
+  "suggestion_map": {},
+  "redirect_map": {},
+  "excluded_map": {
+    "docs/ita/Utilites/whats-new.md": [
+      {
+        "url": "https://portal.trustauthority.intel.com/eat_profile.html",
+        "status": {
+          "text": "Excluded",
+          "details": "This is due to your 'exclude' values"
+        },
+        "span": {
+          "line": 218,
+          "column": 5
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 21208
+        }
+      },
+      {
+        "url": "mailto:trustauthority@intel.com",
+        "status": {
+          "text": "Excluded",
+          "details": "This is due to your 'exclude' values"
+        },
+        "span": {
+          "line": 230,
+          "column": 256
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 167
+        }
+      }
+    ],
+    "docs/ita/Integration/integrate-python-client.md": [
+      {
+        "url": "https://portal.eu.trustauthority.intel.com/",
+        "status": {
+          "text": "Excluded",
+          "details": "This is due to your 'exclude' values"
+        },
+        "span": {
+          "line": 58,
+          "column": 20
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 19458
+        }
+      },
+      {
+        "url": "https://api.eu.trustauthority.intel.com/",
+        "status": {
+          "text": "Excluded",
+          "details": "This is due to your 'exclude' values"
+        },
+        "span": {
+          "line": 59,
+          "column": 19
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 17125
+        }
+      }
+    ],
+    "docs/ita/glossary.md": [
+      {
+        "url": "https://portal.trustauthority.intel.com/",
+        "status": {
+          "text": "Excluded",
+          "details": "This is due to your 'exclude' values"
+        },
+        "span": {
+          "line": 38,
+          "column": 332
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 4125
+        }
+      }
+    ],
+    "docs/ita/Quickstart/howto-manage-subscriptions.md": [
+      {
+        "url": "mailto:trustauthority@intel.com",
+        "status": {
+          "text": "Excluded",
+          "details": "This is due to your 'exclude' values"
+        },
+        "span": {
+          "line": 13,
+          "column": 2
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 250
+        }
+      },
+      {
+        "url": "mailto:trustauthority@intel.com",
+        "status": {
+          "text": "Excluded",
+          "details": "This is due to your 'exclude' values"
+        },
+        "span": {
+          "line": 30,
+          "column": 57
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 83
+        }
+      }
+    ],
+    "docs/ita/Restapi/restapi-intro.md": [
+      {
+        "url": "https://portal.trustauthority.intel.com/.well-known/openid-configuration",
+        "status": {
+          "text": "Excluded",
+          "details": "This is due to your 'exclude' values"
+        },
+        "span": {
+          "line": 47,
+          "column": 2
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 12792
+        }
+      }
+    ],
+    "docs/ita/Integration/integrate-c-client.md": [
+      {
+        "url": "https://api.trustauthority.intel.com/",
+        "status": {
+          "text": "Excluded",
+          "details": "This is due to your 'exclude' values"
+        },
+        "span": {
+          "line": 62,
+          "column": 57
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 55125
+        }
+      },
+      {
+        "url": "https://portal.eu.trustauthority.intel.com/",
+        "status": {
+          "text": "Excluded",
+          "details": "This is due to your 'exclude' values"
+        },
+        "span": {
+          "line": 489,
+          "column": 117
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 66958
+        }
+      },
+      {
+        "url": "https://api.eu.trustauthority.intel.com/",
+        "status": {
+          "text": "Excluded",
+          "details": "This is due to your 'exclude' values"
+        },
+        "span": {
+          "line": 62,
+          "column": 142
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 48041
+        }
+      },
+      {
+        "url": "https://portal.trustauthority.intel.com/",
+        "status": {
+          "text": "Excluded",
+          "details": "This is due to your 'exclude' values"
+        },
+        "span": {
+          "line": 489,
+          "column": 59
+        },
+        "duration": {
+          "secs": 0,
+          "nanos": 20625
+        }
+      }
+    ]
+  },
+  "duration": {
+    "secs": 28,
+    "nanos": 438820708
+  },
+  "detailed_stats": false
+}

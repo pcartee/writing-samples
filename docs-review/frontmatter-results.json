@@ -1,0 +1,348 @@
+[
+  {
+    "file": "intro.mdx",
+    "issues": [
+      "missing required front matter field: uid"
+    ]
+  },
+  {
+    "file": "ita/Attestation Technologies/GPU confidential computing/concept-gpu-attestation.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Attestation Technologies/Trusted Platform Module/tpm-ak-provision.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Attestation Technologies/Trusted Platform Module/tpm-ima-logs.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Attestation Technologies/Trusted Platform Module/tpm-log.md",
+    "issues": [
+      "description is shorter than 40 characters (weak for SEO)"
+    ]
+  },
+  {
+    "file": "ita/Attestation Technologies/Trusted Platform Module/tpm-uefi-log.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Attestation Technologies/Trusted execution environments/integrate-tdx-adapter-api.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Attestation Technologies/Trusted execution environments/tee-sev-snp.md",
+    "issues": [
+      "description is shorter than 40 characters (weak for SEO)"
+    ]
+  },
+  {
+    "file": "ita/Attestation Technologies/Trusted execution environments/tee-sgx.md",
+    "issues": [
+      "description is shorter than 40 characters (weak for SEO)"
+    ]
+  },
+  {
+    "file": "ita/Attestation Technologies/Trusted execution environments/tee-tdx.md",
+    "issues": [
+      "description is shorter than 40 characters (weak for SEO)"
+    ]
+  },
+  {
+    "file": "ita/Attestation Technologies/concept-tees-overview.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Command-line/cli-api-client-management.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Command-line/cli-examples.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Command-line/cli-install.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Command-line/cli-policy-commands.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Command-line/cli-service-commands.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Command-line/cli-signed-policy-commands.md",
+    "issues": [
+      "description is shorter than 40 characters (weak for SEO)"
+    ]
+  },
+  {
+    "file": "ita/Command-line/cli-user-commands.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Concepts/concept-attestation-overview.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Concepts/concept-attestation-tokens.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Concepts/concept-maa-adapter.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Concepts/concept-patterns.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Concepts/concept-platform-tcb.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Concepts/concept-policies.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Concepts/concept-policy-v2.md",
+    "issues": [
+      "description is longer than 160 characters (may be truncated in search results)"
+    ]
+  },
+  {
+    "file": "ita/Concepts/concept-td-integrity.md",
+    "issues": [
+      "description is shorter than 40 characters (weak for SEO)"
+    ]
+  },
+  {
+    "file": "ita/Concepts/concept-trusted-boot.md",
+    "issues": [
+      "date \"07/22/24\" does not match MM/DD/YYYY format",
+      "description is shorter than 40 characters (weak for SEO)"
+    ]
+  },
+  {
+    "file": "ita/Concepts/concept-user-roles-and-api-keys.md",
+    "issues": []
+  },
+  {
+    "file": "ita/How-to workflows/howto-SIEM-integration.md",
+    "issues": []
+  },
+  {
+    "file": "ita/How-to workflows/howto-author-custom-policy.md",
+    "issues": []
+  },
+  {
+    "file": "ita/How-to workflows/howto-manage-attestation-policies.md",
+    "issues": [
+      "description is shorter than 40 characters (weak for SEO)"
+    ]
+  },
+  {
+    "file": "ita/How-to workflows/howto-manage-tags.md",
+    "issues": []
+  },
+  {
+    "file": "ita/How-to workflows/howto-manage-users.md",
+    "issues": []
+  },
+  {
+    "file": "ita/How-to workflows/howto-reports-metrics.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Integration/integrate-c-client.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Integration/integrate-gcp-cs.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Integration/integrate-go-client.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Integration/integrate-go-tdx-cli.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Integration/integrate-go-tpm.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Integration/integrate-gramine.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Integration/integrate-java-client.md",
+    "issues": [
+      "description is shorter than 40 characters (weak for SEO)"
+    ]
+  },
+  {
+    "file": "ita/Integration/integrate-overview.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Integration/integrate-python-client.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Integration/integrate-relying-party.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Key-broker/key-broker-service-install.md",
+    "issues": [
+      "description is shorter than 40 characters (weak for SEO)"
+    ]
+  },
+  {
+    "file": "ita/Key-broker/key-broker-service-key-creation.md",
+    "issues": [
+      "missing required front matter field: uid",
+      "description is shorter than 40 characters (weak for SEO)"
+    ]
+  },
+  {
+    "file": "ita/Key-broker/key-broker-service-kms-install.md",
+    "issues": [
+      "description is shorter than 40 characters (weak for SEO)"
+    ]
+  },
+  {
+    "file": "ita/Key-broker/key-broker-service-user-management.md",
+    "issues": [
+      "description is shorter than 40 characters (weak for SEO)"
+    ]
+  },
+  {
+    "file": "ita/Key-broker/key-broker-service.md",
+    "issues": [
+      "description is shorter than 40 characters (weak for SEO)"
+    ]
+  },
+  {
+    "file": "ita/Quickstart/howto-manage-subscriptions.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Quickstart/tutorial-api-key.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Restapi/restapi-attestation-v2.md",
+    "issues": [
+      "description is shorter than 40 characters (weak for SEO)"
+    ]
+  },
+  {
+    "file": "ita/Restapi/restapi-attestation.md",
+    "issues": [
+      "description is shorter than 40 characters (weak for SEO)"
+    ]
+  },
+  {
+    "file": "ita/Restapi/restapi-azure-attestation.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Restapi/restapi-client-management.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Restapi/restapi-faithful.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Restapi/restapi-intro.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Restapi/restapi-policy-management.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Restapi/restapi-product-management.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Restapi/restapi-service-management.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Restapi/restapi-service-offer-management.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Restapi/restapi-tenant-management.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Tutorials and examples/Intel Trust Authority Client examples/tutorial-amd-azure-vm.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Tutorials and examples/Intel Trust Authority Client examples/tutorial-azure-vtpm.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Tutorials and examples/Intel Trust Authority Client examples/tutorial-sevsnp-gcp.md",
+    "issues": [
+      "date \"12/19/24\" does not match MM/DD/YYYY format"
+    ]
+  },
+  {
+    "file": "ita/Tutorials and examples/Intel Trust Authority Client examples/tutorial-sgx.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Tutorials and examples/Intel Trust Authority Client examples/tutorial-tdx-gcp.md",
+    "issues": [
+      "date \"12/19/24\" does not match MM/DD/YYYY format"
+    ]
+  },
+  {
+    "file": "ita/Tutorials and examples/Intel Trust Authority Client examples/tutorial-tdx.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Tutorials and examples/tutorial-cicd.md",
+    "issues": [
+      "date \"08/1/2023\" does not match MM/DD/YYYY format"
+    ]
+  },
+  {
+    "file": "ita/Tutorials and examples/tutorial-tdx-workload.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Utilites/utility-faithful-verifier.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Utilites/utility-policy-builder.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Utilites/utility-policy-signing.md",
+    "issues": []
+  },
+  {
+    "file": "ita/Utilites/whats-new.md",
+    "issues": [
+      "date \"5/20/2025\" does not match MM/DD/YYYY format"
+    ]
+  },
+  {
+    "file": "ita/glossary.md",
+    "issues": []
+  }
+]
