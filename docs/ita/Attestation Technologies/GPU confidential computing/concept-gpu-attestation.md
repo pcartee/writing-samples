@@ -1,5 +1,5 @@
 ---
-title: NVIDIA H100
+title: GPU remote attestation with Intel® Trust Authority
 description: Learn about the Intel® Trust Authority Python Client, CLI for Intel TDX and NVIDIA GPU, and Intel Trust Authority REST API that support GPU attestation.
 author: pcartee
 topic: conceptual, attestation, gpu

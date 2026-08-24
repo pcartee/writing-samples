@@ -1,0 +1,17 @@
+# lychee link checker config for docs/ review.
+# Offline-first: internal links/anchors always checked; remote URLs checked too,
+# but rate-limited and with lenient timeouts to avoid false positives from throttling.
+exclude_all_private = false
+include_verbatim = false
+max_concurrency = 8
+timeout = 10
+retry_wait_time = 2
+max_retries = 1
+
+# Docusaurus resolves these at build time; lychee can't follow them statically.
+exclude = [
+  '^https://portal\.trustauthority\.intel\.com',
+  '^https://api\.trustauthority\.intel\.com',
+  '^https://api\.eu\.trustauthority\.intel\.com',
+  '^https://portal\.eu\.trustauthority\.intel\.com',
+]

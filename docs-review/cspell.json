@@ -1,0 +1,21 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "ignorePaths": [
+    "**/node_modules/**",
+    "build/**",
+    "static/**",
+    "actions-runner/**"
+  ],
+  "dictionaries": ["docs-terms"],
+  "dictionaryDefinitions": [
+    {
+      "name": "docs-terms",
+      "path": "./docs-terms.txt"
+    }
+  ],
+  "ignoreRegExpList": [
+    "https?:\\/\\/[^\\s)]+",
+    "`[^`]+`"
+  ]
+}
