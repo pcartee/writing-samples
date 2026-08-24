@@ -1,0 +1,19 @@
+# Markdown syntax rules for docs/ review agent
+# Full rule reference: https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
+default: true
+
+# Docusaurus pages don't wrap prose to a fixed width; long lines are expected.
+MD013: false
+
+# MDX files use JSX/HTML (admonitions, imports, <br/>, etc.) intentionally.
+MD033: false
+
+# The docs use front matter for the page title instead of a first H1.
+MD041: false
+
+# Repeated headings (e.g. "Prerequisites") are common across independent pages.
+MD024:
+  siblings_only: true
+
+# Some pages use dashes and some use asterisks for lists across the corpus.
+MD004: false

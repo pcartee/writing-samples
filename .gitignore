@@ -21,3 +21,5 @@ yarn-error.log*
 
 # Local logs
 _logs/
+actions-runner/
+.npm-cache/

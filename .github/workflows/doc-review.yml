@@ -1,0 +1,75 @@
+name: Automated Doc Review
+on:
+  pull_request:
+    paths:
+      - '**.md'
+      - '**.mdx'
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  review:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Vale Linter (Microsoft Style)
+        uses: vale-cli/vale-action@v3
+        with:
+          files: docs
+          fail_on_error: false
+          reporter: github-pr-check
+          config: docs/.vale.ini
+
+      - name: Get changed doc content
+        id: diff
+        if: success() || failure()
+        run: |
+          DIFF=$(git diff "origin/${{ github.base_ref }}"...HEAD -- '*.md' '*.mdx' | head -c 12000)
+          {
+            echo "content<<EOF"
+            echo "$DIFF"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: AI PR Review (Local DeepSeek)
+        if: success() || failure()
+        id: ai-review
+        env:
+          DIFF_CONTENT: ${{ steps.diff.outputs.content }}
+        run: |
+          PROMPT=$(cat <<'SYS'
+          You are an expert technical writer. Review the provided Markdown documentation updates against the Microsoft Manual of Style. Focus on clarity, objectivity, and concise phrasing. Do not alter code blocks, MDX components, or directory structures.
+
+          Diff to review:
+          SYS
+          )
+          PAYLOAD=$(jq -n --arg model "deepseek-coder:latest" --arg prompt "$PROMPT
+          $DIFF_CONTENT" '{model: $model, prompt: $prompt, stream: false}')
+          RESPONSE=$(curl -s http://127.0.0.1:11434/api/generate -d "$PAYLOAD" | jq -r '.response // "AI review unavailable: empty response from Ollama."')
+          {
+            echo "review<<EOF"
+            echo "$RESPONSE"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Post AI review comment
+        if: success() || failure()
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const body = `### AI Documentation Review (local DeepSeek)\n\n${process.env.REVIEW_TEXT}`;
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body,
+            });
+        env:
+          REVIEW_TEXT: ${{ steps.ai-review.outputs.review }}

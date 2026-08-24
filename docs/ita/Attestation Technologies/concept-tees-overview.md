@@ -3,11 +3,11 @@ title: TEEs Overview
 description: A brief introduction to Trusted Execution Environments (TEEs).
 author: various
 topic: conceptual
-date: 02/06/2025
+date: 02/07/2025
 uid: tees.overview
 ---
 
-*· 02/06/2025 ·*
+*· February/07/2025 ·*
 
 ## Trusted Execution Environments (TEE)
 
