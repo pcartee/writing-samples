@@ -1,7 +1,7 @@
 ---
 title: Glossary
 description: Contains definitions for terms used in the documentation.
-author: grminch
+author: pcartee
 topic: conceptual
 date: 10/15/2024
 uid: concept.glossary
