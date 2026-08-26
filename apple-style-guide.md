@@ -1,8 +1,9 @@
 # Apple Style Guide
 
-# Style and usage A–Z
+## Style and usage A–Z
 
-## Numbers
+### Numbers
+
 2-byte character Don’t use; use double-byte character.
 2D Abbreviation for two-dimensional. No hyphen in the abbreviation. For guidelines about
 spelling out abbreviations, see abbreviations and acronyms.
@@ -21,7 +22,8 @@ Ethernet (1000Base-T).
 24/7 Not 24x7. To spell out, use the form 24 hours a day, 7 days a week; a 24-hour-a-day,
 7-day-a-week support program.
 
-## A
+### A
+
 AAC Abbreviation for Advanced Audio Coding, an industry-standard audio compression
 format. For guidelines about spelling out abbreviations, see abbreviations and acronyms.
 abbreviations and acronyms An acronym is a pronounceable word formed from the initial
@@ -914,7 +916,8 @@ AVCHD Abbreviation for Advanced Video Coding High Definition, a high-definition 
 video format for recording and playback. For guidelines about spelling out abbreviations,
 see abbreviations and acronyms.
 
-## B
+### B
+
 Back button Use to refer to a button—usually in a toolbar or navigation bar—that lets users
 return to the previous screen or webpage.
 See also left arrow.
@@ -1179,7 +1182,9 @@ Exception: Sometimes app icons act like buttons—for example, icons in the macO
 or on the iOS Home Screen—but they’re still referred to as icons (Click the Safari icon in
 the Dock, tap the Mail icon on the Home Screen).
 See also checkbox; click; icon; More button, More menu; radio button; tab; tap (n., v.).
-## C
+
+### C
+
 cable Use cable to describe what physically connects two pieces of hardware. Don’t use
 cabling even when you mean cable collectively; use cables. See also cord.
 cache (n., v.), cached (v., adj.), caching (n., v.) Note spelling. See also level 2 cache,
@@ -1783,7 +1788,9 @@ interface and may be appropriate when you describe other interfaces and in devel
 materials. See also insertion point; pointer.
 custom installation Not custom install. Users perform a custom installation; they don’t do
 a custom install. See also install; installation; normal installation.
-## D
+
+### D
+
 DAC Acronym for digital-to-analog converter. Note hyphenation in the spelled-out version.
 For guidelines about spelling out acronyms, see abbreviations and acronyms.
 Daily Cash An Apple Card feature that adds a percentage of every purchase amount to the
@@ -2354,7 +2361,9 @@ about spelling out abbreviations, see abbreviations and acronyms.
 Dynamic Island Precede with the.
 The Dynamic Island appears whenever your iPhone is unlocked.
 dynamic random-access memory See DRAM.
-## E
+
+### E
+
 e Short for electronic. Hyphenate terms using the short form: e-commerce, e-learning.
 Exceptions include email and ebook. In titles that use title-style capitalization, capitalize as
 follows: The Growth of E-Commerce.
@@ -2563,7 +2572,9 @@ Don’t use EyeSight to refer to the front display of Apple Vision Pro; instead 
 display or just the front.
 The Apple logo appears on the front of Apple Vision Pro while it turns
 on.
-## F
+
+### F
+
 F1, F2, F3… Function keys on a keyboard. Capitalize the F and use plain (not italic) style
 and arabic numerals. No space between letter and numeral.
 Face ID A face recognition technology used for authentication in some iOS and iPadOS
@@ -2891,7 +2902,9 @@ Apple will give users a peek at the new app by releasing a public beta.
 Next year students at Clareton High School will use EPUB textbooks in
 their math classes.
 Fwd Del key See Forward Delete key.
-## G
+
+### G
+
 gallery view In Finder windows, a way to display and select items as horizontally scrolling
 thumbnails. In the Notes app, a way to display notes in a grid of thumbnails.
 Gallery View button In Finder windows, the rightmost button in the View control.
@@ -3057,7 +3070,9 @@ locations are added.
 Use lowercase when referring to guides users create in the Maps app.
 You can organize places into your own guides and share them with
 friends.
-## H
+
+### H
+
 H.264 A video compression standard (or video codec). Also known as MPEG-4 Part 10 and
 AVC (or Advanced Video Coding).
 half Use a hyphen in compound adjectives beginning with half.
@@ -3322,7 +3337,9 @@ convention on first use.
 Control-Shift-N
 Esc N
 See also dash (en).
-## I
+
+### I
+
 I-beam Refers to this pointer:
 iBooks Use iBooks to refer to versions of the Apple ebook app released before iOS 12 and
 macOS Mojave. Use Apple Books for versions of the app released with iOS 12 or later and
@@ -3820,7 +3837,9 @@ Buy your favorites from the iTunes Store.
 After the first reference to the iTunes Store, you can use the full name or simply the store.
 iTunes U An Apple service that schools and other institutions can use to provide free
 educational content on Apple devices.
-## J
+
+### J
+
 jack A small, round, 1-pin socket used in audio and video connections. Don’t use
 connector to refer to a jack. See also connector; port; slot; socket.
 jargon Avoid jargon whenever possible. Define technical terminology on first occurrence.
@@ -3844,7 +3863,9 @@ See also spam.
 justification Don’t use to refer to the alignment of text to the right or left margin; use
 alignment. Text that’s aligned on both the right and the left margins is justified. See also
 alignment.
-## K
+
+### K
+
 K Don’t use; use KB.
 K–12 Note en dash (Option-Hyphen): K–12 education.
 KB (n., adj.) Abbreviation for kilobyte. KB equals 1000 bytes in the context of file size or
@@ -3973,7 +3994,9 @@ kilobyte See KB (n., adj.).
 kilobytes per second See KB/s.
 kilohertz See kHz (n., adj.).
 Korea Don’t use. Specify South Korea or North Korea.
-## L
+
+### L
+
 L2 cache, L3 cache See level 2 cache, level 3 cache.
 label See figure label. See also button; capitalization.
 labeled, labeling Not labelled, labelling.
@@ -4275,7 +4298,9 @@ low resolution (n.), low-resolution (adj.) Not lo-res. The short form low-res (a
 when space constraints don’t allow use of the full phrase (such as in column headings in
 tables).
 low vision See blind, low vision.
-## M
+
+### M
+
 M1 chip See M-series chips.
 M2 chip See M-series chips.
 M3 chip See M-series chips.
@@ -4855,7 +4880,9 @@ in an app.
 When My Photo Stream is turned on, you can see your most recent
 photos in the My Photo Stream album.
 See also iCloud Photos.
-## N
+
+### N
+
 name server Two words.
 native In user materials, avoid using native to describe apps; instead, describe the apps as
 being designed to work with specific hardware or software.
@@ -4998,7 +5025,9 @@ keyboard.
 numerics (n., adj.) As a noun, numerics takes a singular verb. Use numerics (not numeric)
 as an adjective in relation to the science of numerics: numerics capabilities, numerics
 environment.
-## O
+
+### O
+
 offline Use to describe a device or account that’s not connected to the internet or a
 network. Be sure the context makes it clear what offline means.
 If your email account is offline (not connected to the internet), you can’t
@@ -5100,7 +5129,9 @@ outside Not outside of.
 over Don’t use when you mean more than.
 Correct: You can add more than 1000 songs.
 Incorrect: You can add over 1000 songs.
-## P
+
+### P
+
 page See homepage; webpage.
 pair, paired You pair a device with another device, not to.
 To use Apple Watch, pair it with iPhone.
@@ -5771,7 +5802,8 @@ put Don’t use when you mean drag.
 Correct: Drag the file to the Trash.
 Incorrect: Put the file in the Trash.
 
-## Q
+### Q
+
 quad Hyphenate compound adjectives beginning with quad.
 quad-band, quad-channel, quad-core, quad-port
 quality Don’t use quality alone as an adjective; include a modifier. The compound
@@ -5824,7 +5856,9 @@ To store media outside the library, click the Media pop-up menu, choose
 - Smart quotation marks: Most apps have an option called “smart” quotation marks, which
 automatically generates curly quotation marks (and apostrophes) as you type.
 See also italics (n.), italic (adj.); titles of works.
-## R
+
+### R
+
 racism, racist language See Intro to inclusive writing.
 radio button A labeled circular button used to present a set of mutually exclusive options.
 Users select an option. Avoid the term radio button, except in developer materials. You can
@@ -6017,7 +6051,8 @@ Incorrect: To use Siri on your Mac, you must be running macOS 10.12 or
 later.
 runtime (n., adj.) One word.
 
-## S
+### S
+
 safe mode Note lowercase.
 sample rate The number of times per second an audio file is sampled. Don’t use
 sampling rate.
@@ -6717,7 +6752,8 @@ system software Not systems software. See also app, application, program; versio
 number.
 systemwide (adj.) One word.
 
-## T
+### T
+
 tab You can use tab to refer to two different elements in the UI:
 - A separate view of content a user can open in an app (such as Safari).
 Use tab for the entire view—both the part that’s visible in the tab bar, and what users
@@ -7078,7 +7114,9 @@ Don’t use type in when you mean type. See also enter; press.
 typeface Don’t use; use font. See also font.
 type size Don’t use; use size or font size. See also font size.
 type style Don’t use; use style or font style. See also font style.
-## U
+
+### U
+
 UDF Abbreviation for Universal Disk Format. For guidelines about spelling out
 abbreviations, see abbreviations and acronyms.
 UI Abbreviation for user interface. OK to use in developer materials. In user materials, use
@@ -7212,7 +7250,8 @@ You can use the utility to…
 utility application OK to use when you compare utility applications to other apps;
 otherwise, use utility. See also utility.
 
-## V
+### V
+
 value slider A type of slider that includes the numeric value of the parameter in the
 control. Users can drag up or to the right to increase the value, and drag down or to the
 left to decrease the value.
@@ -7348,7 +7387,9 @@ VRAM Acronym for video random-access memory. Pronounced “VEE-ram.” For guide
 about spelling out acronyms, see abbreviations and acronyms.
 vs. Don’t use; use versus when absolutely necessary, but rewrite to avoid the term when
 possible.
-## W
+
+### W
+
 wait cursor See spinning wait cursor.
 Walkie-Talkie A watchOS app. Don’t use as a verb; say use Walkie-Talkie, have a Walkie-
 Talkie conversation, or similar.
@@ -7517,7 +7558,9 @@ Writing Tools An Apple Intelligence feature. Use a plural verb with Writing Tool
 Writing Tools are available nearly everywhere you write.
 WWDC Abbreviation for Worldwide Developers Conference. For guidelines about spelling
 out abbreviations, see abbreviations and acronyms.
-## X
+
+### X
+
 x Follow these guidelines when you use the letter x to stand for something else:
 - Screen resolutions: Use a lowercase x in screen resolutions.
 1024 x 768 [Note the space before and after the x.]
@@ -7534,11 +7577,14 @@ x and y axes No hyphen. See also x-axis; y-axis.
 x and y coordinates No hyphen. See also x-coordinate; y-coordinate.
 x-axis Note hyphenation. See also x and y axes.
 x-coordinate Note hyphenation. See also x and y coordinates.
-## Y
+
+### Y
+
 y-axis Note hyphenation. See also x and y axes.
 y-coordinate Note hyphenation. See also x and y coordinates.
 
-## Z
+### Z
+
 ZEISS Optical Inserts Prescription lenses for Apple Vision Pro. Use the full name in most
 cases; OK to shorten to optical inserts if space is limited.
 zero character OK to use for the ASCII character $30. Don’t confuse with null character
@@ -7551,14 +7597,18 @@ You can pinch to zoom in on apps, photos, and other items on iPad.
 Capitalize when referring to the feature.
 Use Zoom to magnify what’s on the Apple Watch display.
 
-# Writing inclusively
-## Intro to inclusive writing
+## Writing inclusively
+
+### Intro to inclusive writing
+
 The people who use Apple products reflect the diversity of the world at large. This chapter
 provides guidelines and tips for how you can write consciously to include everyone.
 Note: Guidance about inclusive writing may change over time, so check back for updates.
 Also keep in mind that inclusive language may vary slightly in different locales, so you may
 need to adapt the principles here to the unique needs of your language or region.
-## General guidelines
+
+### General guidelines
+
 Think inclusively.
 As you write, think about your potential audience, and try to imagine your content from
 their perspective. Will the words and phrases you use be understood by everyone? Do
@@ -7567,6 +7617,7 @@ Keep in mind that words can sometimes carry meanings you don’t intend. Be open
 learning about the impact of language, and be respectful of those who may receive words
 differently from how you intended them.
 Research words.
+
 Investigating the history and usage of a word can help you decide whether to use it. For
 example, some common expressions (like grandfathered in) arose from oppressive or
 exclusionary contexts. If you’re unsure about a word or expression, be sure to research
@@ -7577,47 +7628,62 @@ Even if a common word has one negative use that you should avoid, it may still b
 acceptable in other contexts. For example, although it’s inappropriate to use mute to refer
 to a person who is nonspeaking, it’s OK to use it to refer to silencing a device. Take context
 into account when making wording decisions.
+
 Avoid terms that are violent, oppressive, or ableist.
+
 Don’t describe technology using terms that are inherently violent—like kill or hang. Don’t
 use the terms master and slave, which describe an oppressive human relationship. In
 addition, don’t use terms like sanity check, which associates mental health with being
 functional.
+
 In general, it’s a good idea to avoid describing software or hardware using human or
 biological attributes; doing so can lead to unintended hurtful implications.
 Avoid idioms and colloquial expressions.
+
 Common sayings—like fall through the cracks, on the same page, or backseat driver—
 can add flavor to writing, but they can also be difficult to understand for people who are
 learning the language. If your content is localized, using phrases like these can also make it
 more difficult to translate.
+
 Don’t use color to convey positive or negative qualities.
 Avoid assigning good and bad values to colors (for example, blacklist, white hat hacker, or
 red team hacker) or using colors as metaphors to convey larger concepts. Use colors only
 to describe actual colors (for example, black text on a white background, the white point of
 a display).
+
 Err on the side of caution.
+
 If you’re not sure about a term, but you believe it might be questionable based on your
 research or feedback from others, then choose a different term. The beauty of language is
 that there’s usually a term that expresses the meaning you want to convey just as well—or
 even more clearly.
 
-## Inclusive representation
+### Inclusive representation
+
 Remember that the people who use Apple products have a broad variety of life
 experiences, cultures, and backgrounds. When your content depicts people—real or
 fictional—make sure to represent the diversity of the world.
 Use diverse names as examples.
+
 Sometimes you may use names as examples. Include names that reflect a variety of
 ethnicities and genders.
+
 Given name examples: Blair, Étienne, Guillermo, Lee, Mayuri, Priyanka,
 Shannon, Yen
+
 Family name examples: Kawashima, Lai, McNeil, Melnykova, Salinas,
 Sears, Zhao
+
 Also keep in mind that some cultures don’t use a Western-style name structure (given
 name followed by a family name). In addition, some cultures may use multiple family
 names. Try to reflect this diversity in your examples.
+
 Avoid biases and stereotypes.
+
 Bias is a tendency to think and behave in ways that are favorable (or unfavorable) to certain
 people or communities. Be aware of ways your content may unintentionally reinforce
 biases, and consciously work to avoid doing so. For example:
+
 - If your content uses text or imagery to depict people in certain occupations or settings,
 include a variety of ethnicities, genders, ages, body types, and abilities.
 - If your content mentions examples of holidays, foods, or sports, don’t give examples
@@ -7628,85 +7694,115 @@ like gender, race, physical capability, or age. Avoid stereotypes in how people 
 presented in your content. For example, don’t only represent a family as a woman, a man,
 and their biological children; remember to include a variety of family types.
 
-## Gender identity
+### Gender identity
+
 Avoid binary representations of gender when you can reword using gender-neutral
 language.
+
 Avoid: Hiring men and women of diverse backgrounds fosters a culture
 of innovation.
+
 Preferable: Hiring people of diverse backgrounds fosters a culture of
 innovation.
+
 It’s OK to refer to specific genders if the context requires it.
+
 The percentage of women in the workforce has increased.
+
 Women should earn the same as men for comparable work.
+
 Use gender-neutral pronouns.
+
 Don’t use gender-specific pronouns (such as he, she, he or she, and so on) to refer to
 people of unspecified gender. Instead, it’s OK to use they, their, or them as a singular,
 gender-neutral pronoun.
+
 Correct: A subscriber can post their recipes to your shared folder.
+
 Incorrect: A subscriber can post his or her recipes to your shared folder.
+
 You can also avoid gender-specific pronouns by rewriting a sentence—for example, using
 the plural form of the noun (subscribers can post their recipes), or simply omitting the
 pronoun (a subscriber can post recipes).
-If you refer to a specific person, don’t make assumptions about which pronouns to use
+ assumptions about which pronouns to use
 based on the person’s name or appearance. If you’re unsure how to refer to someone, you
 can ask them. Individuals may go by he/him, she/her, they/them, other pronouns, or no
 pronouns.
 Use gender-neutral titles and honorifics when appropriate.
+
 Some people may choose to use a gender-neutral title (such as Mx.). If you’re writing
 content about (or addressed to) a real person, and your style requires you to include a title,
 ask the person what title they use. If you can’t ask them, consider adopting a style that
 refers to people using only their name.
 
-## Writing about disability
+### Writing about disability
+
 When you write about people with disabilities, focus on each individual’s accomplishments,
 personality, authentic story, or message. You may not even need to mention someone’s
 disability unless it’s essential to the content; if you do refer to someone’s disability, follow
 the guidelines below.
+
 Understand when to use identity-first or person-first
 language.
+
 People who consider a disability or neurodivergence to be part of their identity may prefer
 identity-first language, which places an emphasis on culture: A Deaf person, an autistic
 person.
+
 Others may prefer person-first language, which emphasizes the individual first, then their
 disability: A person who is deaf or hard of hearing, a person on the autism spectrum.
 Preferences for identity-first and person-first language vary; when writing about specific
 individuals or groups, always ask them how they prefer to be identified.
 For advice about specific terms, see A guide to terms about disability, below.
 Acknowledge a wide range of disability.
+
 It’s helpful to think about disability on a spectrum. For example, with blindness, there’s a
 wide range of vision differences—from people who are born blind, to those with low vision,
 to others with loss of vision in certain areas, such as peripheral vision. In addition, some
 people may have multiple disabilities.
+
 Avoid ableist language.
 Don’t use language that presents people without disabilities as the norm. For example,
 don’t describe nondisabled people as normal, healthy, regular, or able-bodied. Instead,
 you can use a person without a disability, a nondisabled person, a neurotypical person, a
 hearing person, and similar terms.
+
 Avoid treating disability as something to overcome, and don’t describe people with
 disabilities as brave, courageous, or inspiring, which can come across as condescending.
 Avoid language that refers to using specific senses.
+
 When writing instructions (such as in training manuals or user guides), avoid using phrases
 that refer to the use of specific senses, like you see a message, you see a flashing light,
 or you hear an alert sound. Instead, simply describe what happens: A message appears, a
 light flashes, an alert sound plays.
+
 Also avoid using idioms that send negative messages about disability—for example, that’s
 crazy, fell on deaf ears, or turned a blind eye to.
 
 Some phrases and idioms are OK.
+
 It’s OK to use commonly understood phrases such as the ones below:
 I see your point.
+
 You can watch your favorite movies on the Apple TV app.
+
 Hear about the latest news right when it happens.
+
 Don’t hesitate to speak your mind.
+
 Even if people in your audience can’t see, hear, or speak, they’ll typically understand the
 intent of the words.
+
 It’s also OK to use the common cross-reference See when linking to other material (for
 example, See the Apple Support article “Set up Family Sharing”).
-A guide to terms about disability
+
+### A guide to terms about disability
+
 Use the table below as a general guide when writing about disability.
 In most cases, use identity-first language for people who consider a disability to be part
 of their identity; otherwise, you can use person-first language. When you’re writing about
 specific people with disabilities, be sure to find out how they prefer to be identified.
+
 | Identity first    | Person first               | Avoid             |
 | ----------------- | -------------------------- | ----------------- |
 | A disabled person | A person with a disability | Differently abled |
@@ -7774,31 +7870,46 @@ meanings; if you’re writing about
 someone specific, ask them how
 they prefer to be identified.
 
-# Units of measure
-## Intro to units of measure
+## Units of measure
+
+### Intro to units of measure
+
 This chapter provides usage guidelines for units of measure and lists abbreviations and
 symbols for frequently used units.
+
 Follow these guidelines when you use units of measure in documentation:
+
 - When to spell out: In user documentation, spell out units of measure and give the
 abbreviation in parentheses on first occurrence. Repeat the spelled-out version in new
 sections and chapters if the unit symbol or abbreviation is obscure and if the audience
 requires it.
+
 20 gigabytes (GB) of memory
+
 Subsequent occurrences: 20 GB of memory
+
 Always spell out nonmetric units of measure in text (for example, 17-inch display). It’s
 OK to abbreviate such units in tables and technical specifications (Display size: 17 in.).
+
 - Noun: When you use a unit symbol or abbreviation as a noun, insert a space between
 the number and the abbreviation, and use the preposition of before the unit the value
 quantifies.
+
 20 GB of memory
+
 Note that Apple Marketing Communications style for many abbreviations is to close up
 the number and the abbreviation (20GB of memory).
+
 - Adjective: When you use a spelled-out unit of measure in a compound adjective,
 hyphenate the compound.
+
 17-inch display
+
 3-meter cable
+
 When you use a unit symbol or abbreviation in a compound adjective, don’t hyphenate;
 add a space between the number and the abbreviation.
+
 20 nA battery
 30 GB capacity
 - Capitalization: With the exception of degrees Celsius, Fahrenheit, and Rankine, units of
@@ -7816,7 +7927,9 @@ Don’t use a period after an SI unit (unless the unit appears at the end of a s
 - Mixing symbols and names: Don’t mix unit symbols and names (m/second) or unit
 symbols and abbreviations (J/sec.). Don’t mix a prefix name with a unit symbol (kiloHz),
 or a prefix symbol with a unit name (khertz).
-## Prefixes for units of measure
+
+### Prefixes for units of measure
+
 | Factor | Prefix | Symbol or abbreviation |
 | ------ | ------ | ---------------------- |
 | 1024   | yotta  | Y                      |
@@ -7842,10 +7955,12 @@ or a prefix symbol with a unit name (khertz).
 | 10–21 | zepto | z   |
 | 10–24 | yocto | y   |
 
-## Names and unit symbols for units of measure
+### Names and unit symbols for units of measure
+
 In the following table, when a unit symbol includes a nonalphanumeric character, the
 keystrokes that generate the character are included in brackets after the unit symbol or
 abbreviation.
+
 | Unit        | Unit symbol or abbreviation | Quantity         |
 | ----------- | --------------------------- | ---------------- |
 | ampere      | A                           | electric current |
@@ -8028,28 +8143,40 @@ webers per square meter. See tesla.
 | ---- | --- | ---------------- |
 | year | yr. | time             |
 
-# Technical notation
-## Intro to technical notation
+## Technical notation
+
+### Intro to technical notation
+
 This chapter gives special style and usage rules that apply largely or exclusively to
 developer documentation.
+
 When writing about a particular programming language, be careful to follow the
 capitalization style of that language.
-## Code
+
+### Code
+
 Use code font for code.
+
 Develop a method of spacing around punctuation and use the method consistently. It’s
 often best to use “English-style” spacing (one space character between words) because
 it’s easy to remember and to stick with.
+
 (height, width: extended; quo: integer); PageSize = 1024
-## Syntax descriptions
+
+### Syntax descriptions
+
 Use code font for literals (parts of the language, values, and so on), italics for placeholder
 names, and regular text for the brackets that enclose something that’s optional. Pay close
 attention to punctuation.
+
 Read ([file, ] var)
+
 Use embedded caps to connect words that act as a single placeholder name (sourceFile).
 Be consistent when naming placeholders; for example, don’t alternate between commands
 and commandList.
 
-## Code font in text
+### Code font in text
+
 Most developer documentation uses code font for computer-language elements in text.
 Whether to use code font in text for other documents is a matter of judgment.
 - Use code font for all text fragments that represent expressions in a programming
@@ -8070,7 +8197,9 @@ Incorrect: integers
 code font, unless the punctuation mark is part of the computer-language element
 represented.
 NAN(004), nan(4), and NaN are examples of acceptable input.
-## Placeholder names in text
+
+### Placeholder names in text
+
 In running text, use italics when referring to a placeholder name (that is, an artificial term
 that has meaning only in your documentation and is to be replaced by a value or symbol).
 Spell the name just as it would appear in a syntax description. Don’t use a placeholder as
@@ -8083,14 +8212,17 @@ examples. Instead, use names that suggest the kind of item.
 TObject.FirstMethod
 TObject.SecondMethod
 
-# International style
-## Intro to international style
+## International style
+
+### Intro to international style
+
 Following international style helps readers with limited English proficiency read what you
 write. By following international style, you also help translators—human or machine—
 localize your writing by minimizing the burdens of cultural and customary language usage.
 Writing in the international style means that you write simply and that you express yourself
 using standard international conventions. These are the basic rules:
 - Write in simple structures.
+
 - Don’t use idiomatic or colloquial expressions.
 - Avoid shortcuts, symbols, and abbreviations that could easily be spelled out.
 - Express data using the standard international conventions outlined in this chapter. You
@@ -8098,7 +8230,9 @@ should vary from these standards only when there’s a truly compelling advantag
 using a proprietary or customary style.
 For more information about standard international conventions, visit the websites listed in
 this chapter.
-## Countries
+
+### Countries
+
 Country names are represented by a two-character code.
 - International authority: International Organization for Standardization (ISO),
 https://www.iso.org
@@ -8115,7 +8249,9 @@ IT Italy
 JP Japan
 MX Mexico
 US United States
-## Currency
+
+### Currency
+
 Currency amounts are expressed with a three-letter currency code.
 - International authority: International Organization for Standardization (ISO),
 https://www.iso.org
@@ -8134,7 +8270,8 @@ GBP pound sterling
 JPY yen
 USD U.S. dollar
 
-## Dates and times
+### Dates and times
+
 Dates are expressed as year, month, day and are separated by a hyphen. Times are
 expressed on a 24-hour clock.
 - International authority: International Organization for Standardization (ISO),
@@ -8151,7 +8288,9 @@ zones are expressed as the number of hours from UTC.
 Apple Watch Series 11 was introduced on 2025-09-09.
 The file will be posted at 18:00Z.
 The file will be posted at 18:00 PST (UTC–8).
-## Decimals
+
+### Decimals
+
 Decimals are expressed by a period or comma. For numbers larger than 999, don’t use a
 period or comma as a separator. A nonbreaking space (Option-Space bar) may be used
 instead.
@@ -8168,7 +8307,8 @@ A kilobyte is 1024 bytes.
 Apple sold 300 000 iMac computers in the first quarter.
 Apple sold 3.7 million iMac computers in 2 years.
 
-## Languages
+### Languages
+
 Language names are represented by a two-character code.
 - International authority: International Organization for Standardization (ISO),
 https://www.iso.org
@@ -8192,7 +8332,8 @@ en-GB British English
 zh-CN Simplified Chinese
 zh-TW Traditional Chinese
 
-## Telephone numbers
+### Telephone numbers
+
 Telephone numbers begin with the plus sign and are followed by the country code, the
 city code, and the number. Freephone (toll-free) numbers are expressed in the local style.
 Always give a toll number if one is available.
@@ -8210,7 +8351,9 @@ be represented by a space. Toll-free numbers are expressed in the local style.
 You can reach Apple by calling +1 408 996 1010 or 800-692-7753
 (in North America).
 You can reach Apple France by calling +33 1 69 86 34 00 or 0800 046 046.
-## Units of measure
+
+### Units of measure
+
 Use only units of the International System of Units (SI) to express the values of quantities.
 - International authority: Bureau International des Poids et Mesures (BIPM),
 https://www.bipm.org
