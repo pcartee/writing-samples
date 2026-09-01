@@ -152,6 +152,7 @@ as the context is clear. See also email addresses; internet addresses; memory ad
 memory location.
 addresses (mailing) Use the forms shown here for addresses. To include the country
 name in a U.S.-based Apple address, use USA (no periods).
+
 - Apple corporate address: Use this form:
 Apple [not Apple Inc.]
 One Apple Park Way
@@ -237,6 +238,7 @@ you press or tap it.
 AirPort Versions include AirPort, AirPort Extreme, and AirPort Time Capsule. You can use
 AirPort to refer generally to Apple’s wireless networking products or technologies or to
 refer to the family of AirPort products: your AirPort network, AirPort software.
+
 - Software: AirPort software includes AirPort Utility and AirPort Disk Utility. Don’t precede
 these app names with the.
 - Hardware: AirPort hardware includes the AirPort Express Base Station, the
@@ -370,6 +372,7 @@ Incorrect: The setup assistant is displayed.
 Incorrect: The setup assistant displays.
 In a task, avoid stating that an item appears; if necessary for clarity, try to work it into the
 context of the task.
+
 1. Click the close button.
 2. In the message that appears, click Save.
 However, it’s OK to use appear in a task for information like the following:
@@ -937,6 +940,7 @@ badge (n.) A small icon, or a small graphic with text, that appears as an overla
 or toolbar icon, a file thumbnail, or other UI element to provide information about the item
 at a glance.
 You can use badge to describe any of the following:
+
 - A counter: Usually a red oval with a numeral that indicates the number of active or
 available items in an app (for example, new email or text messages), available updates,
 and so on.
@@ -1163,6 +1167,7 @@ button Buttons initiate an action when clicked, tapped, or pressed. You click or
 onscreen button.
 You press a mechanical button.
 Press and hold the TV button .
+
 - Buttons with text labels: In general, write the names of buttons exactly as they appear
 onscreen. If the button’s name uses sentence-style capitalization, enclose the name in
 quotation marks.
@@ -1199,6 +1204,7 @@ calendars for work and home. See also iCloud.
 callouts Use a callout (a short text label with a line that points to part of a figure) when
 you need to identify something within a figure. A thin line without an arrowhead, known as
 a leader line, connects the text label to what it identifies within the figure.
+
 - Simplicity: Use callouts freely when they’re really necessary, but keep in mind that too
 many callouts can be distracting to the reader. Keep callouts brief, both for clarity and
 for an uncluttered look.
@@ -1235,6 +1241,7 @@ Reword in terms of what the user can do with the feature.
 Correct: With Photos, you can create slideshows.
 Incorrect: Photos has the capability to create slideshows.
 capitalization Two styles of capitalization are commonly used at Apple:
+
 - Sentence-style capitalization: This line provides an example of sentence-style
 capitalization.
 - Title-style capitalization: This Line Provides an Example of Title-Style Capitalization.
@@ -1249,6 +1256,7 @@ See Chapter 2, “Units of Measure.”
 See the appendix for specifications.
 See Appendix B for a list of specifications.
 When using title-style capitalization, capitalize:
+
 - The first and last word, regardless of the part of speech
 - Nouns, pronouns, verbs, adjectives, and adverbs—no matter their length (for example,
 It, This, You, Your, My, Is, Are, and Be)—unless noted as an exception below
@@ -1262,14 +1270,18 @@ What to Do If Your iPhone Is Lost
 - Prepositions of any length when they’re part of a phrasal verb (such as Start Up, Turn
 On, or Log In) or are used as another part of speech (such as an adverb, adjective,
 noun, or verb)
+
 Start Up the Computer
+
 Turn On Apple Watch
 Log In to the Server
 
 - The second word in a hyphenated compound (except for Built-in and Plug-in)
 High-Level Events
+
 64-Bit Addressing
 When using title-style capitalization, don’t capitalize:
+
 - Articles (a, an, the), unless an article is the first word or follows a colon
 - Coordinating conjunctions (and, but, or, nor, for, yet, and so)
 - The word to in infinitives (How to Start Your Computer)
@@ -1465,6 +1477,7 @@ for encoding and decoding signals.
 code file Two words.
 code font A fixed-width font (such as Courier) used to represent code.
 Use code font for the following:
+
 - Text the user is to type (In some groups, double quotation marks or italics may be
 used for short words or phrases the user is to type. Consult your department’s style
 guidelines.)
@@ -1482,6 +1495,7 @@ Develop a method of spacing around punctuation and use it consistently. It’s o
 use standard spacing (one space between a punctuation mark and the next character).
 
 In user materials, don’t use code font in any of the following:
+
 - Part or chapter titles
 - Text headings
 - Cross-references to parts, chapters, or sections
@@ -1581,6 +1595,7 @@ command names Use title-style capitalization for command names; don’t capitali
 command.
 the Find command
 the Make Alias command
+
 - Commands used as ordinary verbs: Don’t capitalize a command name when you use the
 name as a normal English verb.
 Correct: Cut and paste the selected text.
@@ -1649,6 +1664,7 @@ See also menus.
 contractions As part of Apple’s informal voice, contractions are used and recommended
 throughout most documentation, interface text, and marketing copy. Keep localization in
 mind when deciding how or whether to use contractions.
+
 - Use common contractions of be-verbs and auxiliary verbs with not (aren’t, isn’t, can’t,
 couldn’t, didn’t, doesn’t, hadn’t, haven’t, weren’t, won’t).
 You don’t have access to the information.
@@ -1704,6 +1720,7 @@ copyright page includes a copyright notice and an Apple trademark list. A copyri
 includes the © symbol, the year the work was first published, the copyright owner (Apple
 Inc.), and the statement All rights reserved. Onscreen documents also require a copyright
 notice.
+
 - Finding the correct copyright notice: The copyright page is a boilerplate element.
 Consult with your department editor to be sure you have the appropriate boilerplate.
 - Apple trademarks: All Apple trademarks mentioned in the document must receive a
@@ -1752,6 +1769,7 @@ cross-references Guidelines for cross-references vary by department, document ty
 and delivery method. This section provides general guidelines, but always consult your
 department’s style guidelines if in doubt about which style to use, and be consistent within
 a document.
+
 - Titles of books and other documents: In general, use title-style capitalization and italics;
 don’t use quotation marks unless italics aren’t available. Don’t capitalize or italicize
 phrases such as user guide unless they’re part of the title as it appears on the cover
@@ -1822,6 +1840,7 @@ To generate an em dash, press Option-Shift-Hyphen. Close up the em dash with the
 before it and the word after it.
 dash (en) The en dash (–) is shorter than an em dash and longer than a hyphen. Use the
 en dash as follows:
+
 - Numbers in a range: Use an en dash between numbers that represent the endpoints of a
 continuous range.
 bits 3–17, 2003–2005
@@ -1848,6 +1867,7 @@ date picker Don’t use. See also picker.
 
 dates Follow these guidelines for dates, unless your department uses international style
 (see Dates and times).
+
 - Commas: Use a comma between the day of the month and the year.
 June 8, 2026
 When you use the full date, follow the year with a comma.
@@ -1952,6 +1972,7 @@ the download.
 device Use to refer generically to hardware that connects to a computer (communications
 device, input device, mobile device, peripheral device).
 You can also use device:
+
 - To refer to a category of hardware products: iOS device, iPadOS device, iOS and iPadOS
 devices, Android device
 - To refer to more than one of a specific device (to avoid making a trademarked name
