@@ -7,6 +7,8 @@ date: 01/03/2024
 uid: api-client-management
 ---
 
+*· January/03/2024 ·*
+
 ## API client management
 
 These commands are used to manage API clients.
