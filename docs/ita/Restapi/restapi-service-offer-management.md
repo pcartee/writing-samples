@@ -1,7 +1,7 @@
 ---
 title: Intel Trust Authority Service Offer Management REST API
 description: External documentation for the Service Offer API.
-author: grminch
+author: pcartee
 topic-type: NA
 date: 02/07/2024
 uid: restapi.service.offer.management

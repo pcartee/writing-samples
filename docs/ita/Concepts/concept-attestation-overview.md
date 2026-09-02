@@ -1,7 +1,7 @@
 ---
 title: Attestation overview
 description: An overview of how attestation works in Trust Authority.
-author: grminch
+author: pcartee
 topic: conceptual
 date: 09/01/2023
 uid: attestation.overview

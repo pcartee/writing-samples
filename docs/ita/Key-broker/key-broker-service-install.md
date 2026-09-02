@@ -1,7 +1,7 @@
 ---
 title: Key Broker Service Installation
 description: Key Broker Service Installation
-author: carteepaul, mkwilbux
+author: pcartee
 topic: KBS
 date: 04/14/2025 
 uid: kbs.installation

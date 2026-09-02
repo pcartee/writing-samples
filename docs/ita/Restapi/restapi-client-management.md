@@ -1,7 +1,7 @@
 ---
 title: Intel Trust Authority Client Management REST API Reference
 description: Client Management external API definition
-author: Paul Cartee
+author: pcartee
 topic-type: NA
 date: 02/07/2024
 uid: restapi.client.management

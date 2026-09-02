@@ -1,7 +1,7 @@
 ---
 title: Intel Trust Authority CLI Examples
 description: Example workflows for the Intel Trust Authority CLI.
-author: various
+author: pcartee
 topic-type: Reference
 date: 08/15/2023
 uid: cli-examples

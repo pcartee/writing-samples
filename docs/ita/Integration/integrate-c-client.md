@@ -1,7 +1,7 @@
 ---
 title: Intel® Tiber™ Trust Authority C Connector 
 description: Documentation for the Intel Trust Authority C client libraries.
-author: grminch
+author: pcartee
 topic: integration
 date: 05/19/2025
 uid: integrate.c.client

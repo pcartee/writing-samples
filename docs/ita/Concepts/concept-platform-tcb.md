@@ -1,7 +1,7 @@
 ---
 title: Platform TCB Policy
 description: An overview of platform trusted compute base (TCB) recovery policy.
-author: grminch
+author: pcartee
 topic: conceptual
 date: 01/26/2024
 uid: attestation.tcb.policy

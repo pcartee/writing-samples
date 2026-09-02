@@ -1,7 +1,7 @@
 ---
 title: Intel Trust Authority Policy Management REST API Reference
 description: Policy Management external API definition
-author: Tim Knoll
+author: pcartee
 topic-type: NA
 date: 02/07/2024
 uid: restapi.policy.management

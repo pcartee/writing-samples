@@ -1,7 +1,7 @@
 ---
 title: Intel Trust Authority CLI Service Management
 description: Intel Trust Authority CLI service management commands.
-author: various
+author: pcartee
 topic-type: Reference
 date: 08/16/2023
 uid: cli-service-commands

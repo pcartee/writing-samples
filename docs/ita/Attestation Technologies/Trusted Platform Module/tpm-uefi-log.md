@@ -1,7 +1,7 @@
 ---
 title: UEFI Event Logs
 description: How Intel Trust Authority uses UEFI event logs to validate PCR values and help with troubleshooting.
-author: mkwilbux
+author: pcartee
 topic-type: conceptual
 date: 11/14/2024
 uid: uefi.log

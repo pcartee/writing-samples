@@ -1,7 +1,7 @@
 ---
 title: Attestation policies V2
 description: A comprehensive guide to Trust Authority's attestation policies, including the new V2 policy syntax, composite attestation, policy evaluation, and Rego language usage.
-author: grminch
+author: pcartee
 topic: conceptual
 date: 06/21/2024
 uid: attestation.policy.v2

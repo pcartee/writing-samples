@@ -1,7 +1,7 @@
 ---
 title: Measured Boot
 description: Measured boot
-author: mkwilbux
+author: pcartee
 topic-type: conceptual
 date: 07/22/24
 uid: trusted.boot

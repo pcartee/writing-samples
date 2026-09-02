@@ -1,7 +1,7 @@
 ---
 title: Intel Trust Authority MAA Adapter Service
 description: Describes the MAA adapter service functionality and how to use it.
-author: grminch, mkwilbux
+author: pcartee
 date: 06/12/2024
 uid: maa.adapter.service
 ---

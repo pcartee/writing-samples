@@ -1,7 +1,7 @@
 ---
 title: Trust Authority Attestation Patterns
 description: An overview of the Passport and Background Check attestation patterns.
-author: grminch
+author: pcartee
 topic: Conceptual
 date: 09/01/2023
 uid: attestation.patterns  

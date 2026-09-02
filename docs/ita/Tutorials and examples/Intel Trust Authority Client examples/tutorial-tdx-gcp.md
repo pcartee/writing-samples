@@ -1,7 +1,7 @@
 ---
 title: Intel Trust Authority Client Tutorial for Google Cloud Platform with TDX
 description: Step-by-step tutorial to stand up a GCP VM with TDX 
-author: mkwilbux
+author: pcartee
 topic-type: tutorial
 date: 12/19/24
 uid: tdx.gcp

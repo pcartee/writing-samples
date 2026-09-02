@@ -1,7 +1,7 @@
 ---
 title: Subscription Management
 description: An overview of subscription management in Trust Authority.
-author: various
+author: pcartee
 topic: how to
 date: 07/18/2024
 uid: manage.subscriptions 

@@ -1,7 +1,7 @@
 ---
 title: Gramine Integration
 description: Understanding Gramine integration with Intel® Trust Authority.
-author: grminch, mkwilbux
+author: pcartee
 topic: integrate
 date: 06/04/2024
 uid: integrate.gramine

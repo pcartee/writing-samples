@@ -1,7 +1,7 @@
 ---
 title: Intel Trust Authority Python Connector 
 description: Intel Trust Authority Python Connector API reference documentation.
-author: grminch
+author: pcartee
 topic: integration
 date: 05/16/2024
 uid: integrate.python.client

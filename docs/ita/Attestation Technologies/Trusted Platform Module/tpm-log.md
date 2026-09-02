@@ -1,7 +1,7 @@
 ---
 title: Event logs
 description: TPM Logs
-author: mkwilbux, pcartee, teknoll
+author: pcartee
 topic-type: conceptual
 date: 10/25/2024
 uid: tpm.log

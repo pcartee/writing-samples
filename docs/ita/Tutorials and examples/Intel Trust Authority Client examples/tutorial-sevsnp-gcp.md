@@ -1,7 +1,7 @@
 ---
 title: Intel Trust Authority Client Tutorial for Google Cloud Platform with AMD* SEV-SNP
 description: Step-by-step tutorial to stand up a GCP CVM with AMD* SEV-SNP 
-author: mkwilbux
+author: pcartee
 topic-type: tutorial
 date: 12/19/24
 uid: tutorial.sevsnp.gcp

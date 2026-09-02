@@ -1,7 +1,7 @@
 ---
 title: User Management
 description: An overview of user management in Trust Authority.
-author: various
+author: pcartee
 topic: how to
 date: 12/09/2024
 uid: manage.users # Do not change uid!

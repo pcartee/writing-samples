@@ -1,7 +1,7 @@
 ---
 title: Trust Authority Sample Workload 
 description: sample workload TDX ML machine learning secure key release SWK aes_swk KBS KMS
-author: various
+author: pcartee
 topic: tutorial
 date: 06/07/2024
 uid: tutorial.tdx.workload

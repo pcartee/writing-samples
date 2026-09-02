@@ -1,7 +1,7 @@
 ---
 title: Intel Trust Authority Azure Attestation REST API Reference
 description: Project Amber Azure Attestation REST API external documentation
-author: grminch
+author: pcartee
 topic-type: NA
 date: 02/07/2024
 uid: restapi.azure.attestation

@@ -1,7 +1,7 @@
 ---
 title: Key Broker Service user management
 description: Key Broker Service user management
-author: carteepaul
+author: pcartee
 topic: KBS
 date: 02/27/2024
 uid: kbs.user.management

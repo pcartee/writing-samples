@@ -1,7 +1,7 @@
 ---
 title: Policy management
 description: An overview of attestation policies.
-author: various
+author: pcartee
 topic: how to
 date: 12/09/2024
 uid: manage.attestation.policies # Do not change uid!

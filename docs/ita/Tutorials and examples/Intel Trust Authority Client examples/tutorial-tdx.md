@@ -1,7 +1,7 @@
 ---
 title: Trust Authority Client Tutorial for Azure with TDX 
 description: Step-by-step tutorial to stand up an Azure VM with TDX  
-author: teknoll
+author: pcartee
 topic: tutorial
 date: 06/07/2024
 uid: tutorial.tdx

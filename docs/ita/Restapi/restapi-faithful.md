@@ -1,7 +1,7 @@
 ---
 title: Intel Trust Authority Faithful Verification REST API Reference
 description: Faithful Verification external API definition
-author: Tim Knoll
+author: pcartee
 topic-type: NA
 date: 02/07/2024
 uid: restapi.faithful

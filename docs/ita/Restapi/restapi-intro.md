@@ -1,7 +1,7 @@
 ---
 title: Intel Trust Authority REST API Reference
 description: Introduction & landing page for the REST API reference documentation.
-author: grminch, mkwilbux
+author: pcartee
 topic-type: API_reference
 date: 04/10/2025
 uid: restapi.intro

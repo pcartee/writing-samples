@@ -1,7 +1,7 @@
 ---
 title: Signed Policy Management
 description: Signed policy management commands.
-author: various
+author: pcartee
 topic-type: Reference
 date: 08/17/2023
 uid: cli-signed-policy-commands

@@ -1,7 +1,7 @@
 ---
 title: Intel Trust Authority Client Tutorial for Azure with vTPM and Intel TDX 
 description: Step-by-step tutorial to stand up an Azure VM with vTPM and Intel TDX  
-author: various
+author: pcartee
 topic: tutorial
 date: 10/16/2024
 uid: tutorial.tpm.azure

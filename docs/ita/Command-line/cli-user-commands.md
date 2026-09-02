@@ -1,7 +1,7 @@
 ---
 title: Intel Trust Authority CLI User Management
 description: Intel Trust Authority CLI user management commands.
-author: various
+author: pcartee
 topic-type: Reference
 date: 08/17/2023
 uid: cli-user-commands
