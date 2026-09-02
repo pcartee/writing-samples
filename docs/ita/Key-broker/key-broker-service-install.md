@@ -10,7 +10,7 @@ uid: kbs.installation
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-*· 04/14/2025 ·*
+*· April/14/2025 ·*
 
 ## Key Broker Service installation and configuration
 

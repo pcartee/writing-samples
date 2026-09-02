@@ -7,7 +7,7 @@ date: 11/08/2024
 uid: integrate.java.client
 ---
 
-*· 11/08/2024 ·*
+*· November/08/2024 ·*
 
 ## Intel Trust Authority Client for Java
  

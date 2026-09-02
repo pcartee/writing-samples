@@ -8,7 +8,7 @@ uid: tee.sgx
 ---
 import DCAP from '../../Include/_install-dcap.md';
 
-*· 11/18/2024 ·*
+*· November/18/2024 ·*
 
 ## Software Guard Extensions (SGX)
 

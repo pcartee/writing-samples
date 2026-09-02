@@ -7,7 +7,7 @@ date: 03/26/2025
 uid: td.integrity
 ---
 
-*· 03/26/2025 ·*
+*· March/26/2025 ·*
 
 ## Trust Domain Integrity Overview 
 

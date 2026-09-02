@@ -7,7 +7,7 @@ date: 06/21/2024
 uid: attestation.policies
 ---
 
-*· 06/21/2024 ·*
+*· June/21/2024 ·*
 
 ## Attestation policies
 

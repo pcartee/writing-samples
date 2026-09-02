@@ -7,7 +7,7 @@ date: 06/07/2024
 uid: tutorial.tdx
 ---
 
-*· 12/19/2024 ·*
+*· December/19/2024 ·*
 
 ## Trust Authority Client Tutorial - TDX Attestation on Microsoft Azure
 

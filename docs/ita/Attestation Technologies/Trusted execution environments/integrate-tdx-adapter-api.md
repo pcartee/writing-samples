@@ -7,7 +7,7 @@ date: 12/22/2023
 uid: integrate.tdx.api
 ---
 
-*· 12/22/2023 ·*
+*· December/22/2023 ·*
 
 ## `go-tdx` adapter API reference
 

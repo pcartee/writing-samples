@@ -6,7 +6,7 @@ date: 06/12/2024
 uid: maa.adapter.service
 ---
 
-*· 06/21/2024 ·*
+*· June/21/2024 ·*
 
 ## Intel Trust Authority MAA Adapter Service
 

@@ -7,7 +7,7 @@ date: 12/19/24
 uid: tdx.gcp
 --- 
 
-*· 12/19/2024 ·*
+*· December/19/2024 ·*
 
 ## Intel Trust Authority Client Tutorial - TDX Attestation on GCP
 

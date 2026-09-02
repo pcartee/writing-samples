@@ -7,7 +7,7 @@ date: 05/20/2025
 uid: tee.sev.snp
 ---
 
-*· 05/20/2025 ·*
+*· May/20/2025 ·*
 
 ## AMD* Secure Encrypted Virtualization — Secure Nested Paging (AMD* SEV-SNP)
 

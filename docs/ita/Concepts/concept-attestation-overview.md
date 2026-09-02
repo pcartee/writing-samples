@@ -7,7 +7,7 @@ date: 09/01/2023
 uid: attestation.overview
 ---
 
-*· 06/21/2024 ·*
+*· June/21/2024 ·*
 
 ## Attestation overview
 

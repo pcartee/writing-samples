@@ -7,7 +7,7 @@ date: 11/14/2024
 uid: uefi.log
 ---
 
-*· 10/25/2024 ·*
+*· October/25/2024 ·*
 
 ## Unified Extensible Firmware Interface (UEFI) event logs
 

@@ -7,7 +7,7 @@ date: 09/01/2023
 uid: attestation.patterns  
 ---
 
-*· 09/01/2023 ·*
+*· September/01/2023 ·*
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

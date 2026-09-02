@@ -7,7 +7,7 @@ date: 05/20/2025
 uid: integrate.tdx.cli
 ---
 
-*· 05/20/2025 ·*
+*· May/20/2025 ·*
 
 ## Intel® Tiber™ Trust Authority Attestation Client CLI
 

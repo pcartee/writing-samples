@@ -11,7 +11,7 @@ sidebar_position: 3
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-*· 06/07/2024 ·*
+*· June/07/2024 ·*
 
 This page describes a quick sample workflow to cover the basic prerequisites so that you can generate your first attestation using Trust Authority.
 
