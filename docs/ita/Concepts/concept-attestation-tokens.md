@@ -1,7 +1,7 @@
 ---
 title: Attestation Tokens and Claims
 description: attestation token JWT JWK JWKS JOSE EAT profile sample claim 
-author: grminch, mkwilbux
+author: pcartee
 topic: conceptual
 date: 04/15/2025
 uid: attestation.token

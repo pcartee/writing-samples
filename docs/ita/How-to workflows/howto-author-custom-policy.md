@@ -1,7 +1,7 @@
 ---
 title: Author a custom policy
 description: Instructions for creating custom policies.
-author: Auctorem Incogitatus, mkwilbux
+author: pcartee
 topic: how to
 date: 07/17/2024
 uid: author.custom.policy  # Do not change uid!

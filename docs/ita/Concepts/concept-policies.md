@@ -1,7 +1,7 @@
 ---
 title: Attestation policies
 description: An overview of attestation policies in Intel® Trust Authority.
-author: gminch, mkwilbux
+author: pcartee
 topic: conceptual
 date: 06/21/2024
 uid: attestation.policies

@@ -1,7 +1,7 @@
 ---
 title: Understanding Intel® Trust Authority Integrations
 description: Describes the integration framework for Intel® Trust Authority client libraries.
-author: grminch
+author: pcartee
 topic: conceptual
 date: 06/20/2024
 uid: integrate.overview

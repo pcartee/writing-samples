@@ -1,7 +1,7 @@
 ---
 title: Policy signing tool
 description: An overview of the policy signing tool and how to use it to sign policies.
-author: Various
+author: pcartee
 topic: conceptual
 date: 12/21/2023
 uid: policy.signing.tool

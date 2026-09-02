@@ -1,7 +1,7 @@
 ---
 title: TEEs Overview
 description: A brief introduction to Trusted Execution Environments (TEEs).
-author: various
+author: pcartee
 topic: conceptual
 date: 02/07/2025
 uid: tees.overview

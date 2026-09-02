@@ -1,7 +1,7 @@
 ---
 title: Intel Trust Authority Product Management REST API Reference
 description: External documentation for the Project Amber Management REST API.
-author: grminch
+author: pcartee
 topic-type: NA
 date: 02/07/2024
 uid: restapi.product.management

@@ -1,7 +1,7 @@
 ---
 title: Relying Party Integration Guide
 description: This guide covers the requirements for creating or integrating a relying party to use Intel® Trust Authority attestation. 
-author: various
+author: pcartee
 topic: integration
 date: 09/12/2023
 uid: integrate.rp

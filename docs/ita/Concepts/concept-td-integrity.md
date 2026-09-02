@@ -1,7 +1,7 @@
 ---
 title: Trust Domain Integrity
 description: Instructions for creating policies.
-author: kwtj43, grminch
+author: pcartee
 topic: Conceptual
 date: 03/26/2025
 uid: td.integrity

@@ -1,7 +1,7 @@
 ---
 title: Intel Trust Authority Attestation REST API Reference
 description: Attestation external API definition
-author: Tim Knoll
+author: pcartee
 topic-type: NA
 date: 06/27/2024
 uid: restapi.v2.attestation

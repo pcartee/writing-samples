@@ -1,7 +1,7 @@
 ---
 title: Intel Trust Authority CLI Policy Management
 description: Intel Trust Authority CLI policy management commands.
-author: various
+author: pcartee
 topic-type: Reference
 date: 08/15/2023
 uid: cli-policy-commands

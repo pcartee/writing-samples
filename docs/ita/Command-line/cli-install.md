@@ -1,7 +1,7 @@
 ---
 title: Trust Authority CLI Installation
 description: Trust Authority CLI prerequisites and installation guide.
-author: various
+author: pcartee
 topic-type: Reference
 date: 06/12/2024
 uid: cli-install

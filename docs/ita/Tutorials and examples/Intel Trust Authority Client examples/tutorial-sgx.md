@@ -1,7 +1,7 @@
 ---
 title: Intel Trust Authority Client Tutorial for Azure with SGX 
 description: Step-by-step tutorial to stand up an Azure VM with Intel SGX  
-author: teknoll, mkwilbux
+author: pcartee
 topic: tutorial
 date: 06/12/2024
 uid: tutorial.sgx

@@ -1,7 +1,7 @@
 ---
 title: Integrating GCP Confidential Space with Intel Trust Authority
 description: GCP CS workload development with Intel Trust Authority attestation
-author: grminch
+author: pcartee
 topic: integration
 date: 05/10/2025
 uid: integrate.gcp.cs

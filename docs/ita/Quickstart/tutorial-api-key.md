@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 description: General quick start of the end-to-end management flow leading to a first attestation.
-author: various
+author: pcartee
 topic: tutorial
 date: 06/07/2024
 uid: api.key

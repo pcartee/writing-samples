@@ -1,7 +1,7 @@
 ---
 title: What's New
 description: A short description on the new features of Intel Trust Authority.
-author: Paul Cartee
+author: pcartee
 topic: conceptual
 uid: whats.new
 date: 5/20/2025

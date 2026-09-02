@@ -1,7 +1,7 @@
 ---
 title: Intel Trust Authority TPM API Reference
 description: This article provides an API reference for the Intel Trust Authority Go TPM adapter.
-author: grminch
+author: pcartee
 topic: integration
 date: 07/22/2024
 uid: tpm.api.reference

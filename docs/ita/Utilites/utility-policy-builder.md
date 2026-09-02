@@ -1,7 +1,7 @@
 ---
 title: Policy builder tool
 description: An overview of the policy builder tool and how to use it to create simplified policies.
-author: Various
+author: pcartee
 topic: conceptual
 date: 07/18/2024
 uid: policy.builder.tool

@@ -1,7 +1,7 @@
 ---
 title: Intel Trust Authority Go Connector 
 description: Intel Trust Authority Go Connector API reference documentation.
-author: grminch, pcartee
+author: pcartee
 topic: integration
 date: 05/16/2025
 uid: integrate.go.client

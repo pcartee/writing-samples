@@ -1,7 +1,7 @@
 ---
 title: User roles and API keys
 description: Intel Trust Authority CLI policy management commands.
-author: Paul Cartee
+author: pcartee
 topic-type: conceptual
 date: 05/29/2024
 uid: user-roles-and-api-keys

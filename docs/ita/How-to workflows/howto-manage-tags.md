@@ -1,7 +1,7 @@
 ---
 title: Tag management
 description: An overview of tags in Intel Trust Authority.
-author: various
+author: pcartee
 topic: how to
 date: 09/06/2024
 uid: manage.tags # Do not change uid!

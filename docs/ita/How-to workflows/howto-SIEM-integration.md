@@ -1,7 +1,7 @@
 ---
 title: SIEM integration
 description: An overview of SIEM integration with Trust Authority.
-author: various
+author: pcartee
 topic: how to
 date: 05/14/2024
 uid: siem-integration  # Do not change uid!

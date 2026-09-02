@@ -1,7 +1,7 @@
 ---
 title: Intel® Trust Authority Java Client Integration
 description: Java Client Adaptor documentation.
-author: carteepaul
+author: pcartee
 topic: integration
 date: 11/08/2024
 uid: integrate.java.client

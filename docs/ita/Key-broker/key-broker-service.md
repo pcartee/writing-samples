@@ -1,7 +1,7 @@
 ---
 title: Key Broker Service
 description: Key Broker Service documentation.
-author: carteepaul
+author: pcartee
 topic: KBS
 date: 04/18/2024
 uid: kbs.about

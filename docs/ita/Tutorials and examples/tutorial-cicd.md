@@ -1,7 +1,7 @@
 ---
 title: CI/CD Integration
 description: Automatically updating policies with GitHub Actions.
-author: Various
+author: pcartee
 topic: tutorial
 date: 08/1/2023
 uid: tutorial.update.policies

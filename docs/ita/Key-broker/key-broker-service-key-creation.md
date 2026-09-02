@@ -1,7 +1,7 @@
 ---
 title: Key Broker key creation and key retrieval 
 description: KBS key creation and retrieval
-author: carteepaul
+author: pcartee
 topic: KBS
 date: 02/26/2024
 id: kbs.key.creation.retrieval

@@ -1,7 +1,7 @@
 ---
 title: Intel Trust Authority Attestation Client CLI
 description: Provides an overview of Intel® Trust Authority Attestation CLI.
-author: grminch
+author: pcartee
 topic: integration
 date: 05/20/2025
 uid: integrate.tdx.cli

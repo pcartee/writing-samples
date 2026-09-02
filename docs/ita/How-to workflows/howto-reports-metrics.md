@@ -1,7 +1,7 @@
 ---
 title: Reports and metrics
 description: An overview of the reports and metrics available in Intel Trust Authority.
-author: various, mkwilbux
+author: pcartee
 topic: conceptual
 date: 06/26/2024
 uid: reports.metrics # Do not change uid!

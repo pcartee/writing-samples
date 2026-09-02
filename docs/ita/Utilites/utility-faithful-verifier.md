@@ -1,7 +1,7 @@
 ---
 title: Faithful Verifier Tool
 description: An overview of Intel Trust Authority's Faithful Verifier (FV) tool and how to use it.
-author: Multiple contributors, mkwilbux
+author: pcartee
 topic: conceptual
 date: 06/12/2024
 uid: faithful.verifier
