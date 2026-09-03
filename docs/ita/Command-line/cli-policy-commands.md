@@ -7,6 +7,8 @@ date: 08/15/2023
 uid: cli-policy-commands
 ---
 
+*· August/15/2023 ·*
+
 ## Policy management
 
 This section provides commands to create, get, and update an Intel Intel® Trust Authority policy.

@@ -6,6 +6,9 @@ topic: conceptual
 date: 12/21/2023
 uid: policy.signing.tool
 ---
+
+*· December/21/2023 ·*
+
 import VerifyBinary from '../Include/_verify-signed-binaries.md';
 
 ## Policy signing tool

@@ -7,6 +7,8 @@ date: 08/16/2023
 uid: cli-service-commands
 ---
 
+*· August/15/2023 ·*
+
 ## Service management
 
 Use the commands listed below to manage your services.

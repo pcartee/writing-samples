@@ -7,6 +7,8 @@ date: 01/26/2024
 uid: attestation.tcb.policy
 ---
 
+*· January/26/2024 ·*
+
 This article describes how to use Intel® Trust Authority policy features to make attestation decisions based on the attester's trusted compute base (TCB) status. This information applies to Intel® Software Guard Extensions (Intel® SGX) and Intel® Trust Domain Extensions (Intel® TDX) TEEs.
 
 ## Platform TCB 

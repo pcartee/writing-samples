@@ -7,6 +7,9 @@ date: 08/15/2023
 uid: cli-examples
 ---
 
+*· August/15/2025 ·*
+
+
 ## Intel® Trust Authority tenant CLI
 
 The Intel Trust Authority Command-Line Interface (CLI) is a set of commands used by tenants to create and manage Intel Trust Authority resources with a focus on ease of use. The Intel Trust Authority CLI must be installed and configured for your environment.

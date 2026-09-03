@@ -7,6 +7,8 @@ date: 10/28/2024
 uid: tpm.ak.provision
 ---
 
+*· October/28/2024 ·*
+
 ## Physical TPM Attestation Keys and certificates
 
 Intel Trust Authority can be used as a certificate authority to issue attestation keys (AK) and certificates (AK certificate) to physical TPMs. This feature doesn't apply to vTPMs.

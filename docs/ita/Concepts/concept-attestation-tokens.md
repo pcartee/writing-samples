@@ -14,8 +14,6 @@ import TdxToken from '../Include/eat/_tdx-token.md';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-*· February/20/2025 ·*
-
 ## Attestation tokens and claims
 
 An attestation token is a [JSON Web Token (JWT)][jwt-rfc7519] issued by the verifier (Intel® Trust Authority) and contains the results of an attestation request. The token contains the result of one or more policy appraisals against evidence supplied by an attester. The token is composed of a token header, a token body (various incoming and outgoing claims), and an attestation signature. The contents of the token vary according to the attesting TEE, but certain claims are common to all environments. This article describes the attestation token format and the claims that can be included in an attestation token.

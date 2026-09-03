@@ -7,6 +7,8 @@ date: 06/12/2024
 uid: faithful.verifier
 ---
 
+*· June/12/2024 ·*
+
 import Binaries from '../Include/_verify-signed-binaries.md';
 
 ## Faithful Verification tool
