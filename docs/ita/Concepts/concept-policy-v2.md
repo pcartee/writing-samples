@@ -8,7 +8,7 @@ uid: attestation.policy.v2
 ---
 import TokenExample from '../Include/policy/_composite-token.md';
 
-*· 06/21/2024 ·*
+*· June/21/2024 ·*
 
 ## Attestation Policies V2
 

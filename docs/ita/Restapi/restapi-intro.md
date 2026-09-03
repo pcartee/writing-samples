@@ -6,7 +6,7 @@ topic-type: API_reference
 date: 04/10/2025
 uid: restapi.intro
 ---
-*· 04/10/2025 ·*
+*· April/10/2025 ·*
 
 ## Intel® Trust Authority REST API Reference
 

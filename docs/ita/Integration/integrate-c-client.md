@@ -7,7 +7,7 @@ date: 05/19/2025
 uid: integrate.c.client
 ---
 
-*· 05/19/2025 ·*
+*· May/19/2025 ·*
 
 ## Intel Trust Authority C Connector
 

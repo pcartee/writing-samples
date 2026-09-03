@@ -7,7 +7,7 @@ date: 08/1/2023
 uid: tutorial.update.policies
 ---
 
-*· 08/01/2023 ·*
+*· August/01/2023 ·*
 
 ## Update policies with GitHub actions
 

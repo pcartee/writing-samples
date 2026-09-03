@@ -8,7 +8,7 @@ uid: integrate.python.client
 # cassini-17747, v1.6 
 ---
 
-*· 05/16/2024 ·*
+*· May/16/2024 ·*
 
 ## Intel Trust Authority Python Connector
 

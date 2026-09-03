@@ -7,7 +7,7 @@ date: 10/25/2024
 uid: tpm.log
 ---
 
-*· 10/25/2024 ·*
+*· October/25/2024 ·*
 
 ## Trusted Platform Module (TPM) event logs
 

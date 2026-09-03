@@ -8,7 +8,7 @@ uid: manage.subscriptions
 sidebar_position: 2
 ---
 
-*· 07/18/2024 ·*
+*· July/18/2024 ·*
 
  [Contact a sales representative](mailto:trustauthority@intel.com) to subscribe to Trust Authority, change service limits and quotas or cancel your subscription.
 

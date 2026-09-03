@@ -7,7 +7,7 @@ date: 11/14/2024
 uid: ima-log 
 ---
 
-*· 10/25/2024 ·*
+*· October/25/2024 ·*
 
 ## Integrity Measurement Architecture (IMA)
 

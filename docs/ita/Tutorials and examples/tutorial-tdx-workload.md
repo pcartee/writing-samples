@@ -7,7 +7,7 @@ date: 06/07/2024
 uid: tutorial.tdx.workload
 ---
 
-*· 12/19/2024 ·*
+*· December/19/2024 ·*
 
 ## Trust Authority sample workload for TDX
 

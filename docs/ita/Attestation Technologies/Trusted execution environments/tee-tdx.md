@@ -7,7 +7,7 @@ date: 05/16/2025
 uid: tee.tdx
 ---
 
-*· 05/16/2025 ·*
+*· May/16/2025 ·*
 
 ## Trust Domain Extensions (TDX)
 

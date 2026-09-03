@@ -7,6 +7,8 @@ date: 06/20/2024
 uid: integrate.overview
 ---
 
+*· November/08/2024 ·*
+
 ## Understanding Intel Trust Authority integrations
 
 Intel® Trust Authority offers a variety of ways to integrate attestation with your confidential workload or relying party. Each method is designed to satisfy a different use case. All are designed to be easy to integrate into new applications and require minimal changes to retrofit existing applications.

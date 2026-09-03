@@ -7,7 +7,7 @@ date: 06/12/2024
 uid: tutorial.sgx
 ---
 
-*· 06/12/2024 ·*
+*· June/12/2024 ·*
 
 This tutorial provides steps to deploy a demo application that utilizes the Intel® Trust Authority client for securing an application using Intel® Software Guard Extensions (Intel® SGX) on the Microsoft Azure Cloud platform.
 

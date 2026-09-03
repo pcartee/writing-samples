@@ -7,6 +7,8 @@ date: 08/17/2023
 uid: cli-user-commands
 ---
 
+*· August/17/2023 ·*
+
 ## User management
 
 These instructions describe how to manage users with CLI commands. Users can also be managed through the [managing users](../How-to%20workflows/howto-manage-users.md) section of the Intel® Trust Authority portal.

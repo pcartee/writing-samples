@@ -7,7 +7,7 @@ date: 05/16/2025
 uid: integrate.go.client
 ---
 
-*· 05/16/2025 ·*
+*· May/16/2025 ·*
 
 ## Intel Trust Authority Go Connector 
 

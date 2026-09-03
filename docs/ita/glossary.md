@@ -7,6 +7,8 @@ date: 10/15/2024
 uid: concept.glossary
 ---
 
+*· October/15/2024 ·*
+
 # Intel® Trust Authority Glossary
 
 The following terms are used in the Intel Trust Authority documentation. Terminology related to the attestation process (attester, endorser, verifier, etc) is derived from [IETF RFC 9334](https://datatracker.ietf.org/doc/rfc9334/), Remote ATestation procedureS (RATS). Terms specific to Intel Trust Authority are prefixed with "Intel Trust Authority," for example, "Intel Trust Authority admin API key." Other terms are industry standard. Terms marked with an asterisk ( * ) may be names and/or brands that are claimed as the property of entities other than Intel.

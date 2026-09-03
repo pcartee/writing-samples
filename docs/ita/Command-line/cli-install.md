@@ -6,7 +6,7 @@ topic-type: Reference
 date: 06/12/2024
 uid: cli-install
 ---
-*· 06/12/2024 ·*
+*· June/12/2024 ·*
 
 ## Trust Authority CLI installation guide
 

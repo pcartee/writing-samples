@@ -7,7 +7,7 @@ date: 10/16/2024
 uid: tutorial.tpm.azure
 ---
 
-*· 10/16/2024 ·*
+*· October/16/2024 ·*
 
 ## Intel® Trust Authority Client Tutorial — vTPM with Intel® TDX Attestation on Microsoft Azure
 

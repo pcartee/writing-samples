@@ -10,7 +10,7 @@ uid: manage.tags # Do not change uid!
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-Last updated: 07/18/2024
+*· September/06/2024 ·*
 
 ## Tag management
 

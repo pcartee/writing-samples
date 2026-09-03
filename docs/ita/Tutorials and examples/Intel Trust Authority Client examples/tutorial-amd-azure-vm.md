@@ -7,7 +7,7 @@ date: 09/19/2024
 uid: tutorial.amd
 ---
 
-*· 09/19/2024 ·*
+*· September/19/2024 ·*
 
 ## Intel Trust Authority Client Tutorial - AMD SEV-SNP Attestation on Microsoft Azure
 

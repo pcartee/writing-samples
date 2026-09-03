@@ -6,7 +6,7 @@ topic: conceptual
 date: 06/26/2024
 uid: reports.metrics # Do not change uid!
 ---
-*· 06/26/2024 ·*
+*· June/26/2024 ·*
 
 ## Reports and metrics
 

@@ -7,7 +7,7 @@ date: 07/22/2024
 uid: tpm.api.reference
 ---
 
-*· 07/22/2024 ·*
+*· July/22/2024 ·*
 
 ## Intel® Trust Authority TPM API Reference
 

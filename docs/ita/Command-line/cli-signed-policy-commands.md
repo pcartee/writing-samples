@@ -7,6 +7,8 @@ date: 08/17/2023
 uid: cli-signed-policy-commands
 ---
 
+*· August/17/2023 ·*
+
 ## Signed policy management
 
 This section provides commands to create signed attestation policies for Trust Authority with or without using a key, certificate, and encryption algorithm.

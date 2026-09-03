@@ -7,7 +7,7 @@ date: 09/12/2023
 uid: integrate.rp
 ---
 
-*· 09/12/2023 ·*
+*· September/12/2023 ·*
 
 ## Relying party integration guide
 

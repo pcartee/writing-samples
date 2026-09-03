@@ -7,7 +7,7 @@ date: 07/22/24
 uid: trusted.boot
 ---
 
-*· 07/23/2024 ·*
+*· July/23/2024 ·*
 
 ## Trusted Platform Modules and Measured Boot
 

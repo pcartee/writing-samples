@@ -6,6 +6,9 @@ topic: how to
 date: 12/09/2024
 uid: manage.attestation.policies # Do not change uid!
 ---
+
+*· December/09/2024 ·*
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 

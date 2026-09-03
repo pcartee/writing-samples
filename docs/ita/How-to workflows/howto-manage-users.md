@@ -10,7 +10,7 @@ uid: manage.users # Do not change uid!
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-*· 07/18/2024 ·*
+*· July/18/2024 ·*
 
 ## User management
 

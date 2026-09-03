@@ -7,6 +7,8 @@ date: 02/27/2024
 uid: kbs.user.management
 ---
 
+ *· February/27/2024 ·*
+
 ## Key Broker Service user management
 
 An admin user is created using the credentials entered when the container is started. The admin user has access to all the KBS APIs and, therefore, can create other users.  

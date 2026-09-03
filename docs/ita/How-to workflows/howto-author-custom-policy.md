@@ -8,7 +8,7 @@ uid: author.custom.policy  # Do not change uid!
 # Added pre-deprecation warning & article date - 06/12/2024 grminch cassini-17914
 ---
 
-*· 11/16/2023 ·*
+*· November/16/2023 ·*
 
 ## Author a custom policy
 
