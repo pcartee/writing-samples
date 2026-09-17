@@ -111,12 +111,14 @@ The Trust Authority client is a C program that runs inside a Trust Domain (TD). 
 
 2. Configure your API key and optionally, any desired policy to evaluate.
 
-        cat <<EOF | tee tdx_token.env
-        TRUSTAUTHORITY_API_KEY=<trustauthority-api-key>
-        TRUSTAUTHORITY_POLICY_ID=<trustauthority-policy-id - optional>
-        TRUSTAUTHORITY_API_URL=https://[redacted]
-        TRUSTAUTHORITY_BASE_URL=https://[redacted]
-        EOF
+    ```bash
+    cat <<EOF | tee tdx_token.env
+    TRUSTAUTHORITY_API_KEY=<trustauthority-api-key>
+    TRUSTAUTHORITY_POLICY_ID=<trustauthority-policy-id - optional>
+    TRUSTAUTHORITY_API_URL=https://[redacted]
+    TRUSTAUTHORITY_BASE_URL=https://[redacted]
+    EOF
+    ```
 
 :::note
 If you are in the European Union (EU) region, use the following Trust Authority URLs:
@@ -133,6 +135,7 @@ If you are in the European Union (EU) region, use the following Trust Authority 
 
 ### Output
 
+```text
     [LOG:2024-05-02 17:33:48::/[redacted]/tdx_token.c::211] Info: Successfully verified token
 
     [LOG:2024-05-02 17:33:48::/[redacted]/tdx_token.c::212] Info: Parsed token :
@@ -235,6 +238,7 @@ If you are in the European Union (EU) region, use the following Trust Authority 
             "val": "[redacted]"
         }
     }
+```
 
 ## Install the Trust Authority CLI Utility
 
@@ -248,18 +252,18 @@ This section describes an alternative to the containerized sample applications. 
 
 2. Configure the URL and API key:
 
-        cat <<EOF | tee config.json
-        {
-            "trustauthority_api_url": "https://[redacted]",
-            "trustauthority_api_key": "<attestation api key>"
-        }
-        EOF
+    ```json
+    {
+      "trustauthority_api_url": "https://[redacted]",
+      "trustauthority_api_key": "<attestation api key>"
+    }
+    ```
 
-:::note
-If you are in the European Union (EU) region, use the following Trust Authority URL:
+    :::note
+    If you are in the European Union (EU) region, use the following Trust Authority URL:
 
-`"trustauthority_api_url": "https://[redacted]"`
-:::
+    `"trustauthority_api_url": "https://[redacted]"`
+    :::
 
 1. Use the `trustauthority-cli` utility to request an attestation. The *token* command automatically collects evidence from TDX and requests an attestation token from Trust Authority. For full usage details, see the [Trust Authority CLI documentation](../../Integration/integrate-go-tdx-cli.md).
 
