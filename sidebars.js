@@ -39,6 +39,7 @@ const sidebars = {
           type: 'category',
           label: 'Trust Authority Client Examples',
           items: [
+            { type: 'doc', id: 'ita/Tutorials and examples/Intel Trust Authority Client examples/tutorial-amd-azure-vm', label: 'Client examples for AMD on Microsoft Azure*' },
             { type: 'doc', id: 'ita/Tutorials and examples/Intel Trust Authority Client examples/tutorial-tdx', label: 'Client examples for TDX on Microsoft Azure*' },
             { type: 'doc', id: 'ita/Tutorials and examples/Intel Trust Authority Client examples/tutorial-tdx-gcp', label: 'Client examples for TDX on GCP*' },
           ],
