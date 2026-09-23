@@ -1,13 +1,11 @@
 ---
-title: Trust Authority Client Tutorial for Azure with TDX 
-description: Step-by-step tutorial to stand up an Azure VM with TDX  
+title: Trust Authority Client Tutorial for Azure with TDX
+description: Tutorial for deploying an Azure confidential VM with TDX and running the Trust Authority Client for C.
 author: pcartee
-topic: tutorial
+topic-type: tutorial
 date: 06/07/2024
 uid: tutorial.tdx
 ---
-
-*· December/19/2024 ·*
 
 ## Trust Authority Client Tutorial - TDX Attestation on Microsoft Azure
 
@@ -51,9 +49,9 @@ The following are steps to create an Azure VM with these attributes.
 
     ![Enter the administrative account security details for the virtual machine.](/img/tutorial-sgx-azure/tdx-tutorial-vm-creation-2.png)
 
-    - On the Networking page: Fore Public IP - Select **None**.
+    - On the Networking page: For Public IP, select **None**.
 
-2. Review the options and then create the VM. Deployment typically takes a few minutes.
+1. Review the options and then create the VM. Deployment typically takes a few minutes.
 
 ### Deploying Bastion
 
@@ -69,55 +67,47 @@ The following are steps to create an Azure VM with these attributes.
 
 2. Let Azure create a new SSH key pair, and then download the private key. You'll need this private key to connect to the VM.
 
-3. Connect using "SSH private Key from Local File".
+1. Connect using **SSH private key from local file**.
 
-4. Enter the username (the default is "azureuser" if not specified during creation).
+1. Enter the username. The default is `azureuser` if you did not specify one during creation.
 
-5. Set the "local file" to the downloaded key `<vm_name_key.pem>`.
+1. Set the local file to the downloaded key `<vm_name_key.pem>`.
 
 ## Configuring TDX prerequisites
 
 1. Verify TDX is enabled.
 
-    This verifies that the VM is SGX-enabled.
+    This verifies that TDX is enabled on the VM.
 
-    ```bash
-    ll /dev/tpmrm0
-    ```
+        ll /dev/tpmrm0
 
-### Install TDX Sample Application using Trust Authority Client for C on Microsoft Azure
+### Install the TDX Sample Application Using the Trust Authority Client for C on Microsoft Azure
 
 1. Install TDX and build prerequisites.
 
-    ```bash
-    sudo apt install -y build-essential libssl-dev
-    ```
+        sudo apt install -y build-essential libssl-dev
 
-1. Install Docker-CE
+1. Install Docker CE.
 
-    ```bash
-    curl https://download.docker.com/linux/ubuntu/gpg | sudo  gpg --dearmor -o /usr/share/keyrings/docker.gpg
-    echo "deb [signed-by=/usr/share/keyrings/docker.gpg arch=amd64] https://download.docker.com/linux/ubuntu focal stable"| sudo tee /etc/apt/sources.list.d/docker.list
-    sudo apt update
-    sudo apt install -y docker-ce
-    sudo usermod -aG docker azureuser # (azureuser by default, user created at VM creation, the user currently logged in)
-    ```
+        curl https://download.docker.com/linux/ubuntu/gpg | sudo  gpg --dearmor -o /usr/share/keyrings/docker.gpg
+        echo "deb [signed-by=/usr/share/keyrings/docker.gpg arch=amd64] https://download.docker.com/linux/ubuntu focal stable"| sudo tee /etc/apt/sources.list.d/docker.list
+        sudo apt update
+        sudo apt install -y docker-ce
+        sudo usermod -aG docker azureuser # (azureuser by default, user created at VM creation, the user currently logged in)
 
 1. Exit and then log back in via bastion using the SSH key.
 
 ## Install the Trust Authority Client for C
 
-The Trust Authority client is a C program that runs inside a Trust Domain (TD). The client go-tdx adaptor collects a quote from the Trust Domain and sends it to Trust Authority to retrieve a token.
+The Trust Authority client is a C program that runs inside a Trust Domain (TD). The client go-tdx adapter collects a quote from the Trust Domain and sends it to Trust Authority to retrieve a token.
 
-![ntel TDX application Stack](/img/tutorial-sgx-azure/tdx-application-stack.png)
+![Intel TDX application stack](/img/tutorial-sgx-azure/tdx-application-stack.png)
 
 1. Build the sample application.
 
-    ```bash
-    git clone https://github.com/trustauthority-client-for-c.git
-    cd trustauthority-client-for-c/
-    make azure_tdx_token_docker
-    ```
+        git clone https://github.com/[redacted]/trustauthority-client-for-c.git
+        cd trustauthority-client-for-c/
+        make azure_tdx_token_docker
 
 2. Configure your API key and optionally, any desired policy to evaluate.
 
@@ -125,145 +115,132 @@ The Trust Authority client is a C program that runs inside a Trust Domain (TD). 
     cat <<EOF | tee tdx_token.env
     TRUSTAUTHORITY_API_KEY=<trustauthority-api-key>
     TRUSTAUTHORITY_POLICY_ID=<trustauthority-policy-id - optional>
-    TRUSTAUTHORITY_API_URL=https://api.trustauthority.company.com
-    TRUSTAUTHORITY_BASE_URL=https://portal.trustauthority.company.com
+    TRUSTAUTHORITY_API_URL=https://[redacted]
+    TRUSTAUTHORITY_BASE_URL=https://[redacted]
     EOF
     ```
 
 :::note
 If you are in the European Union (EU) region, use the following Trust Authority URLs:
 
-`TRUSTAUTHORITY_API_URL=https://api.eu.trustauthority.company.com`
-`TRUSTAUTHORITY_BASE_URL=https://portal.eu.trustauthority.company.com `
+`TRUSTAUTHORITY_API_URL=https://[redacted]`
+`TRUSTAUTHORITY_BASE_URL=https://[redacted]`
 :::
 
 1. Run the sample application.
 
     The sample TDX client application executes the attester and verifier portions of the passport attestation mode. The container uses the Trust Authority client to retrieve evidence from the platform. The Trust Authority client sends that evidence as a quote in an attestation request to Trust Authority. The application outputs the resulting attestation token, demonstrating a successful attestation.
 
-    ```bash
-    sudo docker run -it --rm --device=/dev/tpm0 --device=/dev/tpmrm0 --env-file tdx_token.env --group-add $(getent group tss | cut -d: -f3) taas/azure_tdx_token:v1.0.0
-    ```
+        sudo docker run -it --rm --device=/dev/tpm0 --device=/dev/tpmrm0 --env-file tdx_token.env --group-add $(getent group tss | cut -d: -f3) [redacted]/azure_tdx_token:v1.0.0
 
 ### Output
 
-```bash
+```text
+    [LOG:2024-05-02 17:33:48::/[redacted]/tdx_token.c::211] Info: Successfully verified token
 
-[LOG:2024-05-02 17:33:48::/trustauthority-client/examples/tdx_token/tdx_token.c::211] Info: Successfully verified token
+    [LOG:2024-05-02 17:33:48::/[redacted]/tdx_token.c::212] Info: Parsed token :
 
-[LOG:2024-05-02 17:33:48::/trustauthority-client/examples/tdx_token/tdx_token.c::212] Info: Parsed token : 
-
-{
-    "alg": "PS384",
-    "jku": "https://portal.trustauthority.company.com/certs",
-    "kid": "79d80711b754cceb307d4278dc59957f27eb55a8e33d3b824967975843dcbf21df924eebaf93fce186fd291d36817785",
-    "typ": "JWT"
-}
-.
-{
-    "attester_held_data": "Z...=",
-    "attester_runtime_data": {
-        "keys": [
+    {
+        "alg": "PS384",
+        "jku": "https://[redacted]/certs",
+        "kid": "[redacted]",
+        "typ": "JWT"
+    }
+    .
+    {
+        "attester_held_data": "[redacted]",
+        "attester_runtime_data": {
+            "keys": [
+                {
+                    "e": "AQAB",
+                    "key_ops": [
+                        "sign"
+                    ],
+                    "kid": "[redacted]",
+                    "kty": "RSA",
+                    "n": "[redacted]"
+                },
+                {
+                    "e": "AQAB",
+                    "key_ops": [
+                        "encrypt"
+                    ],
+                    "kid": "[redacted]",
+                    "kty": "RSA",
+                    "n": "[redacted]"
+                }
+            ],
+            "user-data": "[redacted]",
+            "vm-configuration": {
+                "console-enabled": true,
+                "root-cert-thumbprint": "[redacted]",
+                "secure-boot": true,
+                "tpm-enabled": true,
+                "tpm-persisted": true,
+                "vmUniqueId": "[redacted]"
+            }
+        },
+        "attester_tcb_date": "[redacted]",
+        "attester_tcb_status": "UpToDate",
+        "attester_type": "TDX",
+        "dbgstat": "disabled",
+        "eat_profile": "https://[redacted]/eat_profile.html",
+        "exp": "[redacted]",
+        "iat": "[redacted]",
+        "intuse": "generic",
+        "iss": "Trust Authority",
+        "jti": "[redacted]",
+        "nbf": "[redacted]",
+        "policy_ids_unmatched": [
             {
-                "e": "AQAB",
-                "key_ops": [
-                    "sign"
-                ],
-                "kid": "HCLAkPub",
-                "kty": "RSA",
-                "n": "0CQeFAABO3WUWE8iFX73ci_UHZf3T7nqVO6JUDAcM5mqPVeJ2x2azZ8ErclqpUqTocd24L5Hhcp6afgrI_iBmdP0yEMO7XhWueAj4YkiQGhTtbahmcOKBhqNATr39C6eQ7bFrD4zNWGCD8tSCqs5dULI9TmMCMM-3xKc3zCR
-S8AtW2L5RI1T01fr99jy7g7XR3GQuKzIAmrlbGiDFlsCvp7pIdBl00ywsF4ihSIJwzFTmxedsv8DtAc9HuO2HwDBMIo490eCzI9U_B0OOGtLqUFZm4o-sk4xjfzKBN86F93_ezZXISwAVgYpVt8UP3pT1P8OGyBz87-8bDhRyzAf9w"
-            },
-            {
-                "e": "AQAB",
-                "key_ops": [
-                    "encrypt"
-                ],
-                "kid": "HCLEkPub",
-                "kty": "RSA",
-                "n": "v1RJXwAA8Oeb8XnCrt_LtO6c3AplbZ4LunVcp6SOAPbrlTahVaeANfxI3w9ZxCFxOukf1rdyYWx6UMnBikJaRMX9qGGodnag2lehakZX2T6-GZ_GOaIKxqthNZ_DrvIYyWbNxWv3S6CDk2Ov8hk-DguvlaHN_kaOUCLHMaas
-B1udzYi4gyI3DO8c8pwsHfzya7MNlo0lZEyvB1C558cskMjbAezysylFVuzI7NTbCs6v4dmVbpxXUlXmlCuv3iymCH5aXQyjtSPl5BXAlWcnh1xhdYkRD6O607QnGeYfDrPbi5yILcdV4KVJLB7bSkIBHu-q_RceDnbzwjWQqPDj_Q"
+                "hash": "[redacted]",
+                "id": "[redacted]",
+                "version": "v1"
             }
         ],
-        "user-data": "3E107308A6FAB4C19E54825339DA7A0AD642D55B9D9801959F099F18B043A248272ABB4B6AA8D4B7C26CA84B4E05A7E4FAC96E618B8EB991B762D4E65BE089AE",
-        "vm-configuration": {
-            "console-enabled": true,
-            "root-cert-thumbprint": "6nZZnYaJc4KqUZ_yvA-mucFdYNouvlPnITnNMXsHl-0",
-            "secure-boot": true,
-            "tpm-enabled": true,
-            "tpm-persisted": true,
-            "vmUniqueId": "C5EAB6CD-48EC-4415-942A-7EAC48429E7F"
+        "tdx_collateral": {
+            "qeidcerthash": "[redacted]",
+            "qeidcrlhash": "[redacted]",
+            "qeidhash": "[redacted]",
+            "quotehash": "[redacted]",
+            "tcbinfocerthash": "[redacted]",
+            "tcbinfocrlhash": "[redacted]",
+            "tcbinfohash": "[redacted]"
+        },
+        "tdx_is_debuggable": false,
+        "tdx_mrconfigid": "[redacted]",
+        "tdx_mrowner": "[redacted]",
+        "tdx_mrownerconfig": "[redacted]",
+        "tdx_mrseam": "[redacted]",
+        "tdx_mrsignerseam": "[redacted]",
+        "tdx_mrtd": "[redacted]",
+        "tdx_report_data": "[redacted]",
+        "tdx_rtmr0": "[redacted]",
+        "tdx_rtmr1": "[redacted]",
+        "tdx_rtmr2": "[redacted]",
+        "tdx_rtmr3": "[redacted]",
+        "tdx_seamsvn": 2,
+        "tdx_td_attributes": "0000000000000000",
+        "tdx_td_attributes_debug": false,
+        "tdx_td_attributes_key_locker": false,
+        "tdx_td_attributes_perfmon": false,
+        "tdx_td_attributes_protection_keys": false,
+        "tdx_td_attributes_septve_disable": false,
+        "tdx_tee_tcb_svn": "[redacted]",
+        "tdx_xfam": "[redacted]",
+        "ver": "1.0.0",
+        "verifier_instance_ids": [
+            "[redacted]"
+        ],
+        "verifier_nonce": {
+            "iat": "[redacted]",
+            "signature": "[redacted]",
+            "val": "[redacted]"
         }
-    },
-    "attester_tcb_date": "2023-08-09T00:00:00Z",
-    "attester_tcb_status": "UpToDate",
-    "attester_type": "TDX",
-    "dbgstat": "disabled",
-    "eat_profile": "https://portal.trustauthority.company.com/eat_profile.html",
-    "exp": 1714673027,
-    "iat": 1714671227,
-    "intuse": "generic",
-    "iss": "Trust Authority",
-    "jti": "32428945-766f-4e9b-8640-d6aec2819beb",
-    "nbf": 1714671227,
-    "policy_ids_unmatched": [
-        {
-            "hash": "RHdQVDZwUEdUN0k1QTFQZnBpN2Izekt1dDdLQ0RoYUFJVmh4UzNLTVZjOUJEamQzdmtIem5jNG92NnZONlFNNw==",
-            "id": "d970fa2b-34bc-476d-ad8f-7a1b78f2885e",
-            "version": "v1"
-        }
-    ],
-    "tdx_collateral": {
-        "qeidcerthash": "b2ca71b8e849d5e799451b4bfe43159a0ee548032cecb2c0e479bf6ee3f39fd1",
-        "qeidcrlhash": "ca685ff1fa572b5fd5b0d10c1e06fce40f25544729b6052689583aa17166ab85",
-        "qeidhash": "f1f671d997705c091eba97c63d1f8488ebd50fbd045e359c23f57ab56b15bad7",
-        "quotehash": "8c3d3153638cfd1c7fab67c637b4642d03ee2f70fb0936b48cad67ba0f230218",
-        "tcbinfocerthash": "b2ca71b8e849d5e799451b4bfe43159a0ee548032cecb2c0e479bf6ee3f39fd1",
-        "tcbinfocrlhash": "ca685ff1fa572b5fd5b0d10c1e06fce40f25544729b6052689583aa17166ab85",
-        "tcbinfohash": "2f76d93a6d6b77a766e534554f929505c74690177db7453cae054413beb98106"
-    },
-    "tdx_is_debuggable": false,
-    "tdx_mrconfigid": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-    "tdx_mrowner": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-    "tdx_mrownerconfig": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-    "tdx_mrseam": "360304d34a16aace0a18e09ad2d07d2b9fd3c174378e5bf108388079827f89ff62acc5f8c473dd40706324834e202946",
-    "tdx_mrsignerseam": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-    "tdx_mrtd": "0cc279c02d62414498ef4455822f2aea53351c8d4c265f587e695fa94b136386f97480c47bb5b26927023947cdf938d3",
-    "tdx_report_data": "312fd9e8b8b9b0b72a07dd661065f45ff841686ca5ece0b429aeed77593400760000000000000000000000000000000000000000000000000000000000000000",
-    "tdx_rtmr0": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-    "tdx_rtmr1": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-    "tdx_rtmr2": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-    "tdx_rtmr3": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-    "tdx_seam_attributes": "0000000000000000",
-    "tdx_seamsvn": 2,
-    "tdx_td_attributes": "0000000000000000",
-    "tdx_td_attributes_debug": false,
-    "tdx_td_attributes_key_locker": false,
-    "tdx_td_attributes_perfmon": false,
-    "tdx_td_attributes_protection_keys": false,
-    "tdx_td_attributes_septve_disable": false,
-    "tdx_tee_tcb_svn": "02010600000000000000000000000000",
-    "tdx_xfam": "e718060000000000",
-    "ver": "1.0.0",
-    "verifier_instance_ids": [
-        "dd6a1f98-fa8e-4bcc-8223-086b80ff60e6",
-        "1e0fe8b3-37b9-46df-bfa4-64559af84ecb",
-        "f1477e85-dadb-4399-aa3b-deb08d290744",
-        "6c13bbd5-f4fa-41c3-a8dc-c658db6b8296",
-        "86b715d4-4995-43ec-b466-c14d428648a0",
-        "f5f56afc-bf15-4235-b071-50a8d0f0f126"
-    ],
-    "verifier_nonce": {
-        "iat": "MjAyNC0wNS0wMiAxNzozMzo0NiArMDAwMCBVVEM=",
-        "signature": "XHrfgvBLxhSfBYemNq1gsWcyR6lcUSEFr33dkvmhpHntTUVOmIfICZukJ61wewePlV0zEWSjgDdrD7xxCUm7ViQHEdO+iuuGM9Me8MyCoz77gxF1C0mA0F9/US6t/miwpXSXvqR1EDQFkJFh97FWlD0SZNxzzPsx4HSLGtSI
-rxgjEpWGsCOWuu7eqXyKHDBwzsKuoSojHWIU8xnQwuvWl/keX1wS/vv517tu4zHbWwQ79GjI7aECVBZ/oXDxrY0yLbmDcpnpCc60aDY8w2/J+88Rfx/3ACeMtMoZgtlscmbndxkbM01JQiCuhJP3AGy8Dg+X2m0XUX4cj2WaPvWK7l7N4rTJqgq+9v21iq
-5sHfLdOFYO1+76slDh9I60iTWPRvTw5ZfGCfnwpUBmFJlXUmVzbOzRUboA7GG6BBr1CPTQwNBm1hJLQNl83VECwglf3iZ/cdIoVq0x6N4Bfh1HWHCAGVBWnAz+uQN7xNGcBX1NF1T6zgNtzP6UXTCMN0gO",
-        "val": "TW1QUHVFKzNrNW9hK2tBMjJmTVlUbzZjejdwaTNuNUhXaWc1U0VpTzRVdWxwZ0NsRjR6MlppMmVXL1dKbUwvMzhqTXVEQXp5ZlFQUWZjNXlSTURmNHc9PQ=="
     }
-}
 ```
 
-## Install the trustauthority-cli Utility
+## Install the Trust Authority CLI Utility
 
 This section describes an alternative to the containerized sample applications. Rather than using the client bindings directly in a sample application, the TDX CLI client provides a command-line wrapper for the Golang client libraries.
 
@@ -271,29 +248,23 @@ This section describes an alternative to the containerized sample applications. 
 
 1. Download and run the Azure installer variant.
 
-    ```bash
-    curl -sL https://raw.githubusercontent.com/trustauthority-client-for-go/main/release/install-tdx-cli-azure.sh | sudo bash -
-    ```
+        curl -sL https://raw.githubusercontent.com/[redacted]/install-tdx-cli-azure.sh | sudo bash -
 
 2. Configure the URL and API key:
 
-    ```bash
-    cat <<EOF | tee config.json
+    ```json
     {
-        "trustauthority_api_url": "https://api.trustauthority.company.com",
-        "trustauthority_api_key": "<attestation api key>"
+      "trustauthority_api_url": "https://[redacted]",
+      "trustauthority_api_key": "<attestation api key>"
     }
-    EOF
     ```
 
-:::note
-If you are in the European Union (EU) region, use the following Trust Authority URL:
+    :::note
+    If you are in the European Union (EU) region, use the following Trust Authority URL:
 
-`"trustauthority_api_url": "https://api.eu.trustauthority.com"`
-:::
+    `"trustauthority_api_url": "https://[redacted]"`
+    :::
 
-1. Use the `trustauthority-cli` utility to request an attestation.  The _token_ command automatically collects evidence from TDX and requests an attestation token from Trust Authority. Full usage details for the `trustauthority-cli` utility can be found [here.](../../Integration/integrate-go-tdx-cli.md)
+1. Use the `trustauthority-cli` utility to request an attestation. The *token* command automatically collects evidence from TDX and requests an attestation token from Trust Authority. For full usage details, see the [Trust Authority CLI documentation](../../Integration/integrate-go-tdx-cli.md).
 
-    ```bash
-    trustauthority-cli token --config config.json
-    ```
+        trustauthority-cli token --config config.json
